@@ -12,6 +12,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import Header from './Header.vue'
 import Footer from './Footer.vue'
 import ChatBox from './ChatBox.vue'
@@ -23,10 +24,10 @@ export default {
     ChatBox
   },
   methods: {
-    increment () {
+    increment () {      
       this.$store.commit('increment')
     },
-    decrement () {
+    decrement () {      
       this.$store.commit('decrement')
     }
   }

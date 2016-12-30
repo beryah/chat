@@ -1,9 +1,13 @@
 /* eslint-disable */
 export const state = {
-  count: 0
+  status: 'idel'
 }
 
 export const mutations = {
-  increment: state => state.count++,
-  decrement: state => state.count--,
+  get_token (state, a) {
+    
+  },
+  update_connect_status(state, status){
+  	state.status = status
+  }
 }
