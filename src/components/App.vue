@@ -15,9 +15,6 @@
 import Header from './Header.vue'
 import Footer from './Footer.vue'
 import ChatBox from './ChatBox.vue'
-import io from 'socket.io-client'
-
-var socket = io('localhost:50013')
 
 export default {
   components: {
@@ -27,7 +24,6 @@ export default {
   },
   methods: {
     increment () {
-      socket.emit('chat message')
       this.$store.commit('increment')
     },
     decrement () {

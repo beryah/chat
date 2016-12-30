@@ -13,8 +13,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "babel-polyfill": "^6.20.0",
-    "socket.io": "^1.7.2",
+    "babel-polyfill": "^6.20.0",    
     "vue": "^2.1.8",
     "vuex": "^2.1.1"
   },
