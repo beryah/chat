@@ -94,5 +94,10 @@ if __name__ == '__main__':
     logger.debug("factory.protocol = MyServerProtocol")
     # factory.setProtocolOptions(maxConnections=2)
     # note to self: if using putChild, the child must be bytes...
-    reactor.listenTCP(9006, factory)
-    reactor.run()
+    c = reactor.listenTCP(9010, factory)
+    
+    try:
+        reactor.run()
+    finally:
+        print 2
+        c.stopListening()
