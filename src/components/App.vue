@@ -1,26 +1,21 @@
 <template>  
   <div id="app">
-    <Header />
+    <Head />
     <ChatBox />
-    <p>{{ this.$store.state.count}}</p>
-    <p>
-      <button @click="increment">+</button>
-      <button @click="decrement">-</button>
-    </p>
-    <Footer />
+    <Foot />
   </div>  
 </template>
 
 <script>
 /* eslint-disable */
-import Header from './Header.vue'
-import Footer from './Footer.vue'
+import Head from './Head.vue'
+import Foot from './Foot.vue'
 import ChatBox from './ChatBox.vue'
 
 export default {
   components: {
-    Header,
-    Footer,
+    Head,
+    Foot,
     ChatBox
   },
   methods: {

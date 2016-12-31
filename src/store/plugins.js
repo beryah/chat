@@ -14,10 +14,11 @@ export default function createWebSocketPlugin (ws) {
     ws.onmessage = function(e) {
       console.log(e.data)
       var data = JSON.parse(e.data);
-      if (data.content == 'test success'){
-        store.commit('update_connect_status', 'connected');        
-      }else{
-        
+      switch(data.tsew_command){
+        case 'get_token':
+          console.log(data.clientId)
+          store.commit('update_connect_status', 'connected');
+          store.commit('set_token', data.token, data.clientId);
       }
     } 
 

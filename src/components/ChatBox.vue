@@ -1,8 +1,9 @@
 <template>
 	<div class='a'> 
-		<span>{{ this.$store.state.status}}<span>
-		<div>This is Chatbox</div>
-		<input type='text' v-model="msg"/>
+		<p>status: {{ this.$store.state.status}}</p>
+    <p>toekn: {{ this.$store.state.token }}</p>    
+    <p>clientid: {{ this.$store.state.clientId }}</p>    
+    <input type='text' v-model="msg"/>
 		<input type='button' value='get token' @click='get_token'/>
 	</div>	
 </template>

@@ -19,3 +19,268 @@
 2017-01-01 03:08:19,127 - DEBUG - factory.protocol = MyServerProtocol
 2017-01-01 03:08:34,713 - DEBUG - factory.protocol = MyServerProtocol
 2017-01-01 03:08:38,617 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 03:33:27,816 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 03:34:18,532 - DEBUG - Client connecting: tcp4:127.0.0.1:51505
+2017-01-01 03:34:18,532 - DEBUG - request.host:localhost
+2017-01-01 03:34:18,533 - DEBUG - request.path:/
+2017-01-01 03:34:18,535 - DEBUG - request.params:{}
+2017-01-01 03:34:18,536 - DEBUG - request.version:13
+2017-01-01 03:34:18,536 - DEBUG - request.origin:http://localhost:8080
+2017-01-01 03:34:18,538 - DEBUG - request.protocols:[]
+2017-01-01 03:34:18,538 - DEBUG - request.extensions:[('permessage-deflate', {'client_max_window_bits': [True]})]
+2017-01-01 03:34:18,538 - DEBUG - Factory register: tcp4:127.0.0.1:51505
+2017-01-01 03:34:18,562 - DEBUG - WebSocket connection open.
+2017-01-01 03:34:34,084 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-01 03:34:35,453 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 03:35:10,874 - DEBUG - Client connecting: tcp4:127.0.0.1:51546
+2017-01-01 03:35:10,910 - DEBUG - request.host:localhost
+2017-01-01 03:35:10,926 - DEBUG - request.path:/
+2017-01-01 03:35:10,941 - DEBUG - request.params:{}
+2017-01-01 03:35:10,957 - DEBUG - request.version:13
+2017-01-01 03:35:10,973 - DEBUG - request.origin:http://localhost:8080
+2017-01-01 03:35:10,973 - DEBUG - request.protocols:[]
+2017-01-01 03:35:10,994 - DEBUG - request.extensions:[('permessage-deflate', {'client_max_window_bits': [True]})]
+2017-01-01 03:35:11,009 - DEBUG - Factory register: tcp4:127.0.0.1:51546
+2017-01-01 03:35:11,026 - DEBUG - WebSocket connection open.
+2017-01-01 03:38:50,434 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-01 03:38:51,752 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 03:39:00,635 - DEBUG - Client connecting: tcp4:127.0.0.1:51637
+2017-01-01 03:39:00,655 - DEBUG - request.host:localhost
+2017-01-01 03:39:00,670 - DEBUG - request.path:/
+2017-01-01 03:39:00,684 - DEBUG - request.params:{}
+2017-01-01 03:39:00,700 - DEBUG - request.version:13
+2017-01-01 03:39:00,713 - DEBUG - request.origin:http://localhost:8080
+2017-01-01 03:39:00,726 - DEBUG - request.protocols:[]
+2017-01-01 03:39:00,736 - DEBUG - request.extensions:[('permessage-deflate', {'client_max_window_bits': [True]})]
+2017-01-01 03:39:00,752 - DEBUG - Factory register: tcp4:127.0.0.1:51637
+2017-01-01 03:39:00,766 - DEBUG - WebSocket connection open.
+2017-01-01 03:40:47,411 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-01 03:40:48,582 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 03:40:55,938 - DEBUG - Client connecting: tcp4:127.0.0.1:51683
+2017-01-01 03:40:55,957 - DEBUG - Factory register: tcp4:127.0.0.1:51683
+2017-01-01 03:40:55,970 - DEBUG - WebSocket connection open.
+2017-01-01 03:43:51,369 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-01 03:44:00,818 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 03:44:10,559 - DEBUG - Client connecting: tcp4:127.0.0.1:51763
+2017-01-01 03:44:10,575 - DEBUG - Factory register: tcp4:127.0.0.1:51763
+2017-01-01 03:44:10,588 - DEBUG - WebSocket connection open.
+2017-01-01 03:45:06,677 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-01 03:46:25,259 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 03:46:29,237 - DEBUG - Client connecting: tcp4:127.0.0.1:51820
+2017-01-01 03:46:29,250 - DEBUG - Factory register: tcp4:127.0.0.1:51820
+2017-01-01 03:46:29,256 - DEBUG - WebSocket connection open.
+2017-01-01 03:47:42,072 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":"asd"}
+2017-01-01 03:47:42,085 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":"asd"}
+2017-01-01 03:47:42,098 - DEBUG - response: {"content": "test success", "seq_id": 1}
+2017-01-01 03:51:04,426 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-01 03:51:20,673 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 03:51:24,229 - DEBUG - Client connecting: tcp4:127.0.0.1:51912
+2017-01-01 03:51:24,242 - DEBUG - Factory register: tcp4:127.0.0.1:51912
+2017-01-01 03:51:24,247 - DEBUG - WebSocket connection open.
+2017-01-01 03:51:30,934 - DEBUG - Client connecting: tcp4:127.0.0.1:51915
+2017-01-01 03:51:30,963 - DEBUG - Factory register: tcp4:127.0.0.1:51915
+2017-01-01 03:51:30,979 - DEBUG - WebSocket connection open.
+2017-01-01 03:51:41,151 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":"wqewqe"}
+2017-01-01 03:51:41,163 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 03:51:46,112 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":"qweqwe"}
+2017-01-01 03:51:46,124 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 03:54:01,611 - DEBUG - WebSocket connection closed: None
+2017-01-01 03:54:01,637 - DEBUG - WebSocket connection closed: None
+2017-01-01 03:54:02,286 - DEBUG - Client connecting: tcp4:127.0.0.1:51959
+2017-01-01 03:54:02,299 - DEBUG - Factory register: tcp4:127.0.0.1:51959
+2017-01-01 03:54:02,302 - DEBUG - WebSocket connection open.
+2017-01-01 03:54:02,403 - DEBUG - Client connecting: tcp4:127.0.0.1:51961
+2017-01-01 03:54:02,411 - DEBUG - Factory register: tcp4:127.0.0.1:51961
+2017-01-01 03:54:02,411 - DEBUG - WebSocket connection open.
+2017-01-01 03:54:07,555 - DEBUG - WebSocket connection closed: None
+2017-01-01 03:54:07,584 - DEBUG - WebSocket connection closed: None
+2017-01-01 03:54:08,188 - DEBUG - Client connecting: tcp4:127.0.0.1:51967
+2017-01-01 03:54:08,197 - DEBUG - Factory register: tcp4:127.0.0.1:51967
+2017-01-01 03:54:08,197 - DEBUG - WebSocket connection open.
+2017-01-01 03:54:08,318 - DEBUG - Client connecting: tcp4:127.0.0.1:51969
+2017-01-01 03:54:08,329 - DEBUG - Factory register: tcp4:127.0.0.1:51969
+2017-01-01 03:54:08,335 - DEBUG - WebSocket connection open.
+2017-01-01 03:55:49,660 - DEBUG - WebSocket connection closed: None
+2017-01-01 03:55:49,696 - DEBUG - WebSocket connection closed: None
+2017-01-01 03:55:50,329 - DEBUG - Client connecting: tcp4:127.0.0.1:52002
+2017-01-01 03:55:50,338 - DEBUG - Factory register: tcp4:127.0.0.1:52002
+2017-01-01 03:55:50,338 - DEBUG - WebSocket connection open.
+2017-01-01 03:55:50,450 - DEBUG - Client connecting: tcp4:127.0.0.1:52004
+2017-01-01 03:55:50,460 - DEBUG - Factory register: tcp4:127.0.0.1:52004
+2017-01-01 03:55:50,466 - DEBUG - WebSocket connection open.
+2017-01-01 03:55:56,282 - DEBUG - WebSocket connection closed: None
+2017-01-01 03:55:56,323 - DEBUG - WebSocket connection closed: None
+2017-01-01 03:55:56,928 - DEBUG - Client connecting: tcp4:127.0.0.1:52010
+2017-01-01 03:55:56,938 - DEBUG - Factory register: tcp4:127.0.0.1:52010
+2017-01-01 03:55:56,944 - DEBUG - WebSocket connection open.
+2017-01-01 03:55:57,033 - DEBUG - Client connecting: tcp4:127.0.0.1:52014
+2017-01-01 03:55:57,049 - DEBUG - Factory register: tcp4:127.0.0.1:52014
+2017-01-01 03:55:57,052 - DEBUG - WebSocket connection open.
+2017-01-01 04:00:24,450 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:00:24,477 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:00:25,171 - DEBUG - Client connecting: tcp4:127.0.0.1:52115
+2017-01-01 04:00:25,183 - DEBUG - Factory register: tcp4:127.0.0.1:52115
+2017-01-01 04:00:25,188 - DEBUG - WebSocket connection open.
+2017-01-01 04:00:25,243 - DEBUG - Client connecting: tcp4:127.0.0.1:52117
+2017-01-01 04:00:25,253 - DEBUG - Factory register: tcp4:127.0.0.1:52117
+2017-01-01 04:00:25,259 - DEBUG - WebSocket connection open.
+2017-01-01 04:01:50,963 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:01:50,989 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:01:51,671 - DEBUG - Client connecting: tcp4:127.0.0.1:52151
+2017-01-01 04:01:51,681 - DEBUG - Factory register: tcp4:127.0.0.1:52151
+2017-01-01 04:01:51,687 - DEBUG - WebSocket connection open.
+2017-01-01 04:01:51,721 - DEBUG - Client connecting: tcp4:127.0.0.1:52153
+2017-01-01 04:01:51,734 - DEBUG - Factory register: tcp4:127.0.0.1:52153
+2017-01-01 04:01:51,740 - DEBUG - WebSocket connection open.
+2017-01-01 04:03:22,368 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":"sa"}
+2017-01-01 04:03:22,381 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:03:25,585 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":"sa"}
+2017-01-01 04:03:25,615 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:04:19,148 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:04:19,177 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:04:19,832 - DEBUG - Client connecting: tcp4:127.0.0.1:52201
+2017-01-01 04:04:19,845 - DEBUG - Factory register: tcp4:127.0.0.1:52201
+2017-01-01 04:04:19,851 - DEBUG - WebSocket connection open.
+2017-01-01 04:04:19,871 - DEBUG - Client connecting: tcp4:127.0.0.1:52203
+2017-01-01 04:04:19,881 - DEBUG - Factory register: tcp4:127.0.0.1:52203
+2017-01-01 04:04:19,888 - DEBUG - WebSocket connection open.
+2017-01-01 04:04:40,480 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:04:40,523 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:04:41,121 - DEBUG - Client connecting: tcp4:127.0.0.1:52211
+2017-01-01 04:04:41,130 - DEBUG - Factory register: tcp4:127.0.0.1:52211
+2017-01-01 04:04:41,130 - DEBUG - WebSocket connection open.
+2017-01-01 04:04:41,246 - DEBUG - Client connecting: tcp4:127.0.0.1:52213
+2017-01-01 04:04:41,256 - DEBUG - Factory register: tcp4:127.0.0.1:52213
+2017-01-01 04:04:41,256 - DEBUG - WebSocket connection open.
+2017-01-01 04:04:52,141 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:04:52,180 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:04:52,779 - DEBUG - Client connecting: tcp4:127.0.0.1:52219
+2017-01-01 04:04:52,792 - DEBUG - Factory register: tcp4:127.0.0.1:52219
+2017-01-01 04:04:52,795 - DEBUG - WebSocket connection open.
+2017-01-01 04:04:52,905 - DEBUG - Client connecting: tcp4:127.0.0.1:52221
+2017-01-01 04:04:52,914 - DEBUG - Factory register: tcp4:127.0.0.1:52221
+2017-01-01 04:04:52,914 - DEBUG - WebSocket connection open.
+2017-01-01 04:05:38,941 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:05:38,950 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:05:41,799 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:05:41,806 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:05:42,404 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:05:42,410 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:05:43,263 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:05:43,286 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:05:43,763 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:05:43,769 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:05:44,048 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:05:44,053 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:06:08,384 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:06:08,405 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:06:09,036 - DEBUG - Client connecting: tcp4:127.0.0.1:52243
+2017-01-01 04:06:09,049 - DEBUG - Factory register: tcp4:127.0.0.1:52243
+2017-01-01 04:06:09,055 - DEBUG - WebSocket connection open.
+2017-01-01 04:06:09,180 - DEBUG - Client connecting: tcp4:127.0.0.1:52245
+2017-01-01 04:06:09,190 - DEBUG - Factory register: tcp4:127.0.0.1:52245
+2017-01-01 04:06:09,194 - DEBUG - WebSocket connection open.
+2017-01-01 04:06:11,515 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:06:11,525 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:06:26,865 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:06:26,869 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:06:27,532 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:06:27,532 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:07:01,799 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:07:01,822 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:07:02,451 - DEBUG - Client connecting: tcp4:127.0.0.1:52261
+2017-01-01 04:07:02,466 - DEBUG - Factory register: tcp4:127.0.0.1:52261
+2017-01-01 04:07:02,471 - DEBUG - WebSocket connection open.
+2017-01-01 04:07:02,612 - DEBUG - Client connecting: tcp4:127.0.0.1:52263
+2017-01-01 04:07:02,621 - DEBUG - Factory register: tcp4:127.0.0.1:52263
+2017-01-01 04:07:02,621 - DEBUG - WebSocket connection open.
+2017-01-01 04:07:04,674 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:07:04,681 - DEBUG - response: {"status": "ok", "clientId": "michaelclient", "toekn": "99999"}
+2017-01-01 04:07:45,206 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-01 04:07:45,242 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-01 04:07:48,046 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-01 04:07:52,720 - DEBUG - Client connecting: tcp4:127.0.0.1:52291
+2017-01-01 04:07:52,730 - DEBUG - Factory register: tcp4:127.0.0.1:52291
+2017-01-01 04:07:52,736 - DEBUG - WebSocket connection open.
+2017-01-01 04:07:54,075 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:07:54,082 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:08:31,900 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:08:32,506 - DEBUG - Client connecting: tcp4:127.0.0.1:52300
+2017-01-01 04:08:32,523 - DEBUG - Factory register: tcp4:127.0.0.1:52300
+2017-01-01 04:08:32,529 - DEBUG - WebSocket connection open.
+2017-01-01 04:08:36,438 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:08:37,026 - DEBUG - Client connecting: tcp4:127.0.0.1:52305
+2017-01-01 04:08:37,036 - DEBUG - Factory register: tcp4:127.0.0.1:52305
+2017-01-01 04:08:37,036 - DEBUG - WebSocket connection open.
+2017-01-01 04:08:38,736 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:08:38,743 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:09:12,500 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:09:13,127 - DEBUG - Client connecting: tcp4:127.0.0.1:52314
+2017-01-01 04:09:13,137 - DEBUG - Factory register: tcp4:127.0.0.1:52314
+2017-01-01 04:09:13,142 - DEBUG - WebSocket connection open.
+2017-01-01 04:09:14,165 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:09:14,171 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:09:33,989 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:09:34,599 - DEBUG - Client connecting: tcp4:127.0.0.1:52321
+2017-01-01 04:09:34,609 - DEBUG - Factory register: tcp4:127.0.0.1:52321
+2017-01-01 04:09:34,615 - DEBUG - WebSocket connection open.
+2017-01-01 04:09:36,081 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:09:36,088 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:10:50,825 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:10:51,456 - DEBUG - Client connecting: tcp4:127.0.0.1:52336
+2017-01-01 04:10:51,469 - DEBUG - Factory register: tcp4:127.0.0.1:52336
+2017-01-01 04:10:51,479 - DEBUG - WebSocket connection open.
+2017-01-01 04:10:52,430 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:10:52,438 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:11:09,141 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:11:09,765 - DEBUG - Client connecting: tcp4:127.0.0.1:52342
+2017-01-01 04:11:09,776 - DEBUG - Factory register: tcp4:127.0.0.1:52342
+2017-01-01 04:11:09,783 - DEBUG - WebSocket connection open.
+2017-01-01 04:11:25,696 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:11:26,331 - DEBUG - Client connecting: tcp4:127.0.0.1:52351
+2017-01-01 04:11:26,342 - DEBUG - Factory register: tcp4:127.0.0.1:52351
+2017-01-01 04:11:26,349 - DEBUG - WebSocket connection open.
+2017-01-01 04:11:28,052 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:11:28,061 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:12:32,058 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:12:32,658 - DEBUG - Client connecting: tcp4:127.0.0.1:52370
+2017-01-01 04:12:32,670 - DEBUG - Factory register: tcp4:127.0.0.1:52370
+2017-01-01 04:12:32,676 - DEBUG - WebSocket connection open.
+2017-01-01 04:12:34,783 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:12:34,789 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:12:51,302 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:12:51,920 - DEBUG - Client connecting: tcp4:127.0.0.1:52381
+2017-01-01 04:12:51,927 - DEBUG - Factory register: tcp4:127.0.0.1:52381
+2017-01-01 04:12:51,937 - DEBUG - WebSocket connection open.
+2017-01-01 04:12:52,737 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:12:52,746 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:13:28,023 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:13:28,631 - DEBUG - Client connecting: tcp4:127.0.0.1:52392
+2017-01-01 04:13:28,641 - DEBUG - Factory register: tcp4:127.0.0.1:52392
+2017-01-01 04:13:28,648 - DEBUG - WebSocket connection open.
+2017-01-01 04:13:29,496 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:13:29,505 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:14:05,145 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:14:05,766 - DEBUG - Client connecting: tcp4:127.0.0.1:52401
+2017-01-01 04:14:05,776 - DEBUG - Factory register: tcp4:127.0.0.1:52401
+2017-01-01 04:14:05,786 - DEBUG - WebSocket connection open.
+2017-01-01 04:14:38,505 - DEBUG - WebSocket connection closed: None
+2017-01-01 04:14:39,124 - DEBUG - Client connecting: tcp4:127.0.0.1:52408
+2017-01-01 04:14:39,135 - DEBUG - Factory register: tcp4:127.0.0.1:52408
+2017-01-01 04:14:39,141 - DEBUG - WebSocket connection open.
+2017-01-01 04:14:42,400 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:14:42,407 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:14:43,486 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:14:43,493 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:14:44,042 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:14:44,049 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:14:44,615 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:14:44,621 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:14:45,266 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:14:45,272 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:14:45,628 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:14:45,637 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:14:45,829 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:14:45,835 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:14:46,022 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
+2017-01-01 04:14:46,028 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}

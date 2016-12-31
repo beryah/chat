@@ -4,8 +4,7 @@ import Vuex from 'vuex'
 import { state, mutations } from './mutations'
 import plugins from './plugins'
 
-var ws = new WebSocket('ws://localhost:9006');
-ws.binaryType = "arraybuffer";
+var ws = new WebSocket('ws://localhost:9010');
 
 Vue.use(Vuex)
 
