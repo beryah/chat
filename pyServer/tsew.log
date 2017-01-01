@@ -284,3 +284,33 @@
 2017-01-01 04:14:45,835 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
 2017-01-01 04:14:46,022 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","content":""}
 2017-01-01 04:14:46,028 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-01 04:33:00,861 - DEBUG - WebSocket connection closed: None
+2017-01-02 02:03:02,147 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-02 02:03:04,982 - DEBUG - Client connecting: tcp4:127.0.0.1:64176
+2017-01-02 02:03:04,983 - DEBUG - Factory register: tcp4:127.0.0.1:64176
+2017-01-02 02:03:04,984 - DEBUG - WebSocket connection open.
+2017-01-02 02:05:55,615 - DEBUG - WebSocket connection closed: None
+2017-01-02 02:05:58,437 - DEBUG - Client connecting: tcp4:127.0.0.1:64246
+2017-01-02 02:05:58,438 - DEBUG - Factory register: tcp4:127.0.0.1:64246
+2017-01-02 02:05:58,440 - DEBUG - WebSocket connection open.
+2017-01-02 02:06:04,723 - DEBUG - WebSocket connection closed: None
+2017-01-02 02:06:05,176 - DEBUG - Client connecting: tcp4:127.0.0.1:64250
+2017-01-02 02:06:05,178 - DEBUG - Factory register: tcp4:127.0.0.1:64250
+2017-01-02 02:06:05,180 - DEBUG - WebSocket connection open.
+2017-01-02 02:06:32,062 - DEBUG - WebSocket connection closed: None
+2017-01-02 02:06:32,687 - DEBUG - Client connecting: tcp4:127.0.0.1:64253
+2017-01-02 02:06:32,688 - DEBUG - Factory register: tcp4:127.0.0.1:64253
+2017-01-02 02:06:32,690 - DEBUG - WebSocket connection open.
+2017-01-02 02:08:20,539 - DEBUG - WebSocket connection closed: None
+2017-01-02 02:08:21,257 - DEBUG - Client connecting: tcp4:127.0.0.1:64292
+2017-01-02 02:08:21,259 - DEBUG - Factory register: tcp4:127.0.0.1:64292
+2017-01-02 02:08:21,259 - DEBUG - WebSocket connection open.
+2017-01-02 02:08:37,614 - DEBUG - WebSocket connection closed: None
+2017-01-02 02:08:38,250 - DEBUG - Client connecting: tcp4:127.0.0.1:64295
+2017-01-02 02:08:38,252 - DEBUG - Factory register: tcp4:127.0.0.1:64295
+2017-01-02 02:08:38,252 - DEBUG - WebSocket connection open.
+2017-01-02 02:11:02,197 - DEBUG - WebSocket connection closed: None
+2017-01-02 02:11:02,822 - DEBUG - Client connecting: tcp4:127.0.0.1:64301
+2017-01-02 02:11:02,825 - DEBUG - Factory register: tcp4:127.0.0.1:64301
+2017-01-02 02:11:02,825 - DEBUG - WebSocket connection open.
+2017-01-02 02:24:04,431 - DEBUG - WebSocket connection closed: None

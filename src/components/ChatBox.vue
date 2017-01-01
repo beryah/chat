@@ -2,7 +2,6 @@
 	<div class='a'> 
 		<p>status: {{ this.$store.state.status}}</p>
     <p>toekn: {{ this.$store.state.token }}</p>    
-    <p>clientid: {{ this.$store.state.clientId }}</p>    
     <input type='text' v-model="msg"/>
 		<input type='button' value='get token' @click='get_token'/>
 	</div>	

@@ -3,6 +3,8 @@
     <Head />
     <ChatBox />
     <Foot />
+    <button type="button" class="btn btn-primary">Default</button>
+
   </div>  
 </template>
 
