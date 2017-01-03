@@ -1,22 +1,35 @@
 /* eslint-disable */
-export const state = {
-  token : '',
-  status: 'idel',
-  clientId: '',
-  sessionId: '',
-  supportId: 'michael_mao@trendmicro.com',
-  seq: 0,
-  version: ''
+function Session() {
+    this.token = '';
+    this.sessionId = '';
+    this.status= 'idel';
+    this.clientId= '';
+    this.seq= '';
+    this.version= '';
 }
+
+export const state = {
+  supportId: 'michael_mao@trendmicro.com',
+  sessions: [],
+}
+
+var firstSession = new Session();
+firstSession.token = '2332232'
+state.sessions.push(firstSession);
+
+var s = new Session();
+s.token = '23322sadads32'
+state.sessions.push(s);
 
 export const mutations = {
   set_token (state, payload, ) {
   	state.token = payload.token
     state.sessionId = payload.sessionId
-
   },
   get_token (state, payload) {
-    //this.$store.commit('update_connect_status', 'wait for connect')
+    var newSession = new Session();
+    newSession.token = '123132'
+    state.sessions.push(newSession);
   },
   sendMsg (state, payload){
   },

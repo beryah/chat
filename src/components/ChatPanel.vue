@@ -1,20 +1,39 @@
 <template>
 <div>
+<div>
+
+  <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="user1" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">User1</a></li>
-    <li role="user2"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">User2</a></li>
-    <li role="user3"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">User3</a></li>
-    <li role="user4"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">User4</a></li>
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">..12.</div>
+    <div role="tabpanel" class="tab-pane" id="messages">.13..</div>
+    <div role="tabpanel" class="tab-pane" id="settings">..123.</div>
+  </div>
+
+</div>
+  <ul class="nav nav-tabs" role="tablist">
+    <li v-for="session in sessions" role="presentation" >
+    	<a :href="'#a' +session.token" :aria-controls="'a'+session.token" role="tab" data-toggle="tab">
+    		{{session.token}}
+    	</a>
+    </li>
   </ul>
 
   <div class="tab-content">
-  	<div role="tabpanel" class="tab-pane active panel panel-default" id="home">	  	  		  		
+  	<div v-for="session in sessions"  class="tab-pane active" :id="'a'+session.token" role="tabpanel">
 	  	<div class="panel panel-default">
 	  		<div class="panel-body">
-	  			<span>ID: {{ this.$store.state.token }}</span>
-	  			<span>Session ID: {{ this.$store.state.sessionId }}</span>
-	  			<span>support ID: {{ this.$store.state.supportId }}</span>
-	  			<span>seq{{ this.$store.state.seq }}</span>
+	  			<span>ID: {{ session.token }}</span>
+	  			<span>Session ID: {{ session.sessionId }}</span>
+	  			<span>support ID: {{ session.supportId }}</span>
+	  			<span>seq{{ session.seq }}</span>
 	  		</div>
 	  		<div class="panel-footer">
 	  			<div class="input-group">		      
@@ -26,9 +45,6 @@
 	  		</div>
 		</div>
 	</div>
-    <div role="tabpanel" class="tab-pane" id="profile">..2.</div>
-    <div role="tabpanel" class="tab-pane" id="messages">.3..</div>
-    <div role="tabpanel" class="tab-pane" id="settings">..4.</div>
   </div>
  </div>
 </template>
@@ -65,6 +81,11 @@
 				this.$store.commit('sendMsg',this.msg)
 				this.msg = ''
 		 	}
+		},
+		computed:{
+			sessions() {
+				return this.$store.state.sessions;
+			}
 		}
 	}
 </script>

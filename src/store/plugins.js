@@ -25,7 +25,7 @@ export default function createWebSocketPlugin (ws) {
     store.subscribe(mutation => {
       switch (mutation.type){
         case 'get_token':
-          ws.send(JSON.stringify(mutation.payload))
+          //ws.send(JSON.stringify(mutation.payload))
         case 'sendMsg':
           ws.send(JSON.stringify(mutation.payload))
       }      

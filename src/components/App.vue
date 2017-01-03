@@ -1,8 +1,8 @@
 <template>  
   <div id="app">    
     <NavBar />
-    <button type="button" class="btn btn-primary" @click="get_token">Get TokenID</button>
-    <ChatPanel />
+    <LeftNavBar />
+    <MainContainer />
   </div>  
 </template>
 
@@ -12,10 +12,14 @@ import NavBar from './NavBar.vue'
 import ChatPanel from './ChatPanel.vue'
 import Foot from './Foot.vue'
 import ChatBox from './ChatBox.vue'
+import LeftNavBar from './LeftNavBar.vue'
+import MainContainer from './MainContainer.vue'
 
 export default {
   components: {
     NavBar,
+    LeftNavBar,
+    MainContainer,
     ChatPanel,
     Foot,
     ChatBox
