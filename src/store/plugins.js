@@ -15,21 +15,20 @@ export default function createWebSocketPlugin (ws) {
       console.log(e.data)
       var data = JSON.parse(e.data);
       switch(data.tsew_command){
-        case 'get_token':
-          console.log(data.clientId)
-          store.commit('update_connect_status', 'connected');
-          store.commit('set_token', data.token, data.clientId);
+        case 'get_token':          
+          store.commit('set_token', data);
+        case 'getStatus' :          
+          store.commit('getStatus', data);
       }
     } 
 
     store.subscribe(mutation => {
-      if (mutation.type === 'get_token') {
-        var get_token = {
-          tsew_command: 'get_token',
-          content: mutation.payload
-        }        
-        ws.send(JSON.stringify(get_token))
-      }
+      switch (mutation.type){
+        case 'get_token':
+          ws.send(JSON.stringify(mutation.payload))
+        case 'sendMsg':
+          ws.send(JSON.stringify(mutation.payload))
+      }      
     })
   }
 }

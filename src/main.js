@@ -4,7 +4,9 @@ import 'babel-polyfill'
 import Vue from 'vue'
 import store from './store'
 import App from './components/App.vue'
+import 'jquery'
 import './css/bootstrap.css'
+import './js/bootstrap.js'
 
 /* eslint-disable no-new */
 

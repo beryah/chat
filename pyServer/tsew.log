@@ -314,3 +314,498 @@
 2017-01-02 02:11:02,825 - DEBUG - Factory register: tcp4:127.0.0.1:64301
 2017-01-02 02:11:02,825 - DEBUG - WebSocket connection open.
 2017-01-02 02:24:04,431 - DEBUG - WebSocket connection closed: None
+2017-01-03 13:54:37,905 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 13:55:21,453 - DEBUG - Client connecting: tcp4:127.0.0.1:54649
+2017-01-03 13:55:21,453 - DEBUG - Factory register: tcp4:127.0.0.1:54649
+2017-01-03 13:55:21,454 - DEBUG - WebSocket connection open.
+2017-01-03 13:57:26,049 - DEBUG - WebSocket connection closed: None
+2017-01-03 13:57:28,194 - DEBUG - Client connecting: tcp4:127.0.0.1:54770
+2017-01-03 13:57:28,196 - DEBUG - Factory register: tcp4:127.0.0.1:54770
+2017-01-03 13:57:28,197 - DEBUG - WebSocket connection open.
+2017-01-03 14:00:37,582 - DEBUG - WebSocket connection closed: None
+2017-01-03 14:00:38,704 - DEBUG - Client connecting: tcp4:127.0.0.1:54884
+2017-01-03 14:00:38,707 - DEBUG - Factory register: tcp4:127.0.0.1:54884
+2017-01-03 14:00:38,709 - DEBUG - WebSocket connection open.
+2017-01-03 14:02:43,898 - DEBUG - WebSocket connection closed: None
+2017-01-03 14:06:51,437 - DEBUG - Client connecting: tcp4:127.0.0.1:54973
+2017-01-03 14:06:51,437 - DEBUG - Factory register: tcp4:127.0.0.1:54973
+2017-01-03 14:06:51,437 - DEBUG - WebSocket connection open.
+2017-01-03 14:09:20,479 - DEBUG - Client connecting: tcp4:127.0.0.1:55189
+2017-01-03 14:09:20,480 - DEBUG - Factory register: tcp4:127.0.0.1:55189
+2017-01-03 14:09:20,480 - DEBUG - WebSocket connection open.
+2017-01-03 14:09:50,740 - DEBUG - WebSocket connection closed: None
+2017-01-03 14:10:12,711 - DEBUG - Client connecting: tcp4:127.0.0.1:55199
+2017-01-03 14:10:12,711 - DEBUG - Factory register: tcp4:127.0.0.1:55199
+2017-01-03 14:10:12,713 - DEBUG - WebSocket connection open.
+2017-01-03 14:12:56,683 - DEBUG - WebSocket connection closed: None
+2017-01-03 14:12:57,187 - DEBUG - WebSocket connection closed: None
+2017-01-03 14:13:11,460 - DEBUG - Client connecting: tcp4:127.0.0.1:55413
+2017-01-03 14:13:11,460 - DEBUG - Factory register: tcp4:127.0.0.1:55413
+2017-01-03 14:13:11,460 - DEBUG - WebSocket connection open.
+2017-01-03 14:22:45,154 - DEBUG - WebSocket connection closed: None
+2017-01-03 14:22:47,805 - DEBUG - Client connecting: tcp4:127.0.0.1:55606
+2017-01-03 14:22:47,805 - DEBUG - Factory register: tcp4:127.0.0.1:55606
+2017-01-03 14:22:47,806 - DEBUG - WebSocket connection open.
+2017-01-03 14:22:51,885 - DEBUG - WebSocket connection closed: None
+2017-01-03 14:22:53,631 - DEBUG - Client connecting: tcp4:127.0.0.1:55612
+2017-01-03 14:22:53,632 - DEBUG - Factory register: tcp4:127.0.0.1:55612
+2017-01-03 14:22:53,632 - DEBUG - WebSocket connection open.
+2017-01-03 14:30:38,642 - DEBUG - WebSocket connection closed: None
+2017-01-03 14:30:39,977 - DEBUG - Client connecting: tcp4:127.0.0.1:55980
+2017-01-03 14:30:39,979 - DEBUG - Factory register: tcp4:127.0.0.1:55980
+2017-01-03 14:30:39,979 - DEBUG - WebSocket connection open.
+2017-01-03 14:53:23,562 - DEBUG - WebSocket connection closed: None
+2017-01-03 15:02:08,898 - DEBUG - Client connecting: tcp4:127.0.0.1:57020
+2017-01-03 15:02:08,908 - DEBUG - Factory register: tcp4:127.0.0.1:57020
+2017-01-03 15:02:08,910 - DEBUG - WebSocket connection open.
+2017-01-03 15:59:48,694 - DEBUG - WebSocket connection closed: None
+2017-01-03 15:59:49,740 - DEBUG - Client connecting: tcp4:127.0.0.1:58862
+2017-01-03 15:59:49,743 - DEBUG - Factory register: tcp4:127.0.0.1:58862
+2017-01-03 15:59:49,746 - DEBUG - WebSocket connection open.
+2017-01-03 16:12:34,309 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:12:35,411 - DEBUG - Client connecting: tcp4:127.0.0.1:59432
+2017-01-03 16:12:35,411 - DEBUG - Factory register: tcp4:127.0.0.1:59432
+2017-01-03 16:12:35,415 - DEBUG - WebSocket connection open.
+2017-01-03 16:13:33,887 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:13:34,716 - DEBUG - Client connecting: tcp4:127.0.0.1:59512
+2017-01-03 16:13:34,716 - DEBUG - Factory register: tcp4:127.0.0.1:59512
+2017-01-03 16:13:34,717 - DEBUG - WebSocket connection open.
+2017-01-03 16:13:40,789 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:13:41,773 - DEBUG - Client connecting: tcp4:127.0.0.1:59518
+2017-01-03 16:13:41,775 - DEBUG - Factory register: tcp4:127.0.0.1:59518
+2017-01-03 16:13:41,776 - DEBUG - WebSocket connection open.
+2017-01-03 16:14:04,375 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:14:05,292 - DEBUG - Client connecting: tcp4:127.0.0.1:59531
+2017-01-03 16:14:05,292 - DEBUG - Factory register: tcp4:127.0.0.1:59531
+2017-01-03 16:14:05,292 - DEBUG - WebSocket connection open.
+2017-01-03 16:14:16,943 - DEBUG - payload.decode('utf8'): {"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:14:17,046 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 16:16:50,250 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 16:16:54,062 - DEBUG - Client connecting: tcp4:127.0.0.1:59609
+2017-01-03 16:16:54,065 - DEBUG - Factory register: tcp4:127.0.0.1:59609
+2017-01-03 16:16:54,068 - DEBUG - WebSocket connection open.
+2017-01-03 16:16:54,898 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:16:54,901 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-03 16:36:29,868 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:36:30,996 - DEBUG - Client connecting: tcp4:127.0.0.1:60134
+2017-01-03 16:36:30,996 - DEBUG - Factory register: tcp4:127.0.0.1:60134
+2017-01-03 16:36:30,996 - DEBUG - WebSocket connection open.
+2017-01-03 16:36:35,566 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:36:35,568 - DEBUG - response: {"status": "ok", "tsew_command": "get_token", "token": "99999", "clientId": "michaelclient"}
+2017-01-03 16:36:45,223 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:36:46,618 - DEBUG - Client connecting: tcp4:127.0.0.1:60141
+2017-01-03 16:36:46,621 - DEBUG - Factory register: tcp4:127.0.0.1:60141
+2017-01-03 16:36:46,628 - DEBUG - WebSocket connection open.
+2017-01-03 16:36:50,081 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:36:51,815 - DEBUG - Client connecting: tcp4:127.0.0.1:60145
+2017-01-03 16:36:51,815 - DEBUG - Factory register: tcp4:127.0.0.1:60145
+2017-01-03 16:36:51,816 - DEBUG - WebSocket connection open.
+2017-01-03 16:37:40,430 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:37:42,586 - DEBUG - Client connecting: tcp4:127.0.0.1:60164
+2017-01-03 16:37:42,588 - DEBUG - Factory register: tcp4:127.0.0.1:60164
+2017-01-03 16:37:42,588 - DEBUG - WebSocket connection open.
+2017-01-03 16:37:51,766 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:37:54,253 - DEBUG - Client connecting: tcp4:127.0.0.1:60173
+2017-01-03 16:37:54,255 - DEBUG - Factory register: tcp4:127.0.0.1:60173
+2017-01-03 16:37:54,256 - DEBUG - WebSocket connection open.
+2017-01-03 16:37:56,178 - DEBUG - WebSocket connection closed: None
+2017-01-03 16:37:57,812 - DEBUG - Client connecting: tcp4:127.0.0.1:60179
+2017-01-03 16:37:57,813 - DEBUG - Factory register: tcp4:127.0.0.1:60179
+2017-01-03 16:37:57,813 - DEBUG - WebSocket connection open.
+2017-01-03 16:38:02,500 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 16:38:26,342 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 16:40:38,313 - DEBUG - Client connecting: tcp4:127.0.0.1:60235
+2017-01-03 16:40:38,315 - DEBUG - Factory register: tcp4:127.0.0.1:60235
+2017-01-03 16:40:38,316 - DEBUG - WebSocket connection open.
+2017-01-03 16:40:41,516 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:40:41,553 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 16:40:54,539 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 16:42:33,285 - DEBUG - Client connecting: tcp4:127.0.0.1:60356
+2017-01-03 16:42:33,288 - DEBUG - Factory register: tcp4:127.0.0.1:60356
+2017-01-03 16:42:33,292 - DEBUG - WebSocket connection open.
+2017-01-03 16:42:35,760 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:42:35,835 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 16:43:29,194 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 16:43:33,572 - DEBUG - Client connecting: tcp4:127.0.0.1:60390
+2017-01-03 16:43:33,572 - DEBUG - Factory register: tcp4:127.0.0.1:60390
+2017-01-03 16:43:33,573 - DEBUG - WebSocket connection open.
+2017-01-03 16:43:35,233 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:43:35,255 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 16:46:57,582 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 16:47:01,677 - DEBUG - Client connecting: tcp4:127.0.0.1:60458
+2017-01-03 16:47:01,677 - DEBUG - Factory register: tcp4:127.0.0.1:60458
+2017-01-03 16:47:01,678 - DEBUG - WebSocket connection open.
+2017-01-03 16:47:03,674 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:47:03,951 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 16:50:16,648 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 16:50:24,864 - DEBUG - Client connecting: tcp4:127.0.0.1:60569
+2017-01-03 16:50:24,865 - DEBUG - Factory register: tcp4:127.0.0.1:60569
+2017-01-03 16:50:24,865 - DEBUG - WebSocket connection open.
+2017-01-03 16:50:27,710 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:50:27,920 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 16:50:58,221 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 16:50:59,002 - DEBUG - Client connecting: tcp4:127.0.0.1:60589
+2017-01-03 16:50:59,003 - DEBUG - Factory register: tcp4:127.0.0.1:60589
+2017-01-03 16:50:59,006 - DEBUG - WebSocket connection open.
+2017-01-03 16:51:01,335 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 16:51:01,650 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 17:15:21,378 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 17:15:25,322 - DEBUG - Client connecting: tcp4:127.0.0.1:61011
+2017-01-03 17:15:25,323 - DEBUG - Factory register: tcp4:127.0.0.1:61011
+2017-01-03 17:15:25,325 - DEBUG - WebSocket connection open.
+2017-01-03 17:15:26,295 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 17:15:27,460 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 17:16:49,536 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 17:16:52,693 - DEBUG - Client connecting: tcp4:127.0.0.1:61041
+2017-01-03 17:16:52,694 - DEBUG - Factory register: tcp4:127.0.0.1:61041
+2017-01-03 17:16:52,694 - DEBUG - WebSocket connection open.
+2017-01-03 17:16:53,808 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 17:16:54,250 - DEBUG - [POLLING][as_905364_16] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 17:16:54,253 - DEBUG - [POLLING][as_905364_16] Query AirSupport for Terminate (session/status), timespan from start:0.00399994850159
+2017-01-03 17:16:54,253 - DEBUG - [POLLING][as_905364_16] Query AirSupport for Terminate (session/status), timespan:0.00499987602234
+2017-01-03 17:16:54,253 - DEBUG - [POLLING][as_905364_16][index:0] Query AirSupport
+2017-01-03 17:16:54,269 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 17:17:17,391 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 17:17:18,482 - DEBUG - Client connecting: tcp4:127.0.0.1:61055
+2017-01-03 17:17:18,483 - DEBUG - Factory register: tcp4:127.0.0.1:61055
+2017-01-03 17:17:18,483 - DEBUG - WebSocket connection open.
+2017-01-03 17:17:19,357 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 17:17:20,170 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "17", "token": "302706", "tries": 1}
+2017-01-03 17:17:20,170 - DEBUG - [POLLING][as_302706_17] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 17:17:20,173 - DEBUG - [POLLING][as_302706_17] Query AirSupport for Terminate (session/status), timespan from start:0.00300002098083
+2017-01-03 17:17:20,174 - DEBUG - [POLLING][as_302706_17] Query AirSupport for Terminate (session/status), timespan:0.00499987602234
+2017-01-03 17:17:20,180 - DEBUG - [POLLING][as_302706_17][index:0] Query AirSupport
+2017-01-03 17:18:24,618 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 17:18:29,877 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 17:18:30,042 - DEBUG - Client connecting: tcp4:127.0.0.1:61103
+2017-01-03 17:18:30,043 - DEBUG - Factory register: tcp4:127.0.0.1:61103
+2017-01-03 17:18:30,043 - DEBUG - WebSocket connection open.
+2017-01-03 17:18:30,640 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 17:18:31,216 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "19", "token": "224750", "tries": 1}
+2017-01-03 17:18:31,216 - DEBUG - [POLLING][as_224750_19] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 17:18:31,217 - DEBUG - [POLLING][as_224750_19] Query AirSupport for Terminate (session/status), timespan from start:0.000999927520752
+2017-01-03 17:18:31,217 - DEBUG - [POLLING][as_224750_19] Query AirSupport for Terminate (session/status), timespan:0.0019998550415
+2017-01-03 17:18:31,219 - DEBUG - [POLLING][as_224750_19][index:0] Query AirSupport
+2017-01-03 17:19:52,520 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 17:19:56,862 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 17:20:00,555 - DEBUG - Client connecting: tcp4:127.0.0.1:61162
+2017-01-03 17:20:00,555 - DEBUG - Factory register: tcp4:127.0.0.1:61162
+2017-01-03 17:20:00,555 - DEBUG - WebSocket connection open.
+2017-01-03 17:20:03,302 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 17:20:04,246 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "20", "token": "351571", "tries": 1}
+2017-01-03 17:20:04,249 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 17:20:04,249 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:0.00100016593933
+2017-01-03 17:20:04,250 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:0.00200009346008
+2017-01-03 17:20:04,256 - DEBUG - [POLLING][as_351571_20][index:0] Query AirSupport
+2017-01-03 17:20:20,236 - DEBUG - [POLLING][as_351571_20] Query AirSupport done
+2017-01-03 17:20:20,237 - DEBUG - [POLLING][as_351571_20] update tsew database - polling_as:{'UserName': '', 'ResponseString': u'{"status":"OK","mode":"plus","initArg":{"SN":"","downloadFolder":"C:\\\\Users\\\\ext_michaelm\\\\Desktop\\\\Trend Micro AirSupport Download","locale":"EN-US","tempFolder":"C:\\\\ProgramData\\\\Trend Micro\\\\AirSupport","uploadFolder":"C:\\\\Users\\\\ext_michaelm\\\\Desktop\\\\Trend Micro AirSupport Upload","version":"6.0.1073"},"cmdStatus":{}}', 'ResponseDate': '2017-01-03 09:20:20.236000', 'TokenID': u'351571', 'RequestType': 'Status', 'SupportID': u'michael_mao@trendmicro.com', 'ClientID': u'user@trend.account.email', 'Source': 'DLS', 'SessionID': u'20', 'SeqID': 0, 'RequestDate': '2017-01-03 09:20:04.263000', 'FailedCode': '', 'RequestString': '{"clientId": "user@trend.account.email", "sessionId": "20", "token": "351571", "seq": 0, "supportId": "michael_mao@trendmicro.com"}', 'Log': 'polling and cmdStatus <= 0'}
+2017-01-03 17:20:20,240 - DEBUG - [POLLING][as_351571_20] update tsew time:0.00300002098083
+2017-01-03 17:20:20,240 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:1
+2017-01-03 17:20:20,243 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:15.9960000515
+2017-01-03 17:20:20,246 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:15.9830000401
+2017-01-03 17:20:20,246 - DEBUG - [POLLING][as_351571_20][index:1] Query AirSupport
+2017-01-03 17:20:26,158 - DEBUG - [POLLING][as_351571_20] Query AirSupport done
+2017-01-03 17:20:26,160 - DEBUG - node:
+2017-01-03 17:20:26,161 - DEBUG - [POLLING][as_351571_20] update tsew database - polling_as:{'UserName': '', 'ResponseString': u'{"status":"OK","mode":"plus","cmdStatus":{"10004":{"content":{"asSeqStatus":"OK","pcState":"unlocked","session":"8343a0d6-efec-51b2-75ac-fcc33486a844","timestamp":"17:20:25","type":1,"wording":"1","backendDelayTime":{"status":{"postStatusStart":1483435243976,"postStatusEnd":1483435243980,"postStatusHandlerTime":4,"postStatusTimestamp":1483435243980,"getStatusStart":1483435243981,"getStatusEnd":1483435243981,"getStatusHandlerTime":0,"getStatusTimestamp":1483435243981,"statusDelayTime":1},"command":{}}},"created":1483435243}}}', 'ResponseDate': '2017-01-03 09:20:26.159000', 'TokenID': u'351571', 'RequestType': 'Status', 'SupportID': u'michael_mao@trendmicro.com', 'ClientID': u'user@trend.account.email', 'Source': 'DLS', 'SessionID': u'20', 'SeqID': 10004, 'RequestDate': '2017-01-03 09:20:20.248000', 'ResultStatus': 'OK', 'FailedCode': '', 'RequestString': '{"clientId": "user@trend.account.email", "sessionId": "20", "token": "351571", "seq": 0, "supportId": "michael_mao@trendmicro.com"}'}
+2017-01-03 17:20:26,164 - DEBUG - [POLLING][as_351571_20] update tsew time:0.00499987602234
+2017-01-03 17:20:26,167 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:2
+2017-01-03 17:20:26,168 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:21.9210000038
+2017-01-03 17:20:26,170 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:5.92200016975
+2017-01-03 17:20:26,171 - DEBUG - [POLLING][as_351571_20][index:2] Query AirSupport
+2017-01-03 17:20:29,299 - DEBUG - [POLLING][as_351571_20] Query AirSupport done
+2017-01-03 17:20:29,301 - DEBUG - node:
+2017-01-03 17:20:29,311 - DEBUG - [POLLING][as_351571_20] update tsew database - polling_as:{'UserName': '', 'ResponseString': u'{"status":"OK","mode":"plus","cmdStatus":{"10005":{"content":{"asSeqStatus":"OK","pcState":"unlocked","session":"62ebd4ee-16c9-07e8-bc67-9423302dcec2","timestamp":"17:20:28","type":1,"wording":"2","backendDelayTime":{"status":{"postStatusStart":1483435247272,"postStatusEnd":1483435247278,"postStatusHandlerTime":6,"postStatusTimestamp":1483435247278,"getStatusStart":1483435247278,"getStatusEnd":1483435247278,"getStatusHandlerTime":0,"getStatusTimestamp":1483435247278,"statusDelayTime":0},"command":{}}},"created":1483435247}}}', 'ResponseDate': '2017-01-03 09:20:29.299000', 'TokenID': u'351571', 'RequestType': 'Status', 'SupportID': u'michael_mao@trendmicro.com', 'ClientID': u'user@trend.account.email', 'Source': 'DLS', 'SessionID': u'20', 'SeqID': 10005, 'RequestDate': '2017-01-03 09:20:26.171000', 'ResultStatus': 'OK', 'FailedCode': '', 'RequestString': '{"clientId": "user@trend.account.email", "sessionId": "20", "token": "351571", "seq": 0, "supportId": "michael_mao@trendmicro.com"}'}
+2017-01-03 17:20:29,312 - DEBUG - [POLLING][as_351571_20] update tsew time:0.0119998455048
+2017-01-03 17:20:29,312 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:3
+2017-01-03 17:20:29,313 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:25.0659999847
+2017-01-03 17:20:29,315 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:3.14400005341
+2017-01-03 17:20:29,315 - DEBUG - [POLLING][as_351571_20][index:3] Query AirSupport
+2017-01-03 17:22:29,391 - DEBUG - [POLLING][as_351571_20] Query AirSupport done
+2017-01-03 17:22:29,392 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:3
+2017-01-03 17:22:29,394 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:145.146000147
+2017-01-03 17:22:29,394 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:120.078000069
+2017-01-03 17:22:29,395 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) begin
+2017-01-03 17:22:30,322 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) done
+2017-01-03 17:22:30,323 - DEBUG - [POLLING][as_351571_20][index:3] Query AirSupport
+2017-01-03 17:24:30,428 - DEBUG - [POLLING][as_351571_20] Query AirSupport done
+2017-01-03 17:24:30,430 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:3
+2017-01-03 17:24:30,430 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:266.183000088
+2017-01-03 17:24:30,430 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:120.105999947
+2017-01-03 17:24:30,431 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) begin
+2017-01-03 17:24:31,375 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) done
+2017-01-03 17:24:31,377 - DEBUG - [POLLING][as_351571_20][index:3] Query AirSupport
+2017-01-03 17:26:31,459 - DEBUG - [POLLING][as_351571_20] Query AirSupport done
+2017-01-03 17:26:31,459 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:3
+2017-01-03 17:26:31,460 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:387.212000132
+2017-01-03 17:26:31,460 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:120.082999945
+2017-01-03 17:26:31,460 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) begin
+2017-01-03 17:26:32,341 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) done
+2017-01-03 17:26:32,342 - DEBUG - [POLLING][as_351571_20][index:3] Query AirSupport
+2017-01-03 17:28:32,418 - DEBUG - [POLLING][as_351571_20] Query AirSupport done
+2017-01-03 17:28:32,421 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:3
+2017-01-03 17:28:32,421 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:508.174000025
+2017-01-03 17:28:32,423 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:120.08100009
+2017-01-03 17:28:32,424 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) begin
+2017-01-03 17:28:33,186 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) done
+2017-01-03 17:28:33,186 - DEBUG - [POLLING][as_351571_20][index:3] Query AirSupport
+2017-01-03 17:29:43,486 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:29:44,848 - DEBUG - Client connecting: tcp4:127.0.0.1:61355
+2017-01-03 17:29:44,848 - DEBUG - Factory register: tcp4:127.0.0.1:61355
+2017-01-03 17:29:44,849 - DEBUG - WebSocket connection open.
+2017-01-03 17:29:46,855 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 17:30:33,265 - DEBUG - [POLLING][as_351571_20] Query AirSupport done
+2017-01-03 17:30:33,265 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), index:3
+2017-01-03 17:30:33,266 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan from start:629.018000126
+2017-01-03 17:30:33,266 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status), timespan:120.079999924
+2017-01-03 17:30:33,267 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) begin
+2017-01-03 17:30:34,732 - DEBUG - [POLLING][as_351571_20] Query AirSupport for Terminate (session/status) done
+2017-01-03 17:30:34,733 - DEBUG - [POLLING][as_351571_20][index:3] Query AirSupport
+2017-01-03 17:31:21,351 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 17:31:24,463 - DEBUG - Client connecting: tcp4:127.0.0.1:61383
+2017-01-03 17:31:24,467 - DEBUG - Factory register: tcp4:127.0.0.1:61383
+2017-01-03 17:31:24,469 - DEBUG - WebSocket connection open.
+2017-01-03 17:31:25,591 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 17:31:26,388 - DEBUG - [POLLING][as_510012_21] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 17:31:26,388 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "21", "token": "510012", "tries": 1}
+2017-01-03 17:31:26,388 - DEBUG - [POLLING][as_510012_21] Query AirSupport for Terminate (session/status), timespan from start:0.000999927520752
+2017-01-03 17:31:26,391 - DEBUG - [POLLING][as_510012_21] Query AirSupport for Terminate (session/status), timespan:0.00200009346008
+2017-01-03 17:31:26,391 - DEBUG - [POLLING][as_510012_21][index:0] Query AirSupport
+2017-01-03 17:32:30,507 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 17:32:34,934 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 17:32:37,746 - DEBUG - Client connecting: tcp4:127.0.0.1:61401
+2017-01-03 17:32:37,750 - DEBUG - Factory register: tcp4:127.0.0.1:61401
+2017-01-03 17:32:37,750 - DEBUG - WebSocket connection open.
+2017-01-03 17:32:46,697 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 17:32:47,229 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "22", "token": "342728", "tries": 1}
+2017-01-03 17:32:47,229 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 17:32:47,230 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan from start:0.0019998550415
+2017-01-03 17:32:47,232 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan:0.0019998550415
+2017-01-03 17:32:47,232 - DEBUG - [POLLING][as_342728_22][index:0] Query AirSupport
+2017-01-03 17:32:51,273 - DEBUG - [POLLING][as_342728_22] Query AirSupport done
+2017-01-03 17:32:51,275 - DEBUG - [POLLING][as_342728_22] update tsew time:0.0
+2017-01-03 17:32:51,276 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), index:1
+2017-01-03 17:32:51,278 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan from start:4.0490000248
+2017-01-03 17:32:51,279 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan:4.04600000381
+2017-01-03 17:32:51,279 - DEBUG - [POLLING][as_342728_22][index:1] Query AirSupport
+2017-01-03 17:32:54,039 - DEBUG - [POLLING][as_342728_22] Query AirSupport done
+2017-01-03 17:32:54,039 - DEBUG - [POLLING][as_342728_22] update tsew time:0.0
+2017-01-03 17:32:54,042 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), index:2
+2017-01-03 17:32:54,042 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan from start:6.81399989128
+2017-01-03 17:32:54,043 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan:2.76300001144
+2017-01-03 17:32:54,043 - DEBUG - [POLLING][as_342728_22][index:2] Query AirSupport
+2017-01-03 17:33:03,880 - DEBUG - [POLLING][as_342728_22] Query AirSupport done
+2017-01-03 17:33:03,880 - DEBUG - [POLLING][as_342728_22] update tsew time:0.0
+2017-01-03 17:33:03,881 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), index:3
+2017-01-03 17:33:03,881 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan from start:16.6529998779
+2017-01-03 17:33:03,881 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan:9.83699989319
+2017-01-03 17:33:03,882 - DEBUG - [POLLING][as_342728_22][index:3] Query AirSupport
+2017-01-03 17:33:06,266 - DEBUG - [POLLING][as_342728_22] Query AirSupport done
+2017-01-03 17:33:06,266 - DEBUG - [POLLING][as_342728_22] update tsew time:0.0
+2017-01-03 17:33:06,269 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), index:4
+2017-01-03 17:33:06,270 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan from start:19.0419998169
+2017-01-03 17:33:06,273 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan:2.38899993896
+2017-01-03 17:33:06,275 - DEBUG - [POLLING][as_342728_22][index:4] Query AirSupport
+2017-01-03 17:33:13,216 - DEBUG - [POLLING][as_342728_22] Query AirSupport done
+2017-01-03 17:33:13,217 - DEBUG - [POLLING][as_342728_22] update tsew time:0.0
+2017-01-03 17:33:13,219 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), index:5
+2017-01-03 17:33:13,220 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan from start:25.9900000095
+2017-01-03 17:33:13,220 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan:6.94400000572
+2017-01-03 17:33:13,220 - DEBUG - [POLLING][as_342728_22][index:5] Query AirSupport
+2017-01-03 17:33:15,321 - DEBUG - [POLLING][as_342728_22] Query AirSupport done
+2017-01-03 17:33:15,321 - DEBUG - [POLLING][as_342728_22] update tsew time:0.0
+2017-01-03 17:33:15,322 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), index:6
+2017-01-03 17:33:15,322 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan from start:28.0939998627
+2017-01-03 17:33:15,323 - DEBUG - [POLLING][as_342728_22] Query AirSupport for Terminate (session/status), timespan:2.10199999809
+2017-01-03 17:33:15,323 - DEBUG - [POLLING][as_342728_22][index:6] Query AirSupport
+2017-01-03 17:40:37,075 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:40:38,410 - DEBUG - Client connecting: tcp4:127.0.0.1:61710
+2017-01-03 17:40:38,411 - DEBUG - Factory register: tcp4:127.0.0.1:61710
+2017-01-03 17:40:38,413 - DEBUG - WebSocket connection open.
+2017-01-03 17:40:44,236 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:40:45,563 - DEBUG - Client connecting: tcp4:127.0.0.1:61714
+2017-01-03 17:40:45,566 - DEBUG - Factory register: tcp4:127.0.0.1:61714
+2017-01-03 17:40:45,569 - DEBUG - WebSocket connection open.
+2017-01-03 17:43:22,993 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:43:24,220 - DEBUG - Client connecting: tcp4:127.0.0.1:61760
+2017-01-03 17:43:24,220 - DEBUG - Factory register: tcp4:127.0.0.1:61760
+2017-01-03 17:43:24,223 - DEBUG - WebSocket connection open.
+2017-01-03 17:44:27,375 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:44:28,742 - DEBUG - Client connecting: tcp4:127.0.0.1:61804
+2017-01-03 17:44:28,743 - DEBUG - Factory register: tcp4:127.0.0.1:61804
+2017-01-03 17:44:28,743 - DEBUG - WebSocket connection open.
+2017-01-03 17:45:41,128 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:45:42,434 - DEBUG - Client connecting: tcp4:127.0.0.1:61827
+2017-01-03 17:45:42,436 - DEBUG - Factory register: tcp4:127.0.0.1:61827
+2017-01-03 17:45:42,436 - DEBUG - WebSocket connection open.
+2017-01-03 17:45:56,721 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:45:58,210 - DEBUG - Client connecting: tcp4:127.0.0.1:61838
+2017-01-03 17:45:58,211 - DEBUG - Factory register: tcp4:127.0.0.1:61838
+2017-01-03 17:45:58,213 - DEBUG - WebSocket connection open.
+2017-01-03 17:47:16,663 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:47:17,996 - DEBUG - Client connecting: tcp4:127.0.0.1:61851
+2017-01-03 17:47:17,997 - DEBUG - Factory register: tcp4:127.0.0.1:61851
+2017-01-03 17:47:18,000 - DEBUG - WebSocket connection open.
+2017-01-03 17:48:10,283 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:48:11,601 - DEBUG - Client connecting: tcp4:127.0.0.1:61865
+2017-01-03 17:48:11,605 - DEBUG - Factory register: tcp4:127.0.0.1:61865
+2017-01-03 17:48:11,605 - DEBUG - WebSocket connection open.
+2017-01-03 17:58:59,203 - DEBUG - WebSocket connection closed: None
+2017-01-03 17:59:01,306 - DEBUG - Client connecting: tcp4:127.0.0.1:62174
+2017-01-03 17:59:01,308 - DEBUG - Factory register: tcp4:127.0.0.1:62174
+2017-01-03 17:59:01,308 - DEBUG - WebSocket connection open.
+2017-01-03 18:03:58,653 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:03:59,029 - DEBUG - [POLLING][as_597959_23] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:03:59,029 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "23", "token": "597959", "tries": 1}
+2017-01-03 18:03:59,030 - DEBUG - [POLLING][as_597959_23] Query AirSupport for Terminate (session/status), timespan from start:0.0
+2017-01-03 18:03:59,032 - DEBUG - [POLLING][as_597959_23] Query AirSupport for Terminate (session/status), timespan:0.00200009346008
+2017-01-03 18:03:59,032 - DEBUG - [POLLING][as_597959_23][index:0] Query AirSupport
+2017-01-03 18:03:59,032 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:04:00,114 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "24", "token": "483361", "tries": 1}
+2017-01-03 18:04:00,114 - DEBUG - [POLLING][as_483361_24] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:04:00,115 - DEBUG - [POLLING][as_483361_24] Query AirSupport for Terminate (session/status), timespan from start:0.0019998550415
+2017-01-03 18:04:00,117 - DEBUG - [POLLING][as_483361_24] Query AirSupport for Terminate (session/status), timespan:0.00300002098083
+2017-01-03 18:04:00,118 - DEBUG - [POLLING][as_483361_24][index:0] Query AirSupport
+2017-01-03 18:04:31,388 - DEBUG - WebSocket connection closed: None
+2017-01-03 18:04:32,795 - DEBUG - Client connecting: tcp4:127.0.0.1:62251
+2017-01-03 18:04:32,796 - DEBUG - Factory register: tcp4:127.0.0.1:62251
+2017-01-03 18:04:32,796 - DEBUG - WebSocket connection open.
+2017-01-03 18:04:35,566 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:04:35,974 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "25", "token": "241497", "tries": 1}
+2017-01-03 18:04:35,974 - DEBUG - [POLLING][as_241497_25] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:04:35,977 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:04:35,979 - DEBUG - [POLLING][as_241497_25] Query AirSupport for Terminate (session/status), timespan from start:0.00400018692017
+2017-01-03 18:04:35,984 - DEBUG - [POLLING][as_241497_25] Query AirSupport for Terminate (session/status), timespan:0.00999999046326
+2017-01-03 18:04:35,987 - DEBUG - [POLLING][as_241497_25][index:0] Query AirSupport
+2017-01-03 18:04:37,342 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "26", "token": "424718", "tries": 1}
+2017-01-03 18:04:37,342 - DEBUG - [POLLING][as_424718_26] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:04:37,344 - DEBUG - [POLLING][as_424718_26] Query AirSupport for Terminate (session/status), timespan from start:0.00100016593933
+2017-01-03 18:04:37,344 - DEBUG - [POLLING][as_424718_26] Query AirSupport for Terminate (session/status), timespan:0.00100016593933
+2017-01-03 18:04:37,345 - DEBUG - [POLLING][as_424718_26][index:0] Query AirSupport
+2017-01-03 18:05:47,059 - DEBUG - [POLLING][as_424718_26] Query AirSupport done
+2017-01-03 18:05:47,061 - DEBUG - [POLLING][as_424718_26] update tsew time:0.0
+2017-01-03 18:05:47,061 - DEBUG - [POLLING][as_424718_26] Query AirSupport for Terminate (session/status), index:1
+2017-01-03 18:05:47,062 - DEBUG - [POLLING][as_424718_26] Query AirSupport for Terminate (session/status), timespan from start:69.7190001011
+2017-01-03 18:05:47,062 - DEBUG - [POLLING][as_424718_26] Query AirSupport for Terminate (session/status), timespan:69.7160000801
+2017-01-03 18:05:47,062 - DEBUG - [POLLING][as_424718_26][index:1] Query AirSupport
+2017-01-03 18:09:07,407 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 18:09:14,625 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 18:09:40,865 - DEBUG - Client connecting: tcp4:127.0.0.1:62348
+2017-01-03 18:09:40,869 - DEBUG - Factory register: tcp4:127.0.0.1:62348
+2017-01-03 18:09:40,890 - DEBUG - WebSocket connection open.
+2017-01-03 18:09:42,684 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:09:44,187 - DEBUG - [RRRRRRRRRRRR] <Response [200]>
+2017-01-03 18:09:44,187 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "27", "token": "596260", "tries": 1}
+2017-01-03 18:09:44,187 - DEBUG - [POLLING][as_596260_27] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:09:44,188 - DEBUG - [POLLING][as_596260_27] Query AirSupport for Terminate (session/status), timespan from start:0.000999927520752
+2017-01-03 18:09:44,188 - DEBUG - [POLLING][as_596260_27] Query AirSupport for Terminate (session/status), timespan:0.000999927520752
+2017-01-03 18:09:44,188 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:09:44,190 - DEBUG - [POLLING][as_596260_27][index:0] Query AirSupport
+2017-01-03 18:09:45,173 - DEBUG - [RRRRRRRRRRRR] <Response [200]>
+2017-01-03 18:09:45,177 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "28", "token": "598222", "tries": 1}
+2017-01-03 18:09:45,177 - DEBUG - [POLLING][as_598222_28] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:09:45,187 - DEBUG - [POLLING][as_598222_28] Query AirSupport for Terminate (session/status), timespan from start:0.00999999046326
+2017-01-03 18:09:45,187 - DEBUG - [POLLING][as_598222_28] Query AirSupport for Terminate (session/status), timespan:0.010999917984
+2017-01-03 18:09:45,190 - DEBUG - [POLLING][as_598222_28][index:0] Query AirSupport
+2017-01-03 18:10:05,223 - DEBUG - [RRRRRRRRRRRR] <Response [200]>
+2017-01-03 18:10:05,224 - DEBUG - [POLLING][as_598222_28] Query AirSupport done
+2017-01-03 18:10:05,226 - DEBUG - [POLLING][as_598222_28] update tsew time:0.0
+2017-01-03 18:10:05,229 - DEBUG - [POLLING][as_598222_28] Query AirSupport for Terminate (session/status), index:1
+2017-01-03 18:10:05,230 - DEBUG - [POLLING][as_598222_28] Query AirSupport for Terminate (session/status), timespan from start:20.0529999733
+2017-01-03 18:10:05,233 - DEBUG - [POLLING][as_598222_28] Query AirSupport for Terminate (session/status), timespan:20.0360000134
+2017-01-03 18:10:05,237 - DEBUG - [POLLING][as_598222_28][index:1] Query AirSupport
+2017-01-03 18:11:31,693 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-03 18:12:25,701 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-03 18:12:31,289 - DEBUG - Client connecting: tcp4:127.0.0.1:62403
+2017-01-03 18:12:31,295 - DEBUG - Factory register: tcp4:127.0.0.1:62403
+2017-01-03 18:12:31,296 - DEBUG - WebSocket connection open.
+2017-01-03 18:12:32,983 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:12:33,992 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","sessionId":"29","token":"062703","tries":1}
+2017-01-03 18:12:33,994 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "29", "token": "062703", "tries": 1}
+2017-01-03 18:12:33,994 - DEBUG - [POLLING][as_062703_29] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:12:33,996 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:12:33,996 - DEBUG - [POLLING][as_062703_29] Query AirSupport for Terminate (session/status), timespan from start:0.00200009346008
+2017-01-03 18:12:34,002 - DEBUG - [POLLING][as_062703_29] Query AirSupport for Terminate (session/status), timespan:0.00600004196167
+2017-01-03 18:12:34,003 - DEBUG - [POLLING][as_062703_29][index:0] Query AirSupport
+2017-01-03 18:12:35,579 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","sessionId":"30","token":"198352","tries":1}
+2017-01-03 18:12:35,582 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "30", "token": "198352", "tries": 1}
+2017-01-03 18:12:35,582 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:12:35,588 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), timespan from start:0.00699996948242
+2017-01-03 18:12:35,601 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), timespan:0.0190000534058
+2017-01-03 18:12:35,615 - DEBUG - [POLLING][as_198352_30][index:0] Query AirSupport
+2017-01-03 18:12:55,135 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","mode":"plus","initArg":{"SN":"","downloadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Download","locale":"EN-US","tempFolder":"C:\\ProgramData\\Trend Micro\\AirSupport","uploadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Upload","version":"6.0.1073"},"cmdStatus":{}}
+2017-01-03 18:12:55,137 - DEBUG - [POLLING][as_198352_30] Query AirSupport done
+2017-01-03 18:12:55,138 - DEBUG - [POLLING][as_198352_30] update tsew time:0.0
+2017-01-03 18:12:55,138 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), index:1
+2017-01-03 18:12:55,140 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), timespan from start:19.5580000877
+2017-01-03 18:12:55,140 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), timespan:19.5190000534
+2017-01-03 18:12:55,141 - DEBUG - [POLLING][as_198352_30][index:1] Query AirSupport
+2017-01-03 18:14:15,131 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","mode":"plus","cmdStatus":{"10012":{"content":{"asSeqStatus":"OK","pcState":"unlocked","session":"61a9a8ce-0df8-eff5-b3fb-c07d9410b8a0","timestamp":"18:14:14","type":1,"wording":"2","backendDelayTime":{"status":{"postStatusStart":1483438473524,"postStatusEnd":1483438473531,"postStatusHandlerTime":7,"postStatusTimestamp":1483438473531,"getStatusStart":1483438473532,"getStatusEnd":1483438473532,"getStatusHandlerTime":0,"getStatusTimestamp":1483438473532,"statusDelayTime":1},"command":{}}},"created":1483438473}}}
+2017-01-03 18:14:15,132 - DEBUG - [POLLING][as_198352_30] Query AirSupport done
+2017-01-03 18:14:15,134 - DEBUG - [POLLING][as_198352_30] update tsew time:0.0
+2017-01-03 18:14:15,134 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), index:2
+2017-01-03 18:14:15,134 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), timespan from start:99.5529999733
+2017-01-03 18:14:15,135 - DEBUG - [POLLING][as_198352_30] Query AirSupport for Terminate (session/status), timespan:79.993999958
+2017-01-03 18:14:15,137 - DEBUG - [POLLING][as_198352_30][index:2] Query AirSupport
+2017-01-03 18:17:37,986 - DEBUG - WebSocket connection closed: None
+2017-01-03 18:17:39,865 - DEBUG - Client connecting: tcp4:127.0.0.1:62512
+2017-01-03 18:17:39,869 - DEBUG - Factory register: tcp4:127.0.0.1:62512
+2017-01-03 18:17:39,871 - DEBUG - WebSocket connection open.
+2017-01-03 18:18:05,397 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:18:06,085 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","sessionId":"31","token":"295811","tries":1}
+2017-01-03 18:18:06,088 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "31", "token": "295811", "tries": 1}
+2017-01-03 18:18:06,088 - DEBUG - [POLLING][as_295811_31] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:18:06,088 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:18:06,088 - DEBUG - [POLLING][as_295811_31] Query AirSupport for Terminate (session/status), timespan from start:0.000999927520752
+2017-01-03 18:18:06,091 - DEBUG - [POLLING][as_295811_31] Query AirSupport for Terminate (session/status), timespan:0.00300002098083
+2017-01-03 18:18:06,094 - DEBUG - [POLLING][as_295811_31][index:0] Query AirSupport
+2017-01-03 18:18:07,102 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","sessionId":"32","token":"878302","tries":1}
+2017-01-03 18:18:07,104 - DEBUG - [POLLING][as_878302_32] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:18:07,105 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "32", "token": "878302", "tries": 1}
+2017-01-03 18:18:07,115 - DEBUG - [POLLING][as_878302_32] Query AirSupport for Terminate (session/status), timespan from start:0.010999917984
+2017-01-03 18:18:07,115 - DEBUG - [POLLING][as_878302_32] Query AirSupport for Terminate (session/status), timespan:0.0119998455048
+2017-01-03 18:18:07,125 - DEBUG - [POLLING][as_878302_32][index:0] Query AirSupport
+2017-01-03 18:19:30,762 - DEBUG - WebSocket connection closed: None
+2017-01-03 18:19:32,088 - DEBUG - Client connecting: tcp4:127.0.0.1:62553
+2017-01-03 18:19:32,089 - DEBUG - Factory register: tcp4:127.0.0.1:62553
+2017-01-03 18:19:32,092 - DEBUG - WebSocket connection open.
+2017-01-03 18:19:35,776 - DEBUG - WebSocket connection closed: None
+2017-01-03 18:19:37,233 - DEBUG - Client connecting: tcp4:127.0.0.1:62556
+2017-01-03 18:19:37,234 - DEBUG - Factory register: tcp4:127.0.0.1:62556
+2017-01-03 18:19:37,236 - DEBUG - WebSocket connection open.
+2017-01-03 18:20:04,621 - DEBUG - WebSocket connection closed: None
+2017-01-03 18:20:06,012 - DEBUG - Client connecting: tcp4:127.0.0.1:62564
+2017-01-03 18:20:06,013 - DEBUG - Factory register: tcp4:127.0.0.1:62564
+2017-01-03 18:20:06,016 - DEBUG - WebSocket connection open.
+2017-01-03 18:20:07,664 - DEBUG - WebSocket connection closed: None
+2017-01-03 18:20:09,167 - DEBUG - Client connecting: tcp4:127.0.0.1:62569
+2017-01-03 18:20:09,170 - DEBUG - Factory register: tcp4:127.0.0.1:62569
+2017-01-03 18:20:09,170 - DEBUG - WebSocket connection open.
+2017-01-03 18:20:11,124 - DEBUG - WebSocket connection closed: None
+2017-01-03 18:20:12,759 - DEBUG - Client connecting: tcp4:127.0.0.1:62573
+2017-01-03 18:20:12,763 - DEBUG - Factory register: tcp4:127.0.0.1:62573
+2017-01-03 18:20:12,765 - DEBUG - WebSocket connection open.
+2017-01-03 18:20:54,457 - DEBUG - WebSocket connection closed: None
+2017-01-03 18:20:55,767 - DEBUG - Client connecting: tcp4:127.0.0.1:62590
+2017-01-03 18:20:55,770 - DEBUG - Factory register: tcp4:127.0.0.1:62590
+2017-01-03 18:20:55,773 - DEBUG - WebSocket connection open.
+2017-01-03 18:21:09,720 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:21:10,088 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","sessionId":"33","token":"009035","tries":1}
+2017-01-03 18:21:10,089 - DEBUG - [POLLING][as_009035_33] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:21:10,089 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "33", "token": "009035", "tries": 1}
+2017-01-03 18:21:10,091 - DEBUG - [POLLING][as_009035_33] Query AirSupport for Terminate (session/status), timespan from start:0.00100016593933
+2017-01-03 18:21:10,092 - DEBUG - payload.decode('utf8'): {"tsew_command":"get_token","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}
+2017-01-03 18:21:10,094 - DEBUG - [POLLING][as_009035_33] Query AirSupport for Terminate (session/status), timespan:0.00400018692017
+2017-01-03 18:21:10,101 - DEBUG - [POLLING][as_009035_33][index:0] Query AirSupport
+2017-01-03 18:21:11,051 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","sessionId":"34","token":"682360","tries":1}
+2017-01-03 18:21:11,052 - DEBUG - response: {"status": "OK", "tsew_command": "get_token", "sessionId": "34", "token": "682360", "tries": 1}
+2017-01-03 18:21:11,052 - DEBUG - [POLLING][as_682360_34] Query AirSupport for Terminate (session/status), index:0
+2017-01-03 18:21:11,055 - DEBUG - [POLLING][as_682360_34] Query AirSupport for Terminate (session/status), timespan from start:0.00200009346008
+2017-01-03 18:21:11,055 - DEBUG - [POLLING][as_682360_34] Query AirSupport for Terminate (session/status), timespan:0.00300002098083
+2017-01-03 18:21:11,058 - DEBUG - [POLLING][as_682360_34][index:0] Query AirSupport
+2017-01-03 18:22:36,252 - DEBUG - [RRRRRRRRRRRR] {"status":"OK","mode":"plus","initArg":{"SN":"","downloadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Download","locale":"EN-US","tempFolder":"C:\\ProgramData\\Trend Micro\\AirSupport","uploadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Upload","version":"6.0.1073"},"cmdStatus":{}}
+2017-01-03 18:22:36,253 - DEBUG - [POLLING][as_682360_34] Query AirSupport done
+2017-01-03 18:22:36,255 - DEBUG - [POLLING][as_682360_34] update tsew time:0.0
+2017-01-03 18:22:36,256 - DEBUG - [POLLING][as_682360_34] Query AirSupport for Terminate (session/status), index:1
+2017-01-03 18:22:36,256 - DEBUG - [POLLING][as_682360_34] Query AirSupport for Terminate (session/status), timespan from start:85.2039999962
+2017-01-03 18:22:36,257 - DEBUG - [POLLING][as_682360_34] Query AirSupport for Terminate (session/status), timespan:85.1989998817
+2017-01-03 18:22:36,260 - DEBUG - [POLLING][as_682360_34][index:1] Query AirSupport
