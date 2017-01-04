@@ -809,3 +809,4 @@
 2017-01-03 18:22:36,256 - DEBUG - [POLLING][as_682360_34] Query AirSupport for Terminate (session/status), timespan from start:85.2039999962
 2017-01-03 18:22:36,257 - DEBUG - [POLLING][as_682360_34] Query AirSupport for Terminate (session/status), timespan:85.1989998817
 2017-01-03 18:22:36,260 - DEBUG - [POLLING][as_682360_34][index:1] Query AirSupport
+2017-01-03 18:25:51,888 - DEBUG - WebSocket connection closed: None

@@ -26,7 +26,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       extract: true
     })
   },
-  plugins: [
+  plugins: [    
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
       'process.env': env
@@ -77,6 +77,11 @@ var webpackConfig = merge(baseWebpackConfig, {
     new webpack.optimize.CommonsChunkPlugin({
       name: 'manifest',
       chunks: ['vendor']
+    }),
+    new webpack.ProvidePlugin({   
+        jQuery: 'jquery',
+        $: 'jquery',
+        jquery: 'jquery'
     })
   ]
 })

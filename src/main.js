@@ -5,8 +5,8 @@ import Vue from 'vue'
 import store from './store'
 import App from './components/App.vue'
 import 'jquery'
-import './css/bootstrap.css'
-import './js/bootstrap.js'
+import 'bootstrap/dist/js/bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 
 /* eslint-disable no-new */
 

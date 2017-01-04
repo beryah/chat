@@ -1,6 +1,5 @@
 <template>
-	<div class="main_container">
-		<button type="button" class="btn btn-primary" @click="get_token">Get TokenID</button>
+	<div class="main_container">		
     	<ChatPanel />
 	</div>
 </template>    

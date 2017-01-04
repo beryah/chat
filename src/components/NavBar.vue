@@ -52,3 +52,8 @@
   </div><!-- /.container-fluid -->
 </nav>
 </template>
+<style>
+  .navbar{
+    margin-left: 220px;
+  }
+</style>
