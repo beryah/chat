@@ -3,16 +3,16 @@
 > test1
 
 ## Enviroment perpare
+
 ``` bash
 # install npm
-yum -y install npm --enablerepo=epel
+yum install npm 
 
 # install webpack
 npm install webpack -g
 ```
 
 ## Build Setup
-
 
 ``` bash
 # install dependencies
@@ -33,5 +33,6 @@ npm run e2e
 # run all tests
 npm test
 ```
+
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
