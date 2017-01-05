@@ -28,6 +28,7 @@ class BroadcastServerProtocol(WebSocketServerProtocol):
     def onMessage(self, payload, isBinary):
         if not isBinary:
             msg = "{} from {}".format(payload.decode('utf8'), self.peer)
+            logger.debug("BroadcastServerProtocol")
             self.factory.broadcast(msg)
     def connectionLost(self, reason):
         WebSocketServerProtocol.connectionLost(self, reason)
@@ -54,15 +55,20 @@ class MyServerProtocol(WebSocketServerProtocol):
             logger.debug("Binary message received: {0} bytes".format(len(payload)))
             self.sendMessage(payload, isBinary)
         else:
-            a = payload.decode('utf8')
-            tsew_command = json.loads(a)
+            decode_payload = payload.decode('utf8')            
             logger.debug("payload.decode('utf8'): {0}".format(payload.decode('utf8')))
-            if tsew_command['tsew_command'] == "get_token":
-                del tsew_command['tsew_command']
-                response = get_token(tsew_command, self)
+            tsew_command = json.loads(decode_payload)
+            if tsew_command['tsew_command'] == "get_token":                
+                r = get_token(tsew_command['content'], self)
+                logger.debug("aaaa reponse {0}".format(r))
+                tsew_command['content'] = r
+                response = tsew_command
                 #response = {'tsew_command':'get_token','status':'ok','token':'99999','clientId':'michaelclient'}
             else:
-                response = {'seq_id':1,'content':'content unknow'}
+                r = command(tsew_command['content'], self)
+                logger.debug("command reponse {0}".format(r))
+                tsew_command['content'] = r
+                response = tsew_command
                 #logger.debug("Text message received: {0}".format(payload.decode('utf8')))
             logger.debug("response: {0}".format(json.dumps(response)))            
             self.sendMessage(json.dumps(response),isBinary)
@@ -79,8 +85,7 @@ def get_token(to_as_data, ws):
     register_url = 'http://{0}/api/as/v2/session/register'.format('10.206.132.8')
     rtext = http_request(register_url, to_as_data, desc = 'get_token')    
     data = json.loads(rtext)        
-    get_token_ready(data, to_as_data['clientId'], to_as_data['supportId'], 'DLS', ws)
-    data['tsew_command'] = 'get_token'
+    get_token_ready(data, to_as_data['clientId'], to_as_data['supportId'], 'DLS', ws)    
     return data
 
 def get_token_ready(data, clientId, supportId, source, ws):
@@ -167,8 +172,10 @@ def polling_as(token_id, session_id, support_id, client_id, source, ws):
         r_desc = key + '][getStatus polling_index:{0}'.format(index)
         rtext = http_request(getStatus_url, to_as, desc=r_desc, slack_notify=False)                
         rdata = json.loads(rtext)
-        rdata['tsew_command'] = 'getStatus'
-        ws.sendMessage(json.dumps(rdata),False)
+        ws_rp = {}
+        ws_rp['content'] = rdata
+        ws_rp['tsew_command'] = 'getStatus'
+        ws.sendMessage(json.dumps(ws_rp),False)
         logger.debug("[POLLING][{0}] Query AirSupport done".format(key))
         if rtext == 'timeout':
             timeout_count += 1
@@ -201,7 +208,17 @@ def http_request(url, to_as, timeout=180, desc='', slack_notify = True):
         else:            
             return 'timeout'
     except Exception:       
-        raise    
+        raise
+
+def command(to_as_data, ws):   
+    to_as = to_as_data
+    key = 'as_' + str(to_as['token']) + '_' + str(to_as['sessionId'])
+    post_url = 'http://{0}/api/as/v2/command/post'.format('10.206.132.8')
+    r_desc ="{0}][command]".format(key)
+    rtext = http_request(post_url, to_as, desc = r_desc)    
+    data = json.loads(rtext)
+    logger.debug('[{1}] command data:{0}'.format(data, key))
+    return rtext
 
 class BroadcastServerFactory(WebSocketServerFactory):
     def __init__(self):

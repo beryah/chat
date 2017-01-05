@@ -1,42 +1,67 @@
 /* eslint-disable */
+import moment from 'moment'
+
 function Session() {
-    this.token = '';
+    this.token = '000000';
     this.sessionId = '';
-    this.status= 'idel';
-    this.clientId= '';
-    this.seq= '';
-    this.version= '';
+    this.connectedStatus = 'idel';
+    this.clientId = '';
+    this.supportId = 'michael_mao@trendmicro.com';
+    this.seq = '';
+    this.version = '';
+    this.connectedStartTime = '';
+    this.messages = [];
+    this.commands = [];
 }
 
 export const state = {
-  supportId: 'michael_mao@trendmicro.com',
-  sessions: [],
+    sessions: []
 }
 
 var firstSession = new Session();
-firstSession.token = '2332232'
 state.sessions.push(firstSession);
 
-var s = new Session();
-s.token = '23322sadads32'
-state.sessions.push(s);
-
 export const mutations = {
-  set_token (state, payload, ) {
-  	state.token = payload.token
-    state.sessionId = payload.sessionId
-  },
-  get_token (state, payload) {
-    var newSession = new Session();
-    newSession.token = '123132'
-    state.sessions.push(newSession);
-  },
-  sendMsg (state, payload){
-  },
-  getStatus (state, payload){
-    
-  },
-  update_connect_status(state, status){
-  	state.status = status
-  },
+    set_token(state, payload) {
+        state.sessions[0].token = payload.token
+        state.sessions[0].sessionId = payload.sessionId
+        state.sessions[0].connectedStatus = 'Waiting for Client Connect'        
+    },
+    get_token(state, payload) {
+        state.sessions[0].connectedStatus = 'Registing token id'
+    },
+    sendMsg(state, payload) {
+        var message = new Message()
+        message.timestamp = ''
+        message.content = payload.content.content.wording
+        state.sessions[0].messages.push(message)
+        state.sessions[0].commands.push(payload)
+    },
+    getStatus(state, payload) {
+        if ('initArg' in payload) {
+            state.sessions[0].connectedStatus = 'Connected'
+            state.sessions[0].version = payload.initArg.version
+            state.sessions[0].connectedStartTime = moment().format('YYYY-MM-DD hh:mm:ss')
+        }
+
+        if ('cmdStatus' in payload) {
+            for (var prop in payload.cmdStatus) {
+                var obj = payload.cmdStatus[prop].content
+                if (obj.hasOwnProperty('wording')) {
+                    var message = new Message()
+                    message.timestamp = payload.cmdStatus[prop].created
+                    message.content = obj.wording
+                    state.sessions[0].messages.push(message)
+                }
+            }
+        }
+    },
+    update_connect_status(state, status) {
+        state.status = status
+    },
+}
+
+function Message() {
+    this.timestamp = '';
+    this.content = ''
 }

@@ -10,7 +10,6 @@
 import NavBar from './NavBar.vue'
 import ChatPanel from './ChatPanel.vue'
 import Foot from './Foot.vue'
-import ChatBox from './ChatBox.vue'
 import LeftNavBar from './LeftNavBar.vue'
 import MainContainer from './MainContainer.vue'
 
@@ -20,8 +19,7 @@ export default {
         LeftNavBar,
         MainContainer,
         ChatPanel,
-        Foot,
-        ChatBox
+        Foot
     }
 }
 </script>

@@ -17,8 +17,7 @@
 export default {
     methods: {
         get_token() {
-            var get_token_payload = {
-                tsew_command: 'get_token',
+            var payload = {                
                 clientId: "user@trend.account.email",
                 supportId: "michael_mao@trendmicro.com",
                 initArg: {
@@ -28,7 +27,7 @@ export default {
                 AirSupportTibcoUrl: "@AirSupportTibcoUrl@",
                 countryCode: "JP"
             }
-            this.$store.commit('get_token', get_token_payload)
+            this.$store.commit('get_token', payload)
         },
     }
 }
