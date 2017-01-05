@@ -36,6 +36,12 @@ export const mutations = {
         message.content = payload.content.content.wording
         state.sessions[0].messages.push(message)
         state.sessions[0].commands.push(payload)
+
+        var m = new Message()
+        m.timestamp = ''
+        m.content = 'Hello, I am Michael and I need help. Could you help me cdoing'
+        m.fromClient = true
+        state.sessions[0].messages.push(m)
     },
     getStatus(state, payload) {
         if ('initArg' in payload) {
@@ -63,5 +69,6 @@ export const mutations = {
 
 function Message() {
     this.timestamp = '';
-    this.content = ''
+    this.content = '';
+    this.fromClient = false;
 }

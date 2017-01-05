@@ -41,46 +41,46 @@ import ChatPanelBody from './ChatPanelBody.vue'
 
 export default {
     data() {
-        return {
-        msg:''
-        }
-    },
-    components: {
-        SessionManager,
-        SessionStatus,
-        ChatPanelBody
-    },
-    methods: {
-        sendMsg() {            
-            var payload = {
-                clientId: this.$store.state.sessions[0].clientId,
-                supportId: this.$store.state.sessions[0].supportId,
-                token: this.$store.state.sessions[0].token,
-                sessionId: this.$store.state.sessions[0].sessionId,
-                seq: this.$store.state.sessions[0].commands.length,
-                content: {
-                    msgId: "50397190",
+            return {
+                msg: ''
+            }
+        },
+        components: {
+            SessionManager,
+            SessionStatus,
+            ChatPanelBody
+        },
+        methods: {
+            sendMsg() {
+                var payload = {
+                    clientId: this.$store.state.sessions[0].clientId,
+                    supportId: this.$store.state.sessions[0].supportId,
+                    token: this.$store.state.sessions[0].token,
+                    sessionId: this.$store.state.sessions[0].sessionId,
+                    seq: this.$store.state.sessions[0].commands.length,
                     content: {
-                        wording: this.msg,
-                        confirmation: "",
+                        msgId: "50397190",
+                        content: {
+                            wording: this.msg,
+                            confirmation: "",
+                        }
                     }
                 }
-            }            
-            this.$store.commit('sendMsg', payload)
-            this.msg = ''
-        }
-    },
-    computed: {
-        sessions() {
-            return this.$store.state.sessions;
+                this.$store.commit('sendMsg', payload)
+                this.msg = ''
+            }
         },
-        getTabCss(index) {
-            if (index == 0)
-                return "active";
-            else
-                return "";
-        }
+        computed: {
+            sessions() {
+                return this.$store.state.sessions;
+            },
+            getTabCss(index) {
+                if (index == 0)
+                    return "active";
+                else
+                    return "";
+            }
 
-    }
+        }
 }
 </script>
