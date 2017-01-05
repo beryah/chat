@@ -2,7 +2,17 @@
 
 > test1
 
+## Enviroment perpare
+``` bash
+# install npm
+yum -y install npm --enablerepo=epel
+
+# install webpack
+npm install webpack -g
+```
+
 ## Build Setup
+
 
 ``` bash
 # install dependencies
