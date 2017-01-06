@@ -64,8 +64,7 @@
   background-color: #2e353d;
   position: fixed;
   top: 0px;
-  width: 22
-  0px;
+  width: 220px;
   height: 100%;
   color: #e1ffff;
 }
