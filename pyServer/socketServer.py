@@ -3,9 +3,8 @@ from twisted.internet import reactor
 from twisted.python import log
 from twisted.web.server import Site
 from twisted.web.static import File
-import requests, json, time, threading, sys, signal, os, logging, logging.handlers, urllib, threading
+import requests, json, time, sys, logging, logging.handlers, threading
 from datetime import datetime
-import json
 from gates import *
 logger = logging.getLogger(__name__)
 logging.basicConfig()

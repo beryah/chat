@@ -10,19 +10,21 @@
 <script>
 export default {
     props: ['session'],
-    computed:{
-        getStatusStyle(){
-            switch (this.session.connectedStatus){
+    computed: {
+        getStatusStyle() {
+            switch (this.session.connectedStatus) {
                 case 'Connected':
                     return "well green"
                     break;
                 case 'Registing token id':
-                    return "well red";
-                    break;
+                case 'Waiting for Client Connect':
+                    return "well red";                    
+                case 'Connected':
+                	return 'well green'
                 default:
                     return 'well'
             }
-                
+
         }
     }
 }
@@ -31,7 +33,11 @@ export default {
 .sessionStatusMain {
     margin-left: 20px;
 }
-.red{
-    color:red;
+
+.red {
+    color: red;
+}
+.green{
+	color: #5cb85c;
 }
 </style>

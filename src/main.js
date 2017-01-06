@@ -7,6 +7,7 @@ import App from './components/App.vue'
 import 'jquery'
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import moment from 'moment'
 
 /* eslint-disable no-new */
 

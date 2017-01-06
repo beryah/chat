@@ -15,7 +15,12 @@
                         <SessionStatus :session="session" />
                     </div>
                     <ChatPanelBody :messages="session.messages" />
-                    <div class="panel-footer">
+                    <div class="panel-footer pf">
+                        <button class="btn btn-success" type="button" @click='capture'>
+                            <span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Capture
+                        </button>
+                    </div>
+                    <div class="panel-footer pf">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Write you message here..." v-model="msg">
                             <span class="input-group-btn">
@@ -32,6 +37,10 @@
 <style>
 .panel-body {
     height: 200px;
+}
+
+.pf {
+    width: 60%;
 }
 </style>
 <script>
@@ -57,7 +66,7 @@ export default {
                     supportId: this.$store.state.sessions[0].supportId,
                     token: this.$store.state.sessions[0].token,
                     sessionId: this.$store.state.sessions[0].sessionId,
-                    seq: this.$store.state.sessions[0].commands.length,
+                    seq: this.$store.state.sessions[0].currentCommandSeq,
                     content: {
                         msgId: "50397190",
                         content: {
@@ -68,7 +77,8 @@ export default {
                 }
                 this.$store.commit('sendMsg', payload)
                 this.msg = ''
-            }
+            },
+            capture() {},
         },
         computed: {
             sessions() {
