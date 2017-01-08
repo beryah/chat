@@ -3,8 +3,9 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import { state, mutations } from './mutations'
 import plugins from './plugins'
+import config from '../../config'
 
-var ws = new WebSocket('ws://localhost:9010');
+var ws = new WebSocket(process.env.WEBSOCKET);
 
 Vue.use(Vuex)
 
