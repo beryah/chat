@@ -22,7 +22,7 @@
                     </div>
                     <div class="panel-footer pf">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Write you message here..." v-model="msg">
+                            <textarea @keyup.enter="sendMsg($event)" class="form-control" rows="5" placeholder="Write you message here..." v-model="msg" />
                             <span class="input-group-btn">
                                 <button class="btn btn-success" type="button" @click='sendMsg'>Send</button>
                             </span>
@@ -60,7 +60,10 @@ export default {
             ChatPanelBody
         },
         methods: {
-            sendMsg() {
+            sendMsg(e) {
+                if (e.shiftKey){
+                    return;
+                }
                 var payload = {
                     clientId: this.$store.state.sessions[0].clientId,
                     supportId: this.$store.state.sessions[0].supportId,
