@@ -13,7 +13,7 @@ export default function createWebSocketPlugin(ws) {
             console.log('from socket server')
             console.log(e.data)
             var data = JSON.parse(e.data);
-            switch (data.tsew_command) {
+            switch (data.command) {
                 case 'get_token':
                     store.commit('set_token', data.content);
                     break;
@@ -27,7 +27,7 @@ export default function createWebSocketPlugin(ws) {
             switch (mutation.type) {
                 case 'get_token':
                     var ws_payload = {
-                        tsew_command: "get_token",
+                        command: "get_token",
                         content: mutation.payload
                     }                
                     console.log('to socket server')    
@@ -36,7 +36,7 @@ export default function createWebSocketPlugin(ws) {
                     break;
                 case 'sendMsg':                  
                     var ws_payload = {
-                        tsew_command: "command",
+                        command: "command",
                         content: mutation.payload
                     }
                     console.log('to socket server')

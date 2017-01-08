@@ -56,7 +56,7 @@ class MyServerProtocol(WebSocketServerProtocol):
         else:
             logger.debug("payload.decode('utf8'): {0}".format(payload.decode('utf8')))
             payload_obj = json.loads(payload.decode('utf8'))
-            command, content = payload_obj['tsew_command'], payload_obj['content']
+            command, content = payload_obj['command'], payload_obj['content']
 
             if command == "get_token":
                 command_rep = tsew.register(content, self)
@@ -66,7 +66,7 @@ class MyServerProtocol(WebSocketServerProtocol):
                 command_rep = tsew.terminate(content, self)
 
             response = {}
-            response['tsew_command'] = command
+            response['command'] = command
             response['content'] = command_rep
             logger.debug("response: {0}".format(json.dumps(response)))
             self.sendMessage(json.dumps(response), isBinary)
