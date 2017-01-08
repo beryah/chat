@@ -1,8 +1,6 @@
-# t1
+vue-vuex-webpack-websocket POC
 
-> test1
-
-## Enviroment perpare
+## Enviroment Prepare
 
 ``` bash
 # install npm
