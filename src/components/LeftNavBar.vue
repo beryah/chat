@@ -10,6 +10,11 @@
                   <i class="fa fa-dashboard fa-lg"></i> Dashboard
                   </a>
                 </li>
+                <li @click="openQCenter">
+                  <a href="#">
+                    <i class="fa fa-dashboard fa-lg"></i> Queue Center
+                  </a>
+                </li>
                 <li  data-toggle="collapse" data-target="#products" class="collapsed active">
                   <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
                 </li>
@@ -53,9 +58,38 @@
                 </li>
             </ul>
      </div>
+
+    <div class="m">
+           <QCase />
+    </div>
 </div>
 </template>
+<script>
+import QCase from './QCase'
+export default{
+  data(){
+    return{
+      isQopen:　false
+    }
+  },
+  components: {
+    QCase
+  },
+  methods:{
+    openQCenter(){
+      
+    }
+  }
+}
+</script>
 <style>
+.m{
+  width: 50%;
+  height: 50%; 
+  position: fixed;
+  border:5px solid #ff00ff;
+  z-index: 9999
+}
 .nav-side-menu {
   overflow: auto;
   font-family: verdana;

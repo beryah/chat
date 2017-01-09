@@ -15,28 +15,43 @@ export default function createWebSocketPlugin(ws) {
             var data = JSON.parse(e.data);
             switch (data.command) {
                 case 'get_token':
-                    store.commit('set_token', data.content);
+                    store.commit('setToken', data.content);
                     break;
                 case 'getStatus':
                     store.commit('getStatus', data.content);
                     break;
+                case 'terminate':
+                    store.commit('setTerminate', data.content);
+                    break;
+                case 'newCase':
+                    store.commit('setNewCase', data.content);
+                    break;    
             }
         }
 
-        store.subscribe(mutation => {            
+        store.subscribe(mutation => {
             switch (mutation.type) {
-                case 'get_token':
+                case 'getToken':
                     var ws_payload = {
                         command: "get_token",
                         content: mutation.payload
-                    }                
-                    console.log('to socket server')    
+                    }
+                    console.log('to socket server')
                     console.log(JSON.stringify(ws_payload))
                     ws.send(JSON.stringify(ws_payload))
                     break;
-                case 'sendMsg':                  
+                case 'sendMsg':
                     var ws_payload = {
                         command: "command",
+                        content: mutation.payload
+                    }
+                    console.log('to socket server')
+                    console.log(JSON.stringify(ws_payload))
+                    ws.send(JSON.stringify(ws_payload))
+                    break;
+                case 'terminate':
+                    var ws_payload = {
+                        command: "terminate",
                         content: mutation.payload
                     }
                     console.log('to socket server')

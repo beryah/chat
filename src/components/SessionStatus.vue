@@ -18,6 +18,7 @@ export default {
                     break;
                 case 'Registing token id':
                 case 'Waiting for Client Connect':
+                case 'Disconnected':
                     return "well red";                    
                 case 'Connected':
                 	return 'well green'

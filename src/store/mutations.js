@@ -5,10 +5,11 @@ function Session() {
     this.token = '000000';
     this.sessionId = '';
     this.connectedStatus = 'idel';
-    this.clientId = '';
+    this.clientId = 'user@trend.account.email';
     this.supportId = 'michael_mao@trendmicro.com';
     this.seq = '';
     this.version = '';
+    this.source = 'DLS'
     this.connectedStartTime = '';
     this.messages = [];
     this.commands = {};
@@ -16,21 +17,32 @@ function Session() {
 }
 
 export const state = {
-    sessions: []
+    sessions: [],
+    qcases: []
 }
 
 var firstSession = new Session();
 state.sessions.push(firstSession);
 
 export const mutations = {
-    set_token(state, payload) {
+    getToken(state, payload) {
+        state.sessions[0].connectedStatus = 'Registing token id'
+    },
+    setToken(state, payload) {
         state.sessions[0].token = payload.token
         state.sessions[0].sessionId = payload.sessionId
         state.sessions[0].connectedStatus = 'Waiting for Client Connect'
     },
-    get_token(state, payload) {
-        state.sessions[0].connectedStatus = 'Registing token id'
+    setTerminate(state, payload) {
+        if (payload.status == "OK") {
+            state.sessions[0].connectedStatus = 'Disconnected'
+        }else{
+            alert('terminate fail')
+            console.log(payload)
+        }
     },
+    terminate(state, payload){
+    },    
     sendMsg(state, payload) {
         var message = new Message()
         var now = new Date()
@@ -84,6 +96,9 @@ export const mutations = {
                 }
             }
         }
+    },   
+    setNewCase(state, payload){
+        state.qcases.push(payload.tuka[0])
     },
     update_connect_status(state, status) {
         state.status = status
