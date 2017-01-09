@@ -5,7 +5,7 @@
             	<span class="clientTime">{{ message.formatedTime }}</span>            	
             	<span class="glyphicon glyphicon-user clientAvatar"></span>
             	<strong>
-            		<p class="msgClient">{{ message.content }}</p>
+            		<p class="msgClient" v-html="message.content"></p>
             	</strong>
             </span>
             <span v-else>
@@ -13,7 +13,7 @@
             	</span> 
             	<span class="time">{{ message.formatedTime }}</span>
             	<strong>
-            		<p v-bind:class="{msgSupport:true, notArrived: !message.arrived}">{{ message.content }}</p>
+            		<p v-bind:class="{msgSupport:true, notArrived: !message.arrived}" v-html="message.content"></p>
             	</strong>
             </span>            
         </p>
