@@ -1,12 +1,10 @@
 from autobahn.twisted.websocket import WebSocketServerProtocol, WebSocketServerFactory, listenWS
 from twisted.internet import reactor
-import requests
 import json
-import time
 import sys
+import threading
 import logging
 import logging.handlers
-import threading
 import tsew
 from datetime import datetime
 from gates import *
@@ -20,6 +18,7 @@ handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)
 consoleHandler = logging.StreamHandler()
 consoleHandler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 logger.addHandler(handler)
+stop_get_new_case = True
 
 
 class BroadcastServerProtocol(WebSocketServerProtocol):
@@ -81,9 +80,10 @@ class MyServerProtocol(WebSocketServerProtocol):
 
 class BroadcastServerFactory(WebSocketServerFactory):
 
-    def __init__(self):
+    def __init__(self):        
         WebSocketServerFactory.__init__(self)
         self.clients = []
+        threading.Thread(target=tsew.get_new_case, args=(self,)).start()
 
     def register(self, client):
         if client not in self.clients:
@@ -102,8 +102,10 @@ class BroadcastServerFactory(WebSocketServerFactory):
             c.sendPreparedMessage(preparedMsg)
             print("prepared message sent to {}".format(c.peer))
 
+    def stop_get_new_case(self):
+        return stop_get_new_case
+
 if __name__ == '__main__':
-    import sys
     from twisted.internet import reactor
     factory = BroadcastServerFactory()
     factory.protocol = MyServerProtocol
@@ -113,4 +115,5 @@ if __name__ == '__main__':
     try:
         reactor.run()
     finally:
+        stop_get_new_case = False
         c.stopListening()
