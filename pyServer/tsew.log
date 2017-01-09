@@ -5174,3 +5174,4 @@
 2017-01-06 17:59:02,677 - DEBUG - Client connecting: tcp4:127.0.0.1:50717
 2017-01-06 17:59:02,677 - DEBUG - Factory register: tcp4:127.0.0.1:50717
 2017-01-06 17:59:02,678 - DEBUG - WebSocket connection open.
+2017-01-09 10:51:06,923 - DEBUG - WebSocket connection closed: None

@@ -21,12 +21,7 @@
                         </button>
                     </div>
                     <div class="panel-footer pf">
-                        <div class="input-group">
-                            <textarea @keyup.enter="sendMsg($event)" class="form-control" rows="5" placeholder="Write you message here..." v-model="msg" />
-                            <span class="input-group-btn">
-                                <button class="btn btn-success" type="button" @click='sendMsg'>Send</button>
-                            </span>
-                        </div>
+                        <textarea @keyup.enter="sendMsg($event)" class="form-control" rows="5" placeholder="Write you message here..." v-model="msg" />
                         <!-- /input-group -->
                     </div>
                 </div>
@@ -61,7 +56,7 @@ export default {
         },
         methods: {
             sendMsg(e) {
-                if (e.shiftKey){
+                if (e.shiftKey) {
                     return;
                 }
                 var payload = {
