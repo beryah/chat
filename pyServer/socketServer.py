@@ -62,7 +62,7 @@ class MyServerProtocol(WebSocketServerProtocol):
                 command_rep = tsew.register(content, self)
             elif command == "command":
                 command_rep = tsew.command(content, self)
-            elif command = "terminate"
+            elif command == "terminate":
                 command_rep = tsew.terminate(content, self)
 
             response = {}
