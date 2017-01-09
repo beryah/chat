@@ -3,5 +3,5 @@ var prodEnv = require('./prod.env')
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
-  WEBSOCKET: '"ws://localhost:9013"'
+  WEBSOCKET: '"ws://localhost:9010"'
 })
