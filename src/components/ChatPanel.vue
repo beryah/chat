@@ -30,10 +30,6 @@
     </div>
 </template>
 <style>
-.panel-body {
-    height: 200px;
-}
-
 .pf {
     width: 60%;
 }

@@ -208,14 +208,14 @@ def get_new_case(ws):
     while (ws.stop_get_new_case()):
         url = 'http://{0}/api/as/v2/command/fetchTukas'.format('10.206.132.8')
         from_as = json.loads(http_request(url, None))
-
+        print 'grab case polling'
         if from_as['tuka'] is not None and len(from_as['tuka']) > 0:
             payload = {}
             payload['command'] = 'newCase'
             payload['content'] = from_as
             ws.broadcast(json.dumps(payload))
 
-        time.sleep(5)
+        time.sleep(1)
 
 
 def getKey(token, sessionId):

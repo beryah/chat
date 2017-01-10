@@ -5176,3 +5176,1583 @@
 2017-01-06 17:59:02,678 - DEBUG - WebSocket connection open.
 2017-01-09 10:51:06,923 - DEBUG - WebSocket connection closed: None
 2017-01-09 10:54:14,427 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 10:56:13,065 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 10:56:48,892 - DEBUG - Client connecting: tcp4:127.0.0.1:52437
+2017-01-09 10:56:48,894 - DEBUG - Factory register: tcp4:127.0.0.1:52437
+2017-01-09 10:56:48,895 - DEBUG - WebSocket connection open.
+2017-01-09 10:56:50,404 - DEBUG - Client connecting: tcp4:127.0.0.1:52446
+2017-01-09 10:56:50,453 - DEBUG - Factory register: tcp4:127.0.0.1:52446
+2017-01-09 10:56:50,457 - DEBUG - WebSocket connection open.
+2017-01-09 10:56:54,187 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 10:56:55,365 - DEBUG - response: {"content": {"status": "OK", "sessionId": "177", "token": "577595", "tries": 1}, "command": "get_token"}
+2017-01-09 10:56:55,365 - DEBUG - [POLLING][as_577595_177] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 10:56:55,392 - DEBUG - [POLLING][as_577595_177] Query AirSupport for Terminate (session/status), timespan from start:0.0279998779297
+2017-01-09 10:56:55,398 - DEBUG - [POLLING][as_577595_177] Query AirSupport for Terminate (session/status), timespan:0.0329999923706
+2017-01-09 10:56:55,398 - DEBUG - [POLLING][as_577595_177][index:0] Query AirSupport
+2017-01-09 10:57:02,744 - DEBUG - [POLLING][as_577595_177] Query AirSupport done
+2017-01-09 10:57:02,746 - DEBUG - [POLLING][as_577595_177] update tsew time:0.0
+2017-01-09 10:57:02,746 - DEBUG - [POLLING][as_577595_177] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 10:57:02,746 - DEBUG - [POLLING][as_577595_177] Query AirSupport for Terminate (session/status), timespan from start:7.38199996948
+2017-01-09 10:57:02,746 - DEBUG - [POLLING][as_577595_177] Query AirSupport for Terminate (session/status), timespan:7.34699988365
+2017-01-09 10:57:02,747 - DEBUG - [POLLING][as_577595_177][index:1] Query AirSupport
+2017-01-09 10:58:49,000 - DEBUG - WebSocket connection closed: None
+2017-01-09 10:58:49,012 - DEBUG - WebSocket connection closed: None
+2017-01-09 10:58:50,539 - DEBUG - Client connecting: tcp4:127.0.0.1:52513
+2017-01-09 10:58:50,540 - DEBUG - Factory register: tcp4:127.0.0.1:52513
+2017-01-09 10:58:50,542 - DEBUG - WebSocket connection open.
+2017-01-09 10:58:50,650 - DEBUG - Client connecting: tcp4:127.0.0.1:52516
+2017-01-09 10:58:50,651 - DEBUG - Factory register: tcp4:127.0.0.1:52516
+2017-01-09 10:58:50,651 - DEBUG - WebSocket connection open.
+2017-01-09 10:58:56,196 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 10:58:57,276 - DEBUG - [POLLING][as_247990_179] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 10:58:57,276 - DEBUG - response: {"content": {"status": "OK", "sessionId": "179", "token": "247990", "tries": 1}, "command": "get_token"}
+2017-01-09 10:58:57,278 - DEBUG - [POLLING][as_247990_179] Query AirSupport for Terminate (session/status), timespan from start:0.00200009346008
+2017-01-09 10:58:57,279 - DEBUG - [POLLING][as_247990_179] Query AirSupport for Terminate (session/status), timespan:0.00399994850159
+2017-01-09 10:58:57,280 - DEBUG - [POLLING][as_247990_179][index:0] Query AirSupport
+2017-01-09 10:59:05,255 - DEBUG - [POLLING][as_247990_179] Query AirSupport done
+2017-01-09 10:59:05,256 - DEBUG - [POLLING][as_247990_179] update tsew time:0.0
+2017-01-09 10:59:05,256 - DEBUG - [POLLING][as_247990_179] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 10:59:05,257 - DEBUG - [POLLING][as_247990_179] Query AirSupport for Terminate (session/status), timespan from start:7.98199987411
+2017-01-09 10:59:05,259 - DEBUG - [POLLING][as_247990_179] Query AirSupport for Terminate (session/status), timespan:7.97099995613
+2017-01-09 10:59:05,260 - DEBUG - [POLLING][as_247990_179][index:1] Query AirSupport
+2017-01-09 11:00:23,473 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:00:24,221 - DEBUG - response: {"content": {"status": "OK", "sessionId": "180", "token": "503422", "tries": 1}, "command": "get_token"}
+2017-01-09 11:00:24,223 - DEBUG - [POLLING][as_503422_180] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:00:24,236 - DEBUG - [POLLING][as_503422_180] Query AirSupport for Terminate (session/status), timespan from start:0.0140001773834
+2017-01-09 11:00:24,236 - DEBUG - [POLLING][as_503422_180] Query AirSupport for Terminate (session/status), timespan:0.0140001773834
+2017-01-09 11:00:24,236 - DEBUG - [POLLING][as_503422_180][index:0] Query AirSupport
+2017-01-09 11:00:38,250 - DEBUG - [POLLING][as_503422_180] Query AirSupport done
+2017-01-09 11:00:38,250 - DEBUG - [POLLING][as_503422_180] update tsew time:0.0
+2017-01-09 11:00:38,250 - DEBUG - [POLLING][as_503422_180] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 11:00:38,252 - DEBUG - [POLLING][as_503422_180] Query AirSupport for Terminate (session/status), timespan from start:14.0300002098
+2017-01-09 11:00:38,253 - DEBUG - [POLLING][as_503422_180] Query AirSupport for Terminate (session/status), timespan:14.0160000324
+2017-01-09 11:00:38,253 - DEBUG - [POLLING][as_503422_180][index:1] Query AirSupport
+2017-01-09 11:00:47,720 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 11:00:47,721 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 11:03:02,796 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 11:03:07,311 - DEBUG - Client connecting: tcp4:127.0.0.1:52644
+2017-01-09 11:03:07,312 - DEBUG - Factory register: tcp4:127.0.0.1:52644
+2017-01-09 11:03:07,313 - DEBUG - WebSocket connection open.
+2017-01-09 11:03:08,269 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:03:09,315 - DEBUG - response: {"content": {"status": "OK", "sessionId": "181", "token": "692884", "tries": 1}, "command": "get_token"}
+2017-01-09 11:03:09,315 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:03:09,319 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:0.00399994850159
+2017-01-09 11:03:09,325 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:0.00999999046326
+2017-01-09 11:03:09,328 - DEBUG - [POLLING][as_692884_181][index:0] Query AirSupport
+2017-01-09 11:03:15,382 - DEBUG - [POLLING][as_692884_181] Query AirSupport done
+2017-01-09 11:03:15,384 - DEBUG - [POLLING][as_692884_181] update tsew time:0.0
+2017-01-09 11:03:15,385 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 11:03:15,387 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:6.0720000267
+2017-01-09 11:03:15,388 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:6.04999995232
+2017-01-09 11:03:15,391 - DEBUG - [POLLING][as_692884_181][index:1] Query AirSupport
+2017-01-09 11:03:20,191 - DEBUG - [POLLING][as_692884_181] Query AirSupport done
+2017-01-09 11:03:20,197 - DEBUG - [POLLING][as_692884_181] update tsew time:0.0
+2017-01-09 11:03:20,206 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 11:03:20,207 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:10.8919999599
+2017-01-09 11:03:20,207 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:4.81599998474
+2017-01-09 11:03:20,209 - DEBUG - [POLLING][as_692884_181][index:2] Query AirSupport
+2017-01-09 11:03:21,887 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"692884","sessionId":"181","seq":0,"content":{"msgId":"50397190","content":{"wording":"2\n","confirmation":""}},"status":false}}
+2017-01-09 11:03:23,147 - DEBUG - [as_692884_181] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030353Z&X-Amz-Expires=86400&X-Amz-Signature=e698352ddabcd9364c1c20b9e44dff839859238fd8a3d5762fae8b74af74bfaa&X-Amz-SignedHeaders=host'}
+2017-01-09 11:03:23,150 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030353Z&X-Amz-Expires=86400&X-Amz-Signature=e698352ddabcd9364c1c20b9e44dff839859238fd8a3d5762fae8b74af74bfaa&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:03:24,163 - DEBUG - [POLLING][as_692884_181] Query AirSupport done
+2017-01-09 11:03:24,164 - DEBUG - [POLLING][as_692884_181] update tsew time:0.0
+2017-01-09 11:03:24,165 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 11:03:24,167 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:14.8519999981
+2017-01-09 11:03:24,168 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:3.95899987221
+2017-01-09 11:03:24,171 - DEBUG - [POLLING][as_692884_181][index:3] Query AirSupport
+2017-01-09 11:03:26,415 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"692884","sessionId":"181","seq":1,"content":{"msgId":"50397190","content":{"wording":"asd\nasd\n","confirmation":""}},"status":false}}
+2017-01-09 11:03:27,193 - DEBUG - [as_692884_181] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030357Z&X-Amz-Expires=86400&X-Amz-Signature=a8387d96fedd1679c029ab286c051e3236c7193f8ca8ae5b8d74cc621397cc37&X-Amz-SignedHeaders=host'}
+2017-01-09 11:03:27,196 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030357Z&X-Amz-Expires=86400&X-Amz-Signature=a8387d96fedd1679c029ab286c051e3236c7193f8ca8ae5b8d74cc621397cc37&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:03:28,190 - DEBUG - [POLLING][as_692884_181] Query AirSupport done
+2017-01-09 11:03:28,191 - DEBUG - [POLLING][as_692884_181] update tsew time:0.0
+2017-01-09 11:03:28,194 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:4
+2017-01-09 11:03:28,197 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:18.882999897
+2017-01-09 11:03:28,197 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:4.02600002289
+2017-01-09 11:03:28,198 - DEBUG - [POLLING][as_692884_181][index:4] Query AirSupport
+2017-01-09 11:03:29,269 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"692884","sessionId":"181","seq":2,"content":{"msgId":"50397190","content":{"wording":"asd\n","confirmation":""}},"status":false}}
+2017-01-09 11:03:30,216 - DEBUG - [as_692884_181] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030400Z&X-Amz-Expires=86400&X-Amz-Signature=0992ee0f9387540c471faa8b9d929b0d033090de5321067f06569d47b5aeeb74&X-Amz-SignedHeaders=host'}
+2017-01-09 11:03:30,217 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030400Z&X-Amz-Expires=86400&X-Amz-Signature=0992ee0f9387540c471faa8b9d929b0d033090de5321067f06569d47b5aeeb74&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:03:31,309 - DEBUG - [POLLING][as_692884_181] Query AirSupport done
+2017-01-09 11:03:31,311 - DEBUG - [POLLING][as_692884_181] update tsew time:0.0
+2017-01-09 11:03:31,312 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:5
+2017-01-09 11:03:31,312 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:21.9979999065
+2017-01-09 11:03:31,313 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:3.11299991608
+2017-01-09 11:03:31,315 - DEBUG - [POLLING][as_692884_181][index:5] Query AirSupport
+2017-01-09 11:03:33,828 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"692884","sessionId":"181","seq":3,"content":{"msgId":"50397190","content":{"wording":"asdasd\n","confirmation":""}},"status":false}}
+2017-01-09 11:03:35,240 - DEBUG - [as_692884_181] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030405Z&X-Amz-Expires=86400&X-Amz-Signature=f8391bd8dd8618fa4f9071bf11fe3d0f4580ee0f3914f5fb38e6dd1ff785c9fd&X-Amz-SignedHeaders=host'}
+2017-01-09 11:03:35,243 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030405Z&X-Amz-Expires=86400&X-Amz-Signature=f8391bd8dd8618fa4f9071bf11fe3d0f4580ee0f3914f5fb38e6dd1ff785c9fd&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:03:36,256 - DEBUG - [POLLING][as_692884_181] Query AirSupport done
+2017-01-09 11:03:36,259 - DEBUG - [POLLING][as_692884_181] update tsew time:0.0
+2017-01-09 11:03:36,259 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:6
+2017-01-09 11:03:36,260 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:26.9459998608
+2017-01-09 11:03:36,263 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:4.9470000267
+2017-01-09 11:03:36,265 - DEBUG - [POLLING][as_692884_181][index:6] Query AirSupport
+2017-01-09 11:03:38,190 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"692884","sessionId":"181","seq":4,"content":{"msgId":"50397190","content":{"wording":"asdsad\n","confirmation":""}},"status":false}}
+2017-01-09 11:03:39,154 - DEBUG - [as_692884_181] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030409Z&X-Amz-Expires=86400&X-Amz-Signature=7ce44188940ce83b9ce30dd69046b1a5fb1833324f84da1582e70eb1e23f9d13&X-Amz-SignedHeaders=host'}
+2017-01-09 11:03:39,157 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030409Z&X-Amz-Expires=86400&X-Amz-Signature=7ce44188940ce83b9ce30dd69046b1a5fb1833324f84da1582e70eb1e23f9d13&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:03:40,131 - DEBUG - [POLLING][as_692884_181] Query AirSupport done
+2017-01-09 11:03:40,135 - DEBUG - [POLLING][as_692884_181] update tsew time:0.0
+2017-01-09 11:03:40,138 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:7
+2017-01-09 11:03:40,141 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:30.8259999752
+2017-01-09 11:03:40,142 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:3.87699985504
+2017-01-09 11:03:40,144 - DEBUG - [POLLING][as_692884_181][index:7] Query AirSupport
+2017-01-09 11:03:43,605 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"692884","sessionId":"181","seq":5,"content":{"msgId":"50397190","content":{"wording":"sad\n","confirmation":""}},"status":false}}
+2017-01-09 11:03:44,128 - DEBUG - [as_692884_181] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030415Z&X-Amz-Expires=86400&X-Amz-Signature=578386a735df6cf214643b7933762a233532e51e381695c36bd8dd4e17c7efd6&X-Amz-SignedHeaders=host'}
+2017-01-09 11:03:44,131 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/181-5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T030415Z&X-Amz-Expires=86400&X-Amz-Signature=578386a735df6cf214643b7933762a233532e51e381695c36bd8dd4e17c7efd6&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:03:45,881 - DEBUG - [POLLING][as_692884_181] Query AirSupport done
+2017-01-09 11:03:45,882 - DEBUG - [POLLING][as_692884_181] update tsew time:0.0
+2017-01-09 11:03:45,884 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), index:8
+2017-01-09 11:03:45,884 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan from start:36.5699999332
+2017-01-09 11:03:45,885 - DEBUG - [POLLING][as_692884_181] Query AirSupport for Terminate (session/status), timespan:5.74000000954
+2017-01-09 11:03:45,888 - DEBUG - [POLLING][as_692884_181][index:8] Query AirSupport
+2017-01-09 11:09:24,345 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 11:09:27,782 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 11:09:34,174 - DEBUG - Client connecting: tcp4:127.0.0.1:52817
+2017-01-09 11:09:34,176 - DEBUG - Factory register: tcp4:127.0.0.1:52817
+2017-01-09 11:09:34,176 - DEBUG - WebSocket connection open.
+2017-01-09 11:09:34,796 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:09:36,108 - DEBUG - response <Response [200]>
+2017-01-09 11:09:36,109 - DEBUG - response: {"content": {"status": "OK", "sessionId": "182", "token": "889853", "tries": 1}, "command": "get_token"}
+2017-01-09 11:09:36,109 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:09:36,114 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:0.00300002098083
+2017-01-09 11:09:36,115 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:0.00500011444092
+2017-01-09 11:09:36,118 - DEBUG - [POLLING][as_889853_182][index:0] Query AirSupport
+2017-01-09 11:10:00,345 - DEBUG - response <Response [200]>
+2017-01-09 11:10:00,345 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:10:00,346 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:10:00,348 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 11:10:00,349 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:24.2400000095
+2017-01-09 11:10:00,351 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:24.231000185
+2017-01-09 11:10:00,351 - DEBUG - [POLLING][as_889853_182][index:1] Query AirSupport
+2017-01-09 11:10:13,970 - DEBUG - response <Response [200]>
+2017-01-09 11:10:13,973 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:10:13,973 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:10:13,976 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 11:10:13,977 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:37.8680000305
+2017-01-09 11:10:13,980 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:13.6270000935
+2017-01-09 11:10:13,982 - DEBUG - [POLLING][as_889853_182][index:2] Query AirSupport
+2017-01-09 11:10:17,953 - DEBUG - response <Response [200]>
+2017-01-09 11:10:17,954 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:10:17,956 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:10:17,957 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 11:10:17,959 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:41.8490002155
+2017-01-09 11:10:17,960 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:3.97799992561
+2017-01-09 11:10:17,961 - DEBUG - [POLLING][as_889853_182][index:3] Query AirSupport
+2017-01-09 11:10:37,927 - DEBUG - response <Response [200]>
+2017-01-09 11:10:37,928 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:10:37,930 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:10:37,931 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:4
+2017-01-09 11:10:37,934 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:61.8240001202
+2017-01-09 11:10:37,934 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:19.9719998837
+2017-01-09 11:10:37,937 - DEBUG - [POLLING][as_889853_182][index:4] Query AirSupport
+2017-01-09 11:10:44,115 - DEBUG - response <Response [200]>
+2017-01-09 11:10:44,125 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:10:44,125 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:10:44,127 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:5
+2017-01-09 11:10:44,128 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:68.0190000534
+2017-01-09 11:10:44,131 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:6.1930000782
+2017-01-09 11:10:44,132 - DEBUG - [POLLING][as_889853_182][index:5] Query AirSupport
+2017-01-09 11:12:13,293 - DEBUG - response <Response [200]>
+2017-01-09 11:12:13,296 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:12:13,298 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:12:13,298 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:6
+2017-01-09 11:12:13,299 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:157.18900013
+2017-01-09 11:12:13,299 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:89.1659998894
+2017-01-09 11:12:13,301 - DEBUG - [POLLING][as_889853_182][index:6] Query AirSupport
+2017-01-09 11:12:40,094 - DEBUG - response <Response [200]>
+2017-01-09 11:12:40,101 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:12:40,104 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:12:40,107 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:7
+2017-01-09 11:12:40,108 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:183.999000072
+2017-01-09 11:12:40,109 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:26.8059999943
+2017-01-09 11:12:40,111 - DEBUG - [POLLING][as_889853_182][index:7] Query AirSupport
+2017-01-09 11:12:46,757 - DEBUG - response <Response [200]>
+2017-01-09 11:12:46,759 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:12:46,759 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:12:46,759 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:8
+2017-01-09 11:12:46,760 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:190.651000023
+2017-01-09 11:12:46,762 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:6.65000009537
+2017-01-09 11:12:46,763 - DEBUG - [POLLING][as_889853_182][index:8] Query AirSupport
+2017-01-09 11:12:53,828 - DEBUG - response <Response [200]>
+2017-01-09 11:12:53,831 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:12:53,832 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:12:53,835 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:9
+2017-01-09 11:12:53,835 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:197.726000071
+2017-01-09 11:12:53,838 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:7.07400012016
+2017-01-09 11:12:53,839 - DEBUG - [POLLING][as_889853_182][index:9] Query AirSupport
+2017-01-09 11:13:13,160 - DEBUG - response <Response [200]>
+2017-01-09 11:13:13,161 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:13:13,163 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:13:13,164 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:10
+2017-01-09 11:13:13,165 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:217.055999994
+2017-01-09 11:13:13,167 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:19.3259999752
+2017-01-09 11:13:13,168 - DEBUG - [POLLING][as_889853_182][index:10] Query AirSupport
+2017-01-09 11:13:38,322 - DEBUG - response <Response [200]>
+2017-01-09 11:13:38,325 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:13:38,325 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:13:38,325 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:11
+2017-01-09 11:13:38,326 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:242.217000008
+2017-01-09 11:13:38,328 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:25.1579999924
+2017-01-09 11:13:38,328 - DEBUG - [POLLING][as_889853_182][index:11] Query AirSupport
+2017-01-09 11:14:38,117 - DEBUG - response <Response [200]>
+2017-01-09 11:14:38,118 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:14:38,121 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:14:38,121 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:12
+2017-01-09 11:14:38,121 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:302.012000084
+2017-01-09 11:14:38,121 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:59.7929999828
+2017-01-09 11:14:38,122 - DEBUG - [POLLING][as_889853_182][index:12] Query AirSupport
+2017-01-09 11:14:52,809 - DEBUG - response <Response [200]>
+2017-01-09 11:14:52,812 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:14:52,812 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:14:52,812 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:13
+2017-01-09 11:14:52,815 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:316.705000162
+2017-01-09 11:14:52,815 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:14.6930000782
+2017-01-09 11:14:52,819 - DEBUG - [POLLING][as_889853_182][index:13] Query AirSupport
+2017-01-09 11:15:21,387 - DEBUG - response <Response [200]>
+2017-01-09 11:15:21,391 - DEBUG - [POLLING][as_889853_182] Query AirSupport done
+2017-01-09 11:15:21,391 - DEBUG - [POLLING][as_889853_182] update tsew time:0.0
+2017-01-09 11:15:21,392 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), index:14
+2017-01-09 11:15:21,394 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan from start:345.284000158
+2017-01-09 11:15:21,394 - DEBUG - [POLLING][as_889853_182] Query AirSupport for Terminate (session/status), timespan:28.5740001202
+2017-01-09 11:15:21,394 - DEBUG - [POLLING][as_889853_182][index:14] Query AirSupport
+2017-01-09 11:18:39,645 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:18:40,127 - DEBUG - response <Response [200]>
+2017-01-09 11:18:40,130 - DEBUG - response: {"content": {"status": "OK", "sessionId": "183", "token": "657447", "tries": 1}, "command": "get_token"}
+2017-01-09 11:18:40,130 - DEBUG - [POLLING][as_657447_183] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:18:40,132 - DEBUG - [POLLING][as_657447_183] Query AirSupport for Terminate (session/status), timespan from start:0.00299978256226
+2017-01-09 11:18:40,168 - DEBUG - [POLLING][as_657447_183] Query AirSupport for Terminate (session/status), timespan:0.0389997959137
+2017-01-09 11:18:40,170 - DEBUG - [POLLING][as_657447_183][index:0] Query AirSupport
+2017-01-09 11:18:42,542 - DEBUG - WebSocket connection closed: None
+2017-01-09 11:18:43,901 - DEBUG - Client connecting: tcp4:127.0.0.1:53363
+2017-01-09 11:18:43,926 - DEBUG - Factory register: tcp4:127.0.0.1:53363
+2017-01-09 11:18:43,930 - DEBUG - WebSocket connection open.
+2017-01-09 11:18:53,447 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:18:54,140 - DEBUG - response <Response [200]>
+2017-01-09 11:18:54,142 - DEBUG - response: {"content": {"status": "OK", "sessionId": "184", "token": "722642", "tries": 1}, "command": "get_token"}
+2017-01-09 11:18:54,142 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:18:54,145 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:0.00399994850159
+2017-01-09 11:18:54,150 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:0.00800013542175
+2017-01-09 11:18:54,153 - DEBUG - [POLLING][as_722642_184][index:0] Query AirSupport
+2017-01-09 11:19:05,165 - DEBUG - response <Response [200]>
+2017-01-09 11:19:05,170 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:19:05,171 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:19:05,173 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 11:19:05,176 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:11.0340001583
+2017-01-09 11:19:05,177 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:11.0239999294
+2017-01-09 11:19:05,183 - DEBUG - [POLLING][as_722642_184][index:1] Query AirSupport
+2017-01-09 11:19:07,155 - DEBUG - response <Response [200]>
+2017-01-09 11:19:07,158 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:19:07,160 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:19:07,161 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 11:19:07,161 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:13.0190000534
+2017-01-09 11:19:07,161 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:1.95700001717
+2017-01-09 11:19:07,163 - DEBUG - [POLLING][as_722642_184][index:2] Query AirSupport
+2017-01-09 11:19:11,036 - DEBUG - response <Response [200]>
+2017-01-09 11:19:11,039 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:19:11,040 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:19:11,042 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 11:19:11,043 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:16.9019999504
+2017-01-09 11:19:11,045 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:3.88199996948
+2017-01-09 11:19:11,046 - DEBUG - [POLLING][as_722642_184][index:3] Query AirSupport
+2017-01-09 11:19:19,894 - DEBUG - response <Response [200]>
+2017-01-09 11:19:19,897 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:19:19,898 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:19:19,898 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:4
+2017-01-09 11:19:19,901 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:25.7590000629
+2017-01-09 11:19:19,903 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:8.85500001907
+2017-01-09 11:19:19,904 - DEBUG - [POLLING][as_722642_184][index:4] Query AirSupport
+2017-01-09 11:19:32,148 - DEBUG - response <Response [200]>
+2017-01-09 11:19:32,151 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:19:32,151 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:19:32,154 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:5
+2017-01-09 11:19:32,154 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:38.0120000839
+2017-01-09 11:19:32,155 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:12.25
+2017-01-09 11:19:32,155 - DEBUG - [POLLING][as_722642_184][index:5] Query AirSupport
+2017-01-09 11:19:35,956 - DEBUG - response <Response [200]>
+2017-01-09 11:19:35,957 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:19:35,960 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:19:35,960 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:6
+2017-01-09 11:19:35,961 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:41.8199999332
+2017-01-09 11:19:35,963 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:3.80599999428
+2017-01-09 11:19:35,963 - DEBUG - [POLLING][as_722642_184][index:6] Query AirSupport
+2017-01-09 11:19:42,174 - DEBUG - response <Response [200]>
+2017-01-09 11:19:42,176 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:19:42,177 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:19:42,177 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:7
+2017-01-09 11:19:42,178 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:48.0369999409
+2017-01-09 11:19:42,180 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:6.21500015259
+2017-01-09 11:19:42,187 - DEBUG - [POLLING][as_722642_184][index:7] Query AirSupport
+2017-01-09 11:19:49,170 - DEBUG - response <Response [200]>
+2017-01-09 11:19:49,171 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:19:49,173 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:19:49,174 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:8
+2017-01-09 11:19:49,174 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:55.0329999924
+2017-01-09 11:19:49,176 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:6.98700022697
+2017-01-09 11:19:49,177 - DEBUG - [POLLING][as_722642_184][index:8] Query AirSupport
+2017-01-09 11:20:04,099 - DEBUG - response <Response [200]>
+2017-01-09 11:20:04,101 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:20:04,102 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:20:04,104 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:9
+2017-01-09 11:20:04,105 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:69.9630000591
+2017-01-09 11:20:04,105 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:14.9270000458
+2017-01-09 11:20:04,105 - DEBUG - [POLLING][as_722642_184][index:9] Query AirSupport
+2017-01-09 11:20:12,717 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"722642","sessionId":"184","seq":0,"content":{"msgId":"50397190","content":{"wording":"asd\n","confirmation":""}},"status":false}}
+2017-01-09 11:20:13,125 - DEBUG - response <Response [200]>
+2017-01-09 11:20:13,131 - DEBUG - [as_722642_184] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/184-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T032044Z&X-Amz-Expires=86400&X-Amz-Signature=170c99ff1c253452970ba39478959c28cc9895abf665e78ff8143441612b8e79&X-Amz-SignedHeaders=host'}
+2017-01-09 11:20:13,135 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/184-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T032044Z&X-Amz-Expires=86400&X-Amz-Signature=170c99ff1c253452970ba39478959c28cc9895abf665e78ff8143441612b8e79&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:20:13,967 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"722642","sessionId":"184","seq":1,"content":{"msgId":"50397190","content":{"wording":"asd\n","confirmation":""}},"status":false}}
+2017-01-09 11:20:14,128 - DEBUG - response <Response [200]>
+2017-01-09 11:20:14,131 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:20:14,132 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:20:14,134 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:10
+2017-01-09 11:20:14,135 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:79.993999958
+2017-01-09 11:20:14,137 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:10.0299999714
+2017-01-09 11:20:14,138 - DEBUG - [POLLING][as_722642_184][index:10] Query AirSupport
+2017-01-09 11:20:15,102 - DEBUG - response <Response [200]>
+2017-01-09 11:20:15,104 - DEBUG - [as_722642_184] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/184-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T032045Z&X-Amz-Expires=86400&X-Amz-Signature=f1f365d0496a95c83c03eaa65be9162f56a81e84df44c1030b7acb930494b252&X-Amz-SignedHeaders=host'}
+2017-01-09 11:20:15,105 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/184-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T032045Z&X-Amz-Expires=86400&X-Amz-Signature=f1f365d0496a95c83c03eaa65be9162f56a81e84df44c1030b7acb930494b252&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:20:15,114 - DEBUG - response <Response [200]>
+2017-01-09 11:20:15,118 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:20:15,122 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:20:15,124 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:11
+2017-01-09 11:20:15,125 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:80.9830000401
+2017-01-09 11:20:15,125 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:0.984999895096
+2017-01-09 11:20:15,128 - DEBUG - [POLLING][as_722642_184][index:11] Query AirSupport
+2017-01-09 11:21:20,108 - DEBUG - response <Response [200]>
+2017-01-09 11:21:20,111 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:21:20,112 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:21:20,114 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:12
+2017-01-09 11:21:20,115 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:145.97300005
+2017-01-09 11:21:20,115 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:64.9869999886
+2017-01-09 11:21:20,117 - DEBUG - [POLLING][as_722642_184][index:12] Query AirSupport
+2017-01-09 11:21:24,878 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"","supportId":"michael_mao@trendmicro.com","token":"722642","sessionId":"184","seq":2,"content":{"msgId":"50397190","content":{"wording":"asdasd\n","confirmation":""}},"status":false}}
+2017-01-09 11:21:25,102 - DEBUG - response <Response [200]>
+2017-01-09 11:21:25,105 - DEBUG - [as_722642_184] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/184-2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T032156Z&X-Amz-Expires=86400&X-Amz-Signature=c50f66e363e9bc56e28b24c43a35967c46976671de56b1dc8fc4ee171b4612c0&X-Amz-SignedHeaders=host'}
+2017-01-09 11:21:25,107 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/184-2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T032156Z&X-Amz-Expires=86400&X-Amz-Signature=c50f66e363e9bc56e28b24c43a35967c46976671de56b1dc8fc4ee171b4612c0&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:21:26,105 - DEBUG - response <Response [200]>
+2017-01-09 11:21:26,108 - DEBUG - [POLLING][as_722642_184] Query AirSupport done
+2017-01-09 11:21:26,111 - DEBUG - [POLLING][as_722642_184] update tsew time:0.0
+2017-01-09 11:21:26,111 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), index:13
+2017-01-09 11:21:26,112 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan from start:151.970999956
+2017-01-09 11:21:26,114 - DEBUG - [POLLING][as_722642_184] Query AirSupport for Terminate (session/status), timespan:5.99500012398
+2017-01-09 11:21:26,114 - DEBUG - [POLLING][as_722642_184][index:13] Query AirSupport
+2017-01-09 11:24:40,209 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 11:47:27,996 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 11:48:00,450 - DEBUG - Client connecting: tcp4:127.0.0.1:54265
+2017-01-09 11:48:00,453 - DEBUG - Factory register: tcp4:127.0.0.1:54265
+2017-01-09 11:48:00,457 - DEBUG - WebSocket connection open.
+2017-01-09 11:48:04,127 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:48:05,128 - DEBUG - http_request {"status":"OK","sessionId":"189","token":"475351","tries":1}
+2017-01-09 11:48:05,134 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:48:05,134 - DEBUG - response: {"content": {"status": "OK", "sessionId": "189", "token": "475351", "tries": 1}, "command": "get_token"}
+2017-01-09 11:48:05,135 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan from start:0.0019998550415
+2017-01-09 11:48:05,138 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan:0.00399994850159
+2017-01-09 11:48:05,154 - DEBUG - [POLLING][as_475351_189][index:0] Query AirSupport
+2017-01-09 11:48:16,249 - DEBUG - http_request {"status":"OK","mode":"plus","initArg":{"SN":"","downloadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Download","locale":"EN-US","tempFolder":"C:\\ProgramData\\Trend Micro\\AirSupport","uploadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Upload","version":"6.0.1073"},"cmdStatus":{}}
+2017-01-09 11:48:16,265 - DEBUG - [POLLING][as_475351_189] Query AirSupport done
+2017-01-09 11:48:16,269 - DEBUG - [POLLING][as_475351_189] update tsew time:0.0
+2017-01-09 11:48:16,279 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 11:48:16,285 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan from start:11.1510000229
+2017-01-09 11:48:16,285 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan:11.117000103
+2017-01-09 11:48:16,286 - DEBUG - [POLLING][as_475351_189][index:1] Query AirSupport
+2017-01-09 11:48:22,105 - DEBUG - http_request {"status":"OK","mode":"plus","cmdStatus":{"10042":{"content":{"asSeqStatus":"OK","pcState":"unlocked","session":"655f19d0-3bda-ef2e-9bd9-0ab24f2ac81c","timestamp":"11:48:21","type":1,"wording":"2","backendDelayTime":{"status":{"postStatusStart":1483933733108,"postStatusEnd":1483933733116,"postStatusHandlerTime":8,"postStatusTimestamp":1483933733116,"getStatusStart":1483933733116,"getStatusEnd":1483933733116,"getStatusHandlerTime":0,"getStatusTimestamp":1483933733116,"statusDelayTime":0},"command":{}}},"created":1483933733}}}
+2017-01-09 11:48:22,108 - DEBUG - [POLLING][as_475351_189] Query AirSupport done
+2017-01-09 11:48:22,108 - DEBUG - [POLLING][as_475351_189] update tsew time:0.0
+2017-01-09 11:48:22,111 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 11:48:22,119 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan from start:16.9849998951
+2017-01-09 11:48:22,125 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan:5.83899998665
+2017-01-09 11:48:22,127 - DEBUG - [POLLING][as_475351_189][index:2] Query AirSupport
+2017-01-09 11:48:24,115 - DEBUG - http_request {"status":"OK","mode":"plus","cmdStatus":{"10043":{"content":{"asSeqStatus":"OK","pcState":"unlocked","session":"db6f0a93-40af-3e1a-5cb2-ee34d5949f5b","timestamp":"11:48:23","type":1,"wording":"3","backendDelayTime":{"status":{"postStatusStart":1483933734976,"postStatusEnd":1483933734980,"postStatusHandlerTime":4,"postStatusTimestamp":1483933734980,"getStatusStart":1483933734980,"getStatusEnd":1483933734980,"getStatusHandlerTime":0,"getStatusTimestamp":1483933734980,"statusDelayTime":0},"command":{}}},"created":1483933734}}}
+2017-01-09 11:48:24,141 - DEBUG - [POLLING][as_475351_189] Query AirSupport done
+2017-01-09 11:48:24,141 - DEBUG - [POLLING][as_475351_189] update tsew time:0.0
+2017-01-09 11:48:24,142 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 11:48:24,144 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan from start:19.0099999905
+2017-01-09 11:48:24,145 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan:2.01699995995
+2017-01-09 11:48:24,148 - DEBUG - [POLLING][as_475351_189][index:3] Query AirSupport
+2017-01-09 11:48:25,450 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"475351","sessionId":"189","seq":0,"content":{"msgId":"50397190","content":{"wording":"4\n","confirmation":""}},"status":false}}
+2017-01-09 11:48:26,134 - DEBUG - http_request {"status":"OK","resultUrl":"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/189-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T034856Z&X-Amz-Expires=86400&X-Amz-Signature=801a598015e6be303ebd985181bfbb593fe53c525d4341ca2cfdb337906b03a9&X-Amz-SignedHeaders=host"}
+2017-01-09 11:48:26,138 - DEBUG - [as_475351_189] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/189-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T034856Z&X-Amz-Expires=86400&X-Amz-Signature=801a598015e6be303ebd985181bfbb593fe53c525d4341ca2cfdb337906b03a9&X-Amz-SignedHeaders=host'}
+2017-01-09 11:48:26,145 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/189-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T034856Z&X-Amz-Expires=86400&X-Amz-Signature=801a598015e6be303ebd985181bfbb593fe53c525d4341ca2cfdb337906b03a9&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:48:27,151 - DEBUG - http_request {"status":"OK","mode":"plus","cmdStatus":{"0":{"content":{"asSeqStatus":"OK","pcState":"unlocked","backendDelayTime":{"status":{"postStatusStart":1483933737751,"postStatusEnd":1483933737755,"postStatusHandlerTime":4,"postStatusTimestamp":1483933737755,"getStatusStart":1483933737755,"getStatusEnd":1483933737755,"getStatusHandlerTime":0,"getStatusTimestamp":1483933737755,"statusDelayTime":0},"command":{"postCommandStart":"1483933736897","postCommandEnd":"1483933736907","postCommandHandlerTime":"10","postCommandTimestamp":"1483933736907","getCommandStart":"1483933736907","getCommandEnd":"1483933736911","getCommandHandlerTime":"4","getCommandTimestamp":"1483933736911","commandDelayTime":4}}},"created":1483933737}}}
+2017-01-09 11:48:27,160 - DEBUG - [POLLING][as_475351_189] Query AirSupport done
+2017-01-09 11:48:27,161 - DEBUG - [POLLING][as_475351_189] update tsew time:0.0
+2017-01-09 11:48:27,164 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), index:4
+2017-01-09 11:48:27,164 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan from start:22.0309998989
+2017-01-09 11:48:27,165 - DEBUG - [POLLING][as_475351_189] Query AirSupport for Terminate (session/status), timespan:3.01699995995
+2017-01-09 11:48:27,167 - DEBUG - [POLLING][as_475351_189][index:4] Query AirSupport
+2017-01-09 11:48:30,489 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 11:49:30,223 - DEBUG - Client connecting: tcp4:127.0.0.1:54342
+2017-01-09 11:49:30,230 - DEBUG - Factory register: tcp4:127.0.0.1:54342
+2017-01-09 11:49:30,232 - DEBUG - WebSocket connection open.
+2017-01-09 11:49:31,079 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:49:32,140 - DEBUG - http_request {"status":"OK","sessionId":"190","token":"804845","tries":1}
+2017-01-09 11:49:32,144 - DEBUG - response: {"content": {"status": "OK", "sessionId": "190", "token": "804845", "tries": 1}, "command": "get_token"}
+2017-01-09 11:49:32,142 - DEBUG - [POLLING][as_804845_190] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:49:32,145 - DEBUG - [POLLING][as_804845_190] Query AirSupport for Terminate (session/status), timespan from start:0.00300002098083
+2017-01-09 11:49:32,148 - DEBUG - [POLLING][as_804845_190] Query AirSupport for Terminate (session/status), timespan:0.00500011444092
+2017-01-09 11:49:32,148 - DEBUG - [POLLING][as_804845_190][index:0] Query AirSupport
+2017-01-09 11:49:42,111 - DEBUG - http_request {"status":"OK","mode":"plus","initArg":{"SN":"","downloadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Download","locale":"EN-US","tempFolder":"C:\\ProgramData\\Trend Micro\\AirSupport","uploadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Upload","version":"6.0.1073"},"cmdStatus":{}}
+2017-01-09 11:49:42,112 - DEBUG - [POLLING][as_804845_190] Query AirSupport done
+2017-01-09 11:49:42,114 - DEBUG - [POLLING][as_804845_190] update tsew time:0.0
+2017-01-09 11:49:42,115 - DEBUG - [POLLING][as_804845_190] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 11:49:42,115 - DEBUG - [POLLING][as_804845_190] Query AirSupport for Terminate (session/status), timespan from start:9.97200012207
+2017-01-09 11:49:42,115 - DEBUG - [POLLING][as_804845_190] Query AirSupport for Terminate (session/status), timespan:9.96599984169
+2017-01-09 11:49:42,115 - DEBUG - [POLLING][as_804845_190][index:1] Query AirSupport
+2017-01-09 11:50:27,022 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 11:50:30,710 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 11:50:37,115 - DEBUG - Client connecting: tcp4:127.0.0.1:54383
+2017-01-09 11:50:37,161 - DEBUG - Factory register: tcp4:127.0.0.1:54383
+2017-01-09 11:50:37,163 - DEBUG - WebSocket connection open.
+2017-01-09 11:50:37,993 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:50:39,119 - DEBUG - http_request {"status":"OK","sessionId":"191","token":"546156","tries":1}
+2017-01-09 11:50:39,121 - DEBUG - response: {"content": {"status": "OK", "sessionId": "191", "token": "546156", "tries": 1}, "command": "get_token"}
+2017-01-09 11:50:39,121 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:50:39,121 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), timespan from start:0.000999927520752
+2017-01-09 11:50:39,122 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), timespan:0.0019998550415
+2017-01-09 11:50:39,122 - DEBUG - [POLLING][as_546156_191][index:0] Query AirSupport
+2017-01-09 11:50:48,108 - DEBUG - http_request {"status":"OK","mode":"plus","initArg":{"SN":"","downloadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Download","locale":"EN-US","tempFolder":"C:\\ProgramData\\Trend Micro\\AirSupport","uploadFolder":"C:\\Users\\ext_michaelm\\Desktop\\Trend Micro AirSupport Upload","version":"6.0.1073"},"cmdStatus":{}}
+2017-01-09 11:50:48,111 - DEBUG - [POLLING][as_546156_191] Query AirSupport done
+2017-01-09 11:50:48,111 - DEBUG - [POLLING][as_546156_191] update tsew time:0.0
+2017-01-09 11:50:48,114 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 11:50:48,115 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), timespan from start:8.99399995804
+2017-01-09 11:50:48,118 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), timespan:8.99499988556
+2017-01-09 11:50:48,121 - DEBUG - [POLLING][as_546156_191][index:1] Query AirSupport
+2017-01-09 11:50:52,144 - DEBUG - http_request {"status":"OK","mode":"plus","cmdStatus":{"10045":{"content":{"asSeqStatus":"OK","pcState":"unlocked","session":"2d2f9015-61cc-a75f-dff2-3ba7b17c0f06","timestamp":"11:50:51","type":1,"wording":"1","backendDelayTime":{"status":{"postStatusStart":1483933882677,"postStatusEnd":1483933882681,"postStatusHandlerTime":4,"postStatusTimestamp":1483933882681,"getStatusStart":1483933882681,"getStatusEnd":1483933882681,"getStatusHandlerTime":0,"getStatusTimestamp":1483933882681,"statusDelayTime":0},"command":{}}},"created":1483933882}}}
+2017-01-09 11:50:52,147 - DEBUG - [POLLING][as_546156_191] Query AirSupport done
+2017-01-09 11:50:52,148 - DEBUG - [POLLING][as_546156_191] update tsew time:0.0
+2017-01-09 11:50:52,148 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 11:50:52,148 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), timespan from start:13.0269999504
+2017-01-09 11:50:52,148 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), timespan:4.02699995041
+2017-01-09 11:50:52,148 - DEBUG - [POLLING][as_546156_191][index:2] Query AirSupport
+2017-01-09 11:50:55,657 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"546156","sessionId":"191","seq":0,"content":{"msgId":"50397190","content":{"wording":"2\n","confirmation":""}},"status":false}}
+2017-01-09 11:50:56,098 - DEBUG - http_request {"status":"OK","resultUrl":"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/191-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T035127Z&X-Amz-Expires=86400&X-Amz-Signature=cdd4f24a893dbc949205a15b7d920ba4a344e3488f32ec380331cb5988f49d29&X-Amz-SignedHeaders=host"}
+2017-01-09 11:50:56,101 - DEBUG - [as_546156_191] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/191-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T035127Z&X-Amz-Expires=86400&X-Amz-Signature=cdd4f24a893dbc949205a15b7d920ba4a344e3488f32ec380331cb5988f49d29&X-Amz-SignedHeaders=host'}
+2017-01-09 11:50:56,104 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/191-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T035127Z&X-Amz-Expires=86400&X-Amz-Signature=cdd4f24a893dbc949205a15b7d920ba4a344e3488f32ec380331cb5988f49d29&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:50:57,144 - DEBUG - http_request {"status":"OK","mode":"plus","cmdStatus":{"0":{"content":{"asSeqStatus":"OK","pcState":"unlocked","backendDelayTime":{"status":{"postStatusStart":1483933887624,"postStatusEnd":1483933887627,"postStatusHandlerTime":3,"postStatusTimestamp":1483933887627,"getStatusStart":1483933887627,"getStatusEnd":1483933887627,"getStatusHandlerTime":0,"getStatusTimestamp":1483933887627,"statusDelayTime":0},"command":{"postCommandStart":"1483933887112","postCommandEnd":"1483933887120","postCommandHandlerTime":"8","postCommandTimestamp":"1483933887120","getCommandStart":"1483933887120","getCommandEnd":"1483933887125","getCommandHandlerTime":"5","getCommandTimestamp":"1483933887125","commandDelayTime":5}}},"created":1483933887}}}
+2017-01-09 11:50:57,148 - DEBUG - [POLLING][as_546156_191] Query AirSupport done
+2017-01-09 11:50:57,150 - DEBUG - [POLLING][as_546156_191] update tsew time:0.0
+2017-01-09 11:50:57,151 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 11:50:57,153 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), timespan from start:18.0320000648
+2017-01-09 11:50:57,154 - DEBUG - [POLLING][as_546156_191] Query AirSupport for Terminate (session/status), timespan:5.00600004196
+2017-01-09 11:50:57,157 - DEBUG - [POLLING][as_546156_191][index:3] Query AirSupport
+2017-01-09 11:52:12,687 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 11:52:17,759 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 11:52:24,186 - DEBUG - Client connecting: tcp4:127.0.0.1:54449
+2017-01-09 11:52:24,191 - DEBUG - Factory register: tcp4:127.0.0.1:54449
+2017-01-09 11:52:24,193 - DEBUG - WebSocket connection open.
+2017-01-09 11:52:26,194 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 11:52:27,190 - DEBUG - response: {"content": {"status": "OK", "sessionId": "192", "token": "022482", "tries": 1}, "command": "get_token"}
+2017-01-09 11:52:27,190 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 11:52:27,196 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan from start:0.00499987602234
+2017-01-09 11:52:27,220 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan:0.0299999713898
+2017-01-09 11:52:27,221 - DEBUG - [POLLING][as_022482_192][index:0] Query AirSupport
+2017-01-09 11:52:35,108 - DEBUG - [POLLING][as_022482_192] Query AirSupport done
+2017-01-09 11:52:35,108 - DEBUG - [POLLING][as_022482_192] update tsew time:0.0
+2017-01-09 11:52:35,109 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 11:52:35,111 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan from start:7.92100000381
+2017-01-09 11:52:35,111 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan:7.88499999046
+2017-01-09 11:52:35,112 - DEBUG - [POLLING][as_022482_192][index:1] Query AirSupport
+2017-01-09 11:52:40,111 - DEBUG - [POLLING][as_022482_192] Query AirSupport done
+2017-01-09 11:52:40,114 - DEBUG - [POLLING][as_022482_192] update tsew time:0.0
+2017-01-09 11:52:40,115 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 11:52:40,117 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan from start:12.9270000458
+2017-01-09 11:52:40,118 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan:5.00200009346
+2017-01-09 11:52:40,138 - DEBUG - [POLLING][as_022482_192][index:2] Query AirSupport
+2017-01-09 11:52:41,533 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"022482","sessionId":"192","seq":0,"content":{"msgId":"50397190","content":{"wording":"2\n","confirmation":""}},"status":false}}
+2017-01-09 11:52:42,118 - DEBUG - [as_022482_192] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/192-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T035313Z&X-Amz-Expires=86400&X-Amz-Signature=1ec7d6dc211a56c33b21883aec32f1eaac3bbcb12c08bd4a1c6739f62643bc2b&X-Amz-SignedHeaders=host'}
+2017-01-09 11:52:42,121 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/192-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T035313Z&X-Amz-Expires=86400&X-Amz-Signature=1ec7d6dc211a56c33b21883aec32f1eaac3bbcb12c08bd4a1c6739f62643bc2b&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:52:43,111 - DEBUG - [POLLING][as_022482_192] Query AirSupport done
+2017-01-09 11:52:43,114 - DEBUG - [POLLING][as_022482_192] update tsew time:0.0
+2017-01-09 11:52:43,118 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 11:52:43,130 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan from start:15.9400000572
+2017-01-09 11:52:43,148 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan:3.007999897
+2017-01-09 11:52:43,154 - DEBUG - [POLLING][as_022482_192][index:3] Query AirSupport
+2017-01-09 11:52:44,487 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"022482","sessionId":"192","seq":1,"content":{"msgId":"50397190","content":{"wording":"asd\nsad\n","confirmation":""}},"status":false}}
+2017-01-09 11:52:45,115 - DEBUG - [as_022482_192] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/192-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T035316Z&X-Amz-Expires=86400&X-Amz-Signature=e3f97b7bd838f74af08786e62198b266da8abbfb0a380afc6b50cc0670d596af&X-Amz-SignedHeaders=host'}
+2017-01-09 11:52:45,118 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/192-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T035316Z&X-Amz-Expires=86400&X-Amz-Signature=e3f97b7bd838f74af08786e62198b266da8abbfb0a380afc6b50cc0670d596af&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 11:52:46,121 - DEBUG - [POLLING][as_022482_192] Query AirSupport done
+2017-01-09 11:52:46,124 - DEBUG - [POLLING][as_022482_192] update tsew time:0.0
+2017-01-09 11:52:46,125 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), index:4
+2017-01-09 11:52:46,125 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan from start:18.9359998703
+2017-01-09 11:52:46,125 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan:2.95399999619
+2017-01-09 11:52:46,127 - DEBUG - [POLLING][as_022482_192][index:4] Query AirSupport
+2017-01-09 11:53:06,125 - DEBUG - [POLLING][as_022482_192] Query AirSupport done
+2017-01-09 11:53:06,127 - DEBUG - [POLLING][as_022482_192] update tsew time:0.0
+2017-01-09 11:53:06,128 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), index:5
+2017-01-09 11:53:06,128 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan from start:38.9389998913
+2017-01-09 11:53:06,130 - DEBUG - [POLLING][as_022482_192] Query AirSupport for Terminate (session/status), timespan:20.003000021
+2017-01-09 11:53:06,131 - DEBUG - [POLLING][as_022482_192][index:5] Query AirSupport
+2017-01-09 13:03:24,900 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:03:28,055 - DEBUG - Client connecting: tcp4:127.0.0.1:56406
+2017-01-09 13:03:28,059 - DEBUG - Factory register: tcp4:127.0.0.1:56406
+2017-01-09 13:03:28,062 - DEBUG - WebSocket connection open.
+2017-01-09 13:03:29,752 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:03:32,076 - DEBUG - Client connecting: tcp4:127.0.0.1:56410
+2017-01-09 13:03:32,081 - DEBUG - Factory register: tcp4:127.0.0.1:56410
+2017-01-09 13:03:32,082 - DEBUG - WebSocket connection open.
+2017-01-09 13:03:45,088 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:03:48,226 - DEBUG - Client connecting: tcp4:127.0.0.1:56418
+2017-01-09 13:03:48,250 - DEBUG - Factory register: tcp4:127.0.0.1:56418
+2017-01-09 13:03:48,252 - DEBUG - WebSocket connection open.
+2017-01-09 13:04:08,674 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:04:10,155 - DEBUG - Client connecting: tcp4:127.0.0.1:56428
+2017-01-09 13:04:10,157 - DEBUG - Factory register: tcp4:127.0.0.1:56428
+2017-01-09 13:04:10,160 - DEBUG - WebSocket connection open.
+2017-01-09 13:04:15,980 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:04:18,381 - DEBUG - Client connecting: tcp4:127.0.0.1:56434
+2017-01-09 13:04:18,384 - DEBUG - Factory register: tcp4:127.0.0.1:56434
+2017-01-09 13:04:18,384 - DEBUG - WebSocket connection open.
+2017-01-09 13:04:24,655 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:04:27,678 - DEBUG - Client connecting: tcp4:127.0.0.1:56442
+2017-01-09 13:04:27,681 - DEBUG - Factory register: tcp4:127.0.0.1:56442
+2017-01-09 13:04:27,683 - DEBUG - WebSocket connection open.
+2017-01-09 13:04:32,868 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:04:36,950 - DEBUG - Client connecting: tcp4:127.0.0.1:56450
+2017-01-09 13:04:36,973 - DEBUG - Factory register: tcp4:127.0.0.1:56450
+2017-01-09 13:04:36,976 - DEBUG - WebSocket connection open.
+2017-01-09 13:04:38,788 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:04:42,500 - DEBUG - Client connecting: tcp4:127.0.0.1:56456
+2017-01-09 13:04:42,525 - DEBUG - Factory register: tcp4:127.0.0.1:56456
+2017-01-09 13:04:42,536 - DEBUG - WebSocket connection open.
+2017-01-09 13:04:44,204 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:04:47,737 - DEBUG - Client connecting: tcp4:127.0.0.1:56460
+2017-01-09 13:04:47,753 - DEBUG - Factory register: tcp4:127.0.0.1:56460
+2017-01-09 13:04:47,755 - DEBUG - WebSocket connection open.
+2017-01-09 13:06:03,438 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:06:08,368 - DEBUG - Client connecting: tcp4:127.0.0.1:56492
+2017-01-09 13:06:08,372 - DEBUG - Factory register: tcp4:127.0.0.1:56492
+2017-01-09 13:06:08,374 - DEBUG - WebSocket connection open.
+2017-01-09 13:06:21,089 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:06:26,073 - DEBUG - Client connecting: tcp4:127.0.0.1:56503
+2017-01-09 13:06:26,095 - DEBUG - Factory register: tcp4:127.0.0.1:56503
+2017-01-09 13:06:26,098 - DEBUG - WebSocket connection open.
+2017-01-09 13:06:28,855 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:06:32,381 - DEBUG - Client connecting: tcp4:127.0.0.1:56511
+2017-01-09 13:06:32,384 - DEBUG - Factory register: tcp4:127.0.0.1:56511
+2017-01-09 13:06:32,387 - DEBUG - WebSocket connection open.
+2017-01-09 13:06:37,456 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:06:39,625 - DEBUG - Client connecting: tcp4:127.0.0.1:56516
+2017-01-09 13:06:39,628 - DEBUG - Factory register: tcp4:127.0.0.1:56516
+2017-01-09 13:06:39,628 - DEBUG - WebSocket connection open.
+2017-01-09 13:06:44,526 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:06:46,878 - DEBUG - Client connecting: tcp4:127.0.0.1:56520
+2017-01-09 13:06:46,880 - DEBUG - Factory register: tcp4:127.0.0.1:56520
+2017-01-09 13:06:46,881 - DEBUG - WebSocket connection open.
+2017-01-09 13:06:50,790 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 13:06:51,193 - DEBUG - response: {"content": {"status": "OK", "sessionId": "193", "token": "106766", "tries": 1}, "command": "get_token"}
+2017-01-09 13:06:51,194 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 13:06:51,200 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan from start:0.00699996948242
+2017-01-09 13:06:51,200 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan:0.00699996948242
+2017-01-09 13:06:51,210 - DEBUG - [POLLING][as_106766_193][index:0] Query AirSupport
+2017-01-09 13:06:56,259 - DEBUG - [POLLING][as_106766_193] Query AirSupport done
+2017-01-09 13:06:56,263 - DEBUG - [POLLING][as_106766_193] update tsew time:0.0
+2017-01-09 13:06:56,263 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 13:06:56,265 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan from start:5.07100009918
+2017-01-09 13:06:56,267 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan:5.0529999733
+2017-01-09 13:06:56,273 - DEBUG - [POLLING][as_106766_193][index:1] Query AirSupport
+2017-01-09 13:06:59,174 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"106766","sessionId":"193","seq":0,"content":{"msgId":"50397190","content":{"wording":"1\n","confirmation":""}},"status":false}}
+2017-01-09 13:07:00,052 - DEBUG - [as_106766_193] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/193-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T050730Z&X-Amz-Expires=86400&X-Amz-Signature=1175595573aa40fb33c9b8a50da1d83be5735ea0c24b0f9c476963798c567622&X-Amz-SignedHeaders=host'}
+2017-01-09 13:07:00,069 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/193-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T050730Z&X-Amz-Expires=86400&X-Amz-Signature=1175595573aa40fb33c9b8a50da1d83be5735ea0c24b0f9c476963798c567622&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 13:07:00,868 - DEBUG - [POLLING][as_106766_193] Query AirSupport done
+2017-01-09 13:07:00,871 - DEBUG - [POLLING][as_106766_193] update tsew time:0.0
+2017-01-09 13:07:00,871 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 13:07:00,871 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan from start:9.6779999733
+2017-01-09 13:07:00,871 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan:4.59599995613
+2017-01-09 13:07:00,872 - DEBUG - [POLLING][as_106766_193][index:2] Query AirSupport
+2017-01-09 13:07:02,390 - DEBUG - [POLLING][as_106766_193] Query AirSupport done
+2017-01-09 13:07:02,391 - DEBUG - [POLLING][as_106766_193] update tsew time:0.0
+2017-01-09 13:07:02,394 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 13:07:02,395 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan from start:11.2019999027
+2017-01-09 13:07:02,397 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan:1.52400016785
+2017-01-09 13:07:02,398 - DEBUG - [POLLING][as_106766_193][index:3] Query AirSupport
+2017-01-09 13:07:03,763 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"106766","sessionId":"193","seq":1,"content":{"msgId":"50397190","content":{"wording":"3\n","confirmation":""}},"status":false}}
+2017-01-09 13:07:04,085 - DEBUG - [as_106766_193] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/193-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T050735Z&X-Amz-Expires=86400&X-Amz-Signature=dc15c7e71023183a269d66e2278753f0e73cd858ed67396f62aeea60eee5b3d9&X-Amz-SignedHeaders=host'}
+2017-01-09 13:07:04,085 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/193-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T050735Z&X-Amz-Expires=86400&X-Amz-Signature=dc15c7e71023183a269d66e2278753f0e73cd858ed67396f62aeea60eee5b3d9&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 13:07:05,005 - DEBUG - [POLLING][as_106766_193] Query AirSupport done
+2017-01-09 13:07:05,006 - DEBUG - [POLLING][as_106766_193] update tsew time:0.0
+2017-01-09 13:07:05,006 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), index:4
+2017-01-09 13:07:05,006 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan from start:13.8129999638
+2017-01-09 13:07:05,007 - DEBUG - [POLLING][as_106766_193] Query AirSupport for Terminate (session/status), timespan:2.6099998951
+2017-01-09 13:07:05,007 - DEBUG - [POLLING][as_106766_193][index:4] Query AirSupport
+2017-01-09 13:25:32,667 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:25:33,874 - DEBUG - Client connecting: tcp4:127.0.0.1:56765
+2017-01-09 13:25:33,875 - DEBUG - Factory register: tcp4:127.0.0.1:56765
+2017-01-09 13:25:33,875 - DEBUG - WebSocket connection open.
+2017-01-09 13:25:35,878 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 13:25:43,130 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 13:25:44,191 - DEBUG - Client connecting: tcp4:127.0.0.1:56779
+2017-01-09 13:25:44,200 - DEBUG - Factory register: tcp4:127.0.0.1:56779
+2017-01-09 13:25:44,206 - DEBUG - WebSocket connection open.
+2017-01-09 13:25:46,486 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 13:25:47,176 - DEBUG - response: {"content": {"status": "OK", "sessionId": "196", "token": "877483", "tries": 1}, "command": "get_token"}
+2017-01-09 13:25:47,176 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 13:25:47,214 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), timespan from start:0.0389997959137
+2017-01-09 13:25:47,226 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), timespan:0.0499999523163
+2017-01-09 13:25:47,236 - DEBUG - [POLLING][as_877483_196][index:0] Query AirSupport
+2017-01-09 13:25:59,236 - DEBUG - [POLLING][as_877483_196] Query AirSupport done
+2017-01-09 13:25:59,253 - DEBUG - [POLLING][as_877483_196] update tsew time:0.0
+2017-01-09 13:25:59,260 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 13:25:59,263 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), timespan from start:12.0879998207
+2017-01-09 13:25:59,266 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), timespan:12.0230000019
+2017-01-09 13:25:59,272 - DEBUG - [POLLING][as_877483_196][index:1] Query AirSupport
+2017-01-09 13:26:02,033 - DEBUG - [POLLING][as_877483_196] Query AirSupport done
+2017-01-09 13:26:02,035 - DEBUG - [POLLING][as_877483_196] update tsew time:0.0
+2017-01-09 13:26:02,036 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 13:26:02,036 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), timespan from start:14.8599998951
+2017-01-09 13:26:02,036 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), timespan:2.7539999485
+2017-01-09 13:26:02,038 - DEBUG - [POLLING][as_877483_196][index:2] Query AirSupport
+2017-01-09 13:26:02,573 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"877483","sessionId":"196","seq":0,"content":{"msgId":"50397190","content":{"wording":"2\n","confirmation":""}},"status":false}}
+2017-01-09 13:26:03,101 - DEBUG - [as_877483_196] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/196-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T052634Z&X-Amz-Expires=86400&X-Amz-Signature=6306ca0275588a41c2fd5806aa24bde8e69451eb82a48fce82652033a526e16f&X-Amz-SignedHeaders=host'}
+2017-01-09 13:26:03,101 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/196-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T052634Z&X-Amz-Expires=86400&X-Amz-Signature=6306ca0275588a41c2fd5806aa24bde8e69451eb82a48fce82652033a526e16f&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 13:26:03,885 - DEBUG - [POLLING][as_877483_196] Query AirSupport done
+2017-01-09 13:26:03,887 - DEBUG - [POLLING][as_877483_196] update tsew time:0.0
+2017-01-09 13:26:03,887 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 13:26:03,888 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), timespan from start:16.7119998932
+2017-01-09 13:26:03,888 - DEBUG - [POLLING][as_877483_196] Query AirSupport for Terminate (session/status), timespan:1.84999990463
+2017-01-09 13:26:03,888 - DEBUG - [POLLING][as_877483_196][index:3] Query AirSupport
+2017-01-09 13:26:06,700 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{}}
+2017-01-09 13:26:06,795 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 13:27:33,743 - DEBUG - Client connecting: tcp4:127.0.0.1:56816
+2017-01-09 13:27:33,759 - DEBUG - Factory register: tcp4:127.0.0.1:56816
+2017-01-09 13:27:33,769 - DEBUG - WebSocket connection open.
+2017-01-09 13:27:42,746 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:27:44,737 - DEBUG - Client connecting: tcp4:127.0.0.1:56823
+2017-01-09 13:27:44,740 - DEBUG - Factory register: tcp4:127.0.0.1:56823
+2017-01-09 13:27:44,740 - DEBUG - WebSocket connection open.
+2017-01-09 13:27:46,604 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:27:48,914 - DEBUG - Client connecting: tcp4:127.0.0.1:56827
+2017-01-09 13:27:48,937 - DEBUG - Factory register: tcp4:127.0.0.1:56827
+2017-01-09 13:27:48,938 - DEBUG - WebSocket connection open.
+2017-01-09 13:27:55,267 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:27:57,460 - DEBUG - Client connecting: tcp4:127.0.0.1:56832
+2017-01-09 13:27:57,681 - DEBUG - Factory register: tcp4:127.0.0.1:56832
+2017-01-09 13:27:57,720 - DEBUG - WebSocket connection open.
+2017-01-09 13:28:52,049 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:28:54,746 - DEBUG - Client connecting: tcp4:127.0.0.1:57004
+2017-01-09 13:28:54,785 - DEBUG - Factory register: tcp4:127.0.0.1:57004
+2017-01-09 13:28:54,788 - DEBUG - WebSocket connection open.
+2017-01-09 13:28:59,510 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:29:02,053 - DEBUG - Client connecting: tcp4:127.0.0.1:57008
+2017-01-09 13:29:02,059 - DEBUG - Factory register: tcp4:127.0.0.1:57008
+2017-01-09 13:29:02,059 - DEBUG - WebSocket connection open.
+2017-01-09 13:29:19,288 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:29:20,381 - DEBUG - Client connecting: tcp4:127.0.0.1:57021
+2017-01-09 13:29:20,382 - DEBUG - Factory register: tcp4:127.0.0.1:57021
+2017-01-09 13:29:20,384 - DEBUG - WebSocket connection open.
+2017-01-09 13:29:22,161 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{}}
+2017-01-09 13:29:22,234 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 13:30:09,190 - DEBUG - Client connecting: tcp4:127.0.0.1:57036
+2017-01-09 13:30:09,197 - DEBUG - Factory register: tcp4:127.0.0.1:57036
+2017-01-09 13:30:09,203 - DEBUG - WebSocket connection open.
+2017-01-09 13:30:45,657 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"000000","sessionId":"","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:30:49,088 - DEBUG - response: {"content": {"status": "ERROR", "code": "SESSION_NOT_FOUND"}, "command": "terminate"}
+2017-01-09 13:30:55,854 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:30:57,273 - DEBUG - Client connecting: tcp4:127.0.0.1:57058
+2017-01-09 13:30:57,275 - DEBUG - Factory register: tcp4:127.0.0.1:57058
+2017-01-09 13:30:57,276 - DEBUG - WebSocket connection open.
+2017-01-09 13:31:23,414 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:31:25,089 - DEBUG - Client connecting: tcp4:127.0.0.1:57068
+2017-01-09 13:31:25,111 - DEBUG - Factory register: tcp4:127.0.0.1:57068
+2017-01-09 13:31:25,118 - DEBUG - WebSocket connection open.
+2017-01-09 13:31:26,553 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 13:31:27,085 - DEBUG - response: {"content": {"status": "OK", "sessionId": "197", "token": "884413", "tries": 1}, "command": "get_token"}
+2017-01-09 13:31:27,084 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 13:31:27,091 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan from start:0.00800013542175
+2017-01-09 13:31:27,092 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan:0.00999999046326
+2017-01-09 13:31:27,094 - DEBUG - [POLLING][as_884413_197][index:0] Query AirSupport
+2017-01-09 13:31:39,134 - DEBUG - [POLLING][as_884413_197] Query AirSupport done
+2017-01-09 13:31:39,134 - DEBUG - [POLLING][as_884413_197] update tsew time:0.0
+2017-01-09 13:31:39,135 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 13:31:39,135 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan from start:12.0529999733
+2017-01-09 13:31:39,137 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan:12.0420000553
+2017-01-09 13:31:39,137 - DEBUG - [POLLING][as_884413_197][index:1] Query AirSupport
+2017-01-09 13:31:44,135 - DEBUG - [POLLING][as_884413_197] Query AirSupport done
+2017-01-09 13:31:44,137 - DEBUG - [POLLING][as_884413_197] update tsew time:0.0
+2017-01-09 13:31:44,137 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 13:31:44,138 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan from start:17.0550000668
+2017-01-09 13:31:44,138 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan:5.0
+2017-01-09 13:31:44,138 - DEBUG - [POLLING][as_884413_197][index:2] Query AirSupport
+2017-01-09 13:31:44,657 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"884413","sessionId":"197","seq":0,"content":{"msgId":"50397190","content":{"wording":"2\n","confirmation":""}},"status":false}}
+2017-01-09 13:31:45,101 - DEBUG - [as_884413_197] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/197-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T053216Z&X-Amz-Expires=86400&X-Amz-Signature=16ca023f953d29a87dece2a0e3f90a3092988fdb9e4d320cd464a2687addeeb9&X-Amz-SignedHeaders=host'}
+2017-01-09 13:31:45,101 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/197-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T053216Z&X-Amz-Expires=86400&X-Amz-Signature=16ca023f953d29a87dece2a0e3f90a3092988fdb9e4d320cd464a2687addeeb9&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 13:31:45,890 - DEBUG - [POLLING][as_884413_197] Query AirSupport done
+2017-01-09 13:31:45,891 - DEBUG - [POLLING][as_884413_197] update tsew time:0.0
+2017-01-09 13:31:45,891 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 13:31:45,891 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan from start:18.8090000153
+2017-01-09 13:31:45,892 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan:1.75299978256
+2017-01-09 13:31:45,894 - DEBUG - [POLLING][as_884413_197][index:3] Query AirSupport
+2017-01-09 13:31:48,801 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"884413","sessionId":"197","seq":1,"content":{"msgId":"50397190","content":{"wording":"2\n","confirmation":""}},"status":false}}
+2017-01-09 13:31:49,101 - DEBUG - [as_884413_197] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/197-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T053220Z&X-Amz-Expires=86400&X-Amz-Signature=a2619d4156c30214f746d5732410726f0003ed19553c1c07f028f3d1216b5884&X-Amz-SignedHeaders=host'}
+2017-01-09 13:31:49,102 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/197-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T053220Z&X-Amz-Expires=86400&X-Amz-Signature=a2619d4156c30214f746d5732410726f0003ed19553c1c07f028f3d1216b5884&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 13:31:50,086 - DEBUG - [POLLING][as_884413_197] Query AirSupport done
+2017-01-09 13:31:50,088 - DEBUG - [POLLING][as_884413_197] update tsew time:0.0
+2017-01-09 13:31:50,089 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), index:4
+2017-01-09 13:31:50,091 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan from start:23.0080001354
+2017-01-09 13:31:50,091 - DEBUG - [POLLING][as_884413_197] Query AirSupport for Terminate (session/status), timespan:4.19600009918
+2017-01-09 13:31:50,092 - DEBUG - [POLLING][as_884413_197][index:4] Query AirSupport
+2017-01-09 13:31:53,869 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"884413","sessionId":"197","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:31:55,098 - DEBUG - response: {"content": {"status": "OK"}, "command": "terminate"}
+2017-01-09 13:32:55,549 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"884413","sessionId":"197","seq":2,"content":{"msgId":"50397190","content":{"wording":"123\n","confirmation":""}},"status":false}}
+2017-01-09 13:32:56,092 - DEBUG - [as_884413_197] command data:{u'status': u'ERROR', u'code': u'SESSION_NOT_FOUND'}
+2017-01-09 13:32:56,092 - DEBUG - response: {"content": "{\"status\":\"ERROR\",\"code\":\"SESSION_NOT_FOUND\"}", "command": "command"}
+2017-01-09 13:44:36,602 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"884413","sessionId":"197","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:44:37,056 - DEBUG - response: {"content": {"status": "ERROR", "code": "SESSION_NOT_FOUND"}, "command": "terminate"}
+2017-01-09 13:44:38,926 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"884413","sessionId":"197","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:44:40,052 - DEBUG - response: {"content": {"status": "ERROR", "code": "SESSION_NOT_FOUND"}, "command": "terminate"}
+2017-01-09 13:44:40,055 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"884413","sessionId":"197","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:44:41,073 - DEBUG - response: {"content": {"status": "ERROR", "code": "SESSION_NOT_FOUND"}, "command": "terminate"}
+2017-01-09 13:44:41,082 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"884413","sessionId":"197","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:44:42,062 - DEBUG - response: {"content": {"status": "ERROR", "code": "SESSION_NOT_FOUND"}, "command": "terminate"}
+2017-01-09 13:44:45,736 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"884413","sessionId":"197","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:44:46,069 - DEBUG - response: {"content": {"status": "ERROR", "code": "SESSION_NOT_FOUND"}, "command": "terminate"}
+2017-01-09 13:44:48,250 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"884413","sessionId":"197","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:44:49,065 - DEBUG - response: {"content": {"status": "ERROR", "code": "SESSION_NOT_FOUND"}, "command": "terminate"}
+2017-01-09 13:46:45,226 - DEBUG - payload.decode('utf8'): {"command":"terminate","content":{"token":"884413","sessionId":"197","clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com"}}
+2017-01-09 13:46:46,085 - DEBUG - response: {"content": {"status": "ERROR", "code": "SESSION_NOT_FOUND"}, "command": "terminate"}
+2017-01-09 13:51:46,020 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:51:47,322 - DEBUG - Client connecting: tcp4:127.0.0.1:57797
+2017-01-09 13:51:47,430 - DEBUG - Factory register: tcp4:127.0.0.1:57797
+2017-01-09 13:51:47,431 - DEBUG - WebSocket connection open.
+2017-01-09 13:53:30,174 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:53:33,276 - DEBUG - Client connecting: tcp4:127.0.0.1:57835
+2017-01-09 13:53:33,288 - DEBUG - Factory register: tcp4:127.0.0.1:57835
+2017-01-09 13:53:33,289 - DEBUG - WebSocket connection open.
+2017-01-09 13:54:09,759 - DEBUG - WebSocket connection closed: None
+2017-01-09 13:54:13,302 - DEBUG - Client connecting: tcp4:127.0.0.1:57846
+2017-01-09 13:54:13,312 - DEBUG - Factory register: tcp4:127.0.0.1:57846
+2017-01-09 13:54:13,312 - DEBUG - WebSocket connection open.
+2017-01-09 14:01:31,540 - DEBUG - WebSocket connection closed: None
+2017-01-09 14:01:32,951 - DEBUG - Client connecting: tcp4:127.0.0.1:58063
+2017-01-09 14:01:32,953 - DEBUG - Factory register: tcp4:127.0.0.1:58063
+2017-01-09 14:01:32,953 - DEBUG - WebSocket connection open.
+2017-01-09 14:04:19,351 - DEBUG - WebSocket connection closed: None
+2017-01-09 14:04:20,772 - DEBUG - Client connecting: tcp4:127.0.0.1:58120
+2017-01-09 14:04:20,789 - DEBUG - Factory register: tcp4:127.0.0.1:58120
+2017-01-09 14:04:20,792 - DEBUG - WebSocket connection open.
+2017-01-09 14:04:52,499 - DEBUG - WebSocket connection closed: None
+2017-01-09 14:04:54,364 - DEBUG - Client connecting: tcp4:127.0.0.1:58138
+2017-01-09 14:04:54,369 - DEBUG - Factory register: tcp4:127.0.0.1:58138
+2017-01-09 14:04:54,378 - DEBUG - WebSocket connection open.
+2017-01-09 14:06:27,023 - DEBUG - WebSocket connection closed: None
+2017-01-09 14:06:28,624 - DEBUG - Client connecting: tcp4:127.0.0.1:58191
+2017-01-09 14:06:28,625 - DEBUG - Factory register: tcp4:127.0.0.1:58191
+2017-01-09 14:06:28,625 - DEBUG - WebSocket connection open.
+2017-01-09 14:10:58,348 - DEBUG - WebSocket connection closed: None
+2017-01-09 14:11:01,217 - DEBUG - Client connecting: tcp4:127.0.0.1:58300
+2017-01-09 14:11:01,217 - DEBUG - Factory register: tcp4:127.0.0.1:58300
+2017-01-09 14:11:01,220 - DEBUG - WebSocket connection open.
+2017-01-09 14:12:51,917 - DEBUG - WebSocket connection closed: None
+2017-01-09 14:12:54,073 - DEBUG - Client connecting: tcp4:127.0.0.1:58336
+2017-01-09 14:12:54,082 - DEBUG - Factory register: tcp4:127.0.0.1:58336
+2017-01-09 14:12:54,085 - DEBUG - WebSocket connection open.
+2017-01-09 14:26:06,125 - DEBUG - WebSocket connection closed: None
+2017-01-09 14:49:53,559 - DEBUG - Client connecting: tcp4:127.0.0.1:59450
+2017-01-09 14:49:53,562 - DEBUG - Factory register: tcp4:127.0.0.1:59450
+2017-01-09 14:49:53,569 - DEBUG - WebSocket connection open.
+2017-01-09 14:55:22,782 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-09 14:55:23,115 - DEBUG - response: {"content": {"status": "OK", "sessionId": "202", "token": "683756", "tries": 1}, "command": "get_token"}
+2017-01-09 14:55:23,117 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), index:0
+2017-01-09 14:55:23,121 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), timespan from start:0.00300002098083
+2017-01-09 14:55:23,125 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), timespan:0.0090000629425
+2017-01-09 14:55:23,125 - DEBUG - [POLLING][as_683756_202][index:0] Query AirSupport
+2017-01-09 14:55:28,164 - DEBUG - [POLLING][as_683756_202] Query AirSupport done
+2017-01-09 14:55:28,181 - DEBUG - [POLLING][as_683756_202] update tsew time:0.0
+2017-01-09 14:55:28,184 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), index:1
+2017-01-09 14:55:28,184 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), timespan from start:5.06900000572
+2017-01-09 14:55:28,190 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), timespan:5.06299996376
+2017-01-09 14:55:28,190 - DEBUG - [POLLING][as_683756_202][index:1] Query AirSupport
+2017-01-09 14:55:33,141 - DEBUG - [POLLING][as_683756_202] Query AirSupport done
+2017-01-09 14:55:33,144 - DEBUG - [POLLING][as_683756_202] update tsew time:0.0
+2017-01-09 14:55:33,145 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), index:2
+2017-01-09 14:55:33,147 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), timespan from start:10.0299999714
+2017-01-09 14:55:33,147 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), timespan:4.95000004768
+2017-01-09 14:55:33,148 - DEBUG - [POLLING][as_683756_202][index:2] Query AirSupport
+2017-01-09 14:55:35,451 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"683756","sessionId":"202","seq":0,"content":{"msgId":"50397190","content":{"wording":"asdasdas\n","confirmation":""}},"status":false}}
+2017-01-09 14:55:36,091 - DEBUG - [as_683756_202] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/202-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T065607Z&X-Amz-Expires=86400&X-Amz-Signature=c7dc567dc4a7f91327c27bfc0f5854dd81c0a7870e06c639e74c6e550aa9e903&X-Amz-SignedHeaders=host'}
+2017-01-09 14:55:36,095 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/202-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170109%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170109T065607Z&X-Amz-Expires=86400&X-Amz-Signature=c7dc567dc4a7f91327c27bfc0f5854dd81c0a7870e06c639e74c6e550aa9e903&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-09 14:55:37,101 - DEBUG - [POLLING][as_683756_202] Query AirSupport done
+2017-01-09 14:55:37,105 - DEBUG - [POLLING][as_683756_202] update tsew time:0.0
+2017-01-09 14:55:37,107 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), index:3
+2017-01-09 14:55:37,108 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), timespan from start:13.992000103
+2017-01-09 14:55:37,109 - DEBUG - [POLLING][as_683756_202] Query AirSupport for Terminate (session/status), timespan:3.96199989319
+2017-01-09 14:55:37,111 - DEBUG - [POLLING][as_683756_202][index:3] Query AirSupport
+2017-01-09 15:28:06,473 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 15:33:42,950 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 15:33:51,029 - DEBUG - Client connecting: tcp4:127.0.0.1:61261
+2017-01-09 15:33:51,032 - DEBUG - Factory register: tcp4:127.0.0.1:61261
+2017-01-09 15:33:51,033 - DEBUG - WebSocket connection open.
+2017-01-09 15:34:09,006 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 15:34:16,563 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 15:51:45,969 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:01:48,594 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:04:08,983 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:04:49,898 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:05:02,112 - DEBUG - Client connecting: tcp4:127.0.0.1:62168
+2017-01-09 16:05:02,117 - DEBUG - Factory register: tcp4:127.0.0.1:62168
+2017-01-09 16:05:02,119 - DEBUG - WebSocket connection open.
+2017-01-09 16:05:17,503 - DEBUG - Client connecting: tcp4:127.0.0.1:62184
+2017-01-09 16:05:17,506 - DEBUG - Factory register: tcp4:127.0.0.1:62184
+2017-01-09 16:05:17,506 - DEBUG - WebSocket connection open.
+2017-01-09 16:05:32,155 - DEBUG - WebSocket connection closed: None
+2017-01-09 16:07:52,776 - DEBUG - WebSocket connection closed: None
+2017-01-09 16:07:56,069 - DEBUG - Client connecting: tcp4:127.0.0.1:62265
+2017-01-09 16:07:56,073 - DEBUG - Factory register: tcp4:127.0.0.1:62265
+2017-01-09 16:07:56,076 - DEBUG - WebSocket connection open.
+2017-01-09 16:07:57,559 - DEBUG - WebSocket connection closed: None
+2017-01-09 16:08:00,375 - DEBUG - Client connecting: tcp4:127.0.0.1:62272
+2017-01-09 16:08:00,411 - DEBUG - Factory register: tcp4:127.0.0.1:62272
+2017-01-09 16:08:00,426 - DEBUG - WebSocket connection open.
+2017-01-09 16:08:19,611 - DEBUG - WebSocket connection closed: None
+2017-01-09 16:08:23,710 - DEBUG - Client connecting: tcp4:127.0.0.1:62300
+2017-01-09 16:08:23,770 - DEBUG - Factory register: tcp4:127.0.0.1:62300
+2017-01-09 16:08:23,772 - DEBUG - WebSocket connection open.
+2017-01-09 16:08:31,506 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 16:12:36,838 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:12:51,019 - DEBUG - Client connecting: tcp4:127.0.0.1:62511
+2017-01-09 16:12:51,023 - DEBUG - Factory register: tcp4:127.0.0.1:62511
+2017-01-09 16:12:51,025 - DEBUG - WebSocket connection open.
+2017-01-09 16:13:05,012 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 16:15:50,288 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:16:55,663 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:19:27,552 - DEBUG - Client connecting: tcp4:127.0.0.1:62846
+2017-01-09 16:19:27,555 - DEBUG - Factory register: tcp4:127.0.0.1:62846
+2017-01-09 16:19:27,562 - DEBUG - WebSocket connection open.
+2017-01-09 16:20:28,007 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 16:21:33,148 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:21:33,148 - DEBUG - run new case
+2017-01-09 16:21:39,249 - DEBUG - run new case
+2017-01-09 16:21:45,244 - DEBUG - run new case
+2017-01-09 16:21:48,789 - DEBUG - Client connecting: tcp4:127.0.0.1:62931
+2017-01-09 16:21:48,790 - DEBUG - Factory register: tcp4:127.0.0.1:62931
+2017-01-09 16:21:48,790 - DEBUG - WebSocket connection open.
+2017-01-09 16:21:51,200 - DEBUG - run new case
+2017-01-09 16:21:57,219 - DEBUG - run new case
+2017-01-09 16:22:03,308 - DEBUG - run new case
+2017-01-09 16:22:09,148 - DEBUG - run new case
+2017-01-09 16:22:15,224 - DEBUG - run new case
+2017-01-09 16:22:21,250 - DEBUG - run new case
+2017-01-09 16:22:27,246 - DEBUG - run new case
+2017-01-09 16:22:33,242 - DEBUG - run new case
+2017-01-09 16:22:39,174 - DEBUG - run new case
+2017-01-09 16:22:45,196 - DEBUG - run new case
+2017-01-09 16:22:51,246 - DEBUG - run new case
+2017-01-09 16:22:57,163 - DEBUG - run new case
+2017-01-09 16:23:03,174 - DEBUG - run new case
+2017-01-09 16:23:09,243 - DEBUG - run new case
+2017-01-09 16:23:15,226 - DEBUG - run new case
+2017-01-09 16:23:21,243 - DEBUG - run new case
+2017-01-09 16:23:27,243 - DEBUG - run new case
+2017-01-09 16:23:33,145 - DEBUG - run new case
+2017-01-09 16:23:39,244 - DEBUG - run new case
+2017-01-09 16:23:45,197 - DEBUG - run new case
+2017-01-09 16:23:51,246 - DEBUG - run new case
+2017-01-09 16:23:57,138 - DEBUG - run new case
+2017-01-09 16:24:03,243 - DEBUG - run new case
+2017-01-09 16:24:09,242 - DEBUG - run new case
+2017-01-09 16:24:15,244 - DEBUG - run new case
+2017-01-09 16:24:21,243 - DEBUG - run new case
+2017-01-09 16:24:27,246 - DEBUG - run new case
+2017-01-09 16:24:33,243 - DEBUG - run new case
+2017-01-09 16:24:39,168 - DEBUG - run new case
+2017-01-09 16:24:45,170 - DEBUG - run new case
+2017-01-09 16:24:47,687 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 16:24:51,158 - DEBUG - run new case
+2017-01-09 16:24:57,262 - DEBUG - run new case
+2017-01-09 16:25:03,130 - DEBUG - run new case
+2017-01-09 16:25:09,210 - DEBUG - run new case
+2017-01-09 16:25:15,163 - DEBUG - run new case
+2017-01-09 16:25:21,174 - DEBUG - run new case
+2017-01-09 16:25:27,216 - DEBUG - run new case
+2017-01-09 16:25:33,269 - DEBUG - run new case
+2017-01-09 16:25:39,273 - DEBUG - run new case
+2017-01-09 16:25:45,203 - DEBUG - run new case
+2017-01-09 16:25:51,221 - DEBUG - run new case
+2017-01-09 16:25:57,207 - DEBUG - run new case
+2017-01-09 16:31:13,426 - DEBUG - run new case
+2017-01-09 16:31:13,427 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:31:19,211 - DEBUG - run new case
+2017-01-09 16:31:25,154 - DEBUG - run new case
+2017-01-09 16:32:40,338 - DEBUG - run new case
+2017-01-09 16:32:40,339 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 16:32:46,177 - DEBUG - run new case
+2017-01-09 16:32:52,144 - DEBUG - run new case
+2017-01-09 16:32:58,132 - DEBUG - run new case
+2017-01-09 16:33:07,167 - DEBUG - run new case
+2017-01-09 16:33:13,154 - DEBUG - run new case
+2017-01-09 16:33:19,197 - DEBUG - run new case
+2017-01-09 16:33:25,137 - DEBUG - run new case
+2017-01-09 16:33:31,130 - DEBUG - run new case
+2017-01-09 16:33:37,144 - DEBUG - run new case
+2017-01-09 16:33:43,154 - DEBUG - run new case
+2017-01-09 16:33:49,137 - DEBUG - run new case
+2017-01-09 16:33:55,148 - DEBUG - run new case
+2017-01-09 16:34:01,141 - DEBUG - run new case
+2017-01-09 16:34:07,160 - DEBUG - run new case
+2017-01-09 16:34:13,154 - DEBUG - run new case
+2017-01-09 16:34:19,132 - DEBUG - run new case
+2017-01-09 16:34:25,148 - DEBUG - run new case
+2017-01-09 16:34:31,132 - DEBUG - run new case
+2017-01-09 16:34:37,184 - DEBUG - run new case
+2017-01-09 16:34:43,157 - DEBUG - run new case
+2017-01-09 16:34:49,174 - DEBUG - run new case
+2017-01-09 16:34:58,160 - DEBUG - run new case
+2017-01-09 16:35:04,240 - DEBUG - run new case
+2017-01-09 16:35:10,188 - DEBUG - run new case
+2017-01-09 16:35:16,170 - DEBUG - run new case
+2017-01-09 16:35:22,216 - DEBUG - run new case
+2017-01-09 16:35:22,523 - DEBUG - Client connecting: tcp4:127.0.0.1:64135
+2017-01-09 16:35:22,539 - DEBUG - Factory register: tcp4:127.0.0.1:64135
+2017-01-09 16:35:22,553 - DEBUG - WebSocket connection open.
+2017-01-09 16:35:28,191 - DEBUG - run new case
+2017-01-09 16:35:34,177 - DEBUG - run new case
+2017-01-09 16:35:40,161 - DEBUG - run new case
+2017-01-09 16:35:46,134 - DEBUG - run new case
+2017-01-09 16:35:52,145 - DEBUG - run new case
+2017-01-09 16:35:58,164 - DEBUG - run new case
+2017-01-09 16:36:04,158 - DEBUG - run new case
+2017-01-09 16:36:13,145 - DEBUG - run new case
+2017-01-09 16:36:19,147 - DEBUG - run new case
+2017-01-09 16:36:25,140 - DEBUG - run new case
+2017-01-09 16:36:31,180 - DEBUG - run new case
+2017-01-09 16:36:37,184 - DEBUG - run new case
+2017-01-09 16:36:43,148 - DEBUG - run new case
+2017-01-09 16:36:49,144 - DEBUG - run new case
+2017-01-09 16:36:55,151 - DEBUG - run new case
+2017-01-09 16:37:01,177 - DEBUG - run new case
+2017-01-09 16:37:07,150 - DEBUG - run new case
+2017-01-09 16:37:13,176 - DEBUG - run new case
+2017-01-09 16:37:19,144 - DEBUG - run new case
+2017-01-09 16:37:25,155 - DEBUG - run new case
+2017-01-09 16:37:31,164 - DEBUG - run new case
+2017-01-09 16:37:37,138 - DEBUG - run new case
+2017-01-09 16:37:43,160 - DEBUG - run new case
+2017-01-09 16:37:49,196 - DEBUG - run new case
+2017-01-09 16:37:55,140 - DEBUG - run new case
+2017-01-09 16:38:01,154 - DEBUG - run new case
+2017-01-09 16:38:07,137 - DEBUG - run new case
+2017-01-09 16:38:13,155 - DEBUG - run new case
+2017-01-09 16:38:19,176 - DEBUG - run new case
+2017-01-09 16:38:25,138 - DEBUG - run new case
+2017-01-09 16:38:31,144 - DEBUG - run new case
+2017-01-09 16:38:37,154 - DEBUG - run new case
+2017-01-09 16:38:43,150 - DEBUG - run new case
+2017-01-09 16:38:52,200 - DEBUG - run new case
+2017-01-09 16:38:57,252 - DEBUG - WebSocket connection closed: None
+2017-01-09 16:38:58,151 - DEBUG - run new case
+2017-01-09 16:39:02,015 - DEBUG - Client connecting: tcp4:127.0.0.1:64569
+2017-01-09 16:39:02,019 - DEBUG - Factory register: tcp4:127.0.0.1:64569
+2017-01-09 16:39:02,023 - DEBUG - WebSocket connection open.
+2017-01-09 16:39:04,183 - DEBUG - run new case
+2017-01-09 16:39:10,151 - DEBUG - run new case
+2017-01-09 16:39:16,157 - DEBUG - run new case
+2017-01-09 16:39:20,513 - DEBUG - WebSocket connection closed: None
+2017-01-09 16:39:22,148 - DEBUG - run new case
+2017-01-09 16:39:23,897 - DEBUG - Client connecting: tcp4:127.0.0.1:64612
+2017-01-09 16:39:24,233 - DEBUG - Factory register: tcp4:127.0.0.1:64612
+2017-01-09 16:39:24,244 - DEBUG - WebSocket connection open.
+2017-01-09 16:39:28,165 - DEBUG - run new case
+2017-01-09 16:39:34,144 - DEBUG - run new case
+2017-01-09 16:39:40,167 - DEBUG - run new case
+2017-01-09 16:39:46,173 - DEBUG - run new case
+2017-01-09 16:39:52,196 - DEBUG - run new case
+2017-01-09 16:39:58,155 - DEBUG - run new case
+2017-01-09 16:40:04,002 - DEBUG - run new case
+2017-01-09 16:40:10,148 - DEBUG - run new case
+2017-01-09 16:40:16,190 - DEBUG - run new case
+2017-01-09 16:40:22,163 - DEBUG - run new case
+2017-01-09 16:40:28,154 - DEBUG - run new case
+2017-01-09 16:40:34,148 - DEBUG - run new case
+2017-01-09 16:40:40,173 - DEBUG - run new case
+2017-01-09 16:40:46,196 - DEBUG - run new case
+2017-01-09 16:40:52,190 - DEBUG - run new case
+2017-01-09 16:40:58,157 - DEBUG - run new case
+2017-01-09 16:41:04,206 - DEBUG - run new case
+2017-01-09 16:41:10,168 - DEBUG - run new case
+2017-01-09 16:41:16,171 - DEBUG - run new case
+2017-01-09 16:41:22,184 - DEBUG - run new case
+2017-01-09 16:41:28,161 - DEBUG - run new case
+2017-01-09 16:41:34,154 - DEBUG - run new case
+2017-01-09 16:41:43,203 - DEBUG - run new case
+2017-01-09 16:41:49,174 - DEBUG - run new case
+2017-01-09 16:41:55,150 - DEBUG - run new case
+2017-01-09 16:41:58,561 - DEBUG - WebSocket connection closed: None
+2017-01-09 16:42:01,174 - DEBUG - run new case
+2017-01-09 16:42:07,200 - DEBUG - run new case
+2017-01-09 16:42:13,184 - DEBUG - run new case
+2017-01-09 16:42:19,180 - DEBUG - run new case
+2017-01-09 16:42:25,157 - DEBUG - run new case
+2017-01-09 16:42:31,148 - DEBUG - run new case
+2017-01-09 16:42:37,147 - DEBUG - run new case
+2017-01-09 16:42:43,183 - DEBUG - run new case
+2017-01-09 16:42:49,193 - DEBUG - run new case
+2017-01-09 16:42:55,178 - DEBUG - run new case
+2017-01-09 16:43:01,155 - DEBUG - run new case
+2017-01-09 17:49:09,417 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 17:49:09,417 - DEBUG - run new case
+2017-01-09 17:49:15,302 - DEBUG - run new case
+2017-01-09 17:49:21,263 - DEBUG - run new case
+2017-01-09 17:49:27,164 - DEBUG - run new case
+2017-01-09 17:49:33,257 - DEBUG - run new case
+2017-01-09 17:49:36,326 - DEBUG - Client connecting: tcp4:127.0.0.1:49728
+2017-01-09 17:49:36,328 - DEBUG - Factory register: tcp4:127.0.0.1:49728
+2017-01-09 17:49:36,328 - DEBUG - WebSocket connection open.
+2017-01-09 17:49:39,153 - DEBUG - run new case
+2017-01-09 17:49:45,181 - DEBUG - run new case
+2017-01-09 17:49:50,963 - DEBUG - run new case
+2017-01-09 17:49:56,167 - DEBUG - run new case
+2017-01-09 17:50:02,217 - DEBUG - run new case
+2017-01-09 17:50:08,313 - DEBUG - run new case
+2017-01-09 17:50:14,164 - DEBUG - run new case
+2017-01-09 17:50:20,249 - DEBUG - run new case
+2017-01-09 17:50:26,210 - DEBUG - run new case
+2017-01-09 17:50:32,227 - DEBUG - run new case
+2017-01-09 17:50:38,253 - DEBUG - run new case
+2017-01-09 17:50:44,155 - DEBUG - run new case
+2017-01-09 17:50:50,246 - DEBUG - run new case
+2017-01-09 17:50:53,329 - DEBUG - WebSocket connection closed: None
+2017-01-09 17:50:54,513 - DEBUG - Client connecting: tcp4:127.0.0.1:49753
+2017-01-09 17:50:54,516 - DEBUG - Factory register: tcp4:127.0.0.1:49753
+2017-01-09 17:50:54,516 - DEBUG - WebSocket connection open.
+2017-01-09 17:50:56,253 - DEBUG - run new case
+2017-01-09 17:51:02,171 - DEBUG - run new case
+2017-01-09 17:51:08,269 - DEBUG - run new case
+2017-01-09 17:51:14,052 - DEBUG - run new case
+2017-01-09 17:51:20,203 - DEBUG - run new case
+2017-01-09 17:51:22,542 - DEBUG - WebSocket connection closed: None
+2017-01-09 17:51:23,989 - DEBUG - Client connecting: tcp4:127.0.0.1:49768
+2017-01-09 17:51:24,026 - DEBUG - Factory register: tcp4:127.0.0.1:49768
+2017-01-09 17:51:24,029 - DEBUG - WebSocket connection open.
+2017-01-09 17:51:26,224 - DEBUG - run new case
+2017-01-09 17:51:35,171 - DEBUG - run new case
+2017-01-09 17:51:39,684 - DEBUG - WebSocket connection closed: None
+2017-01-09 17:51:41,158 - DEBUG - run new case
+2017-01-09 17:51:41,328 - DEBUG - Client connecting: tcp4:127.0.0.1:49789
+2017-01-09 17:51:41,329 - DEBUG - Factory register: tcp4:127.0.0.1:49789
+2017-01-09 17:51:41,331 - DEBUG - WebSocket connection open.
+2017-01-09 17:51:47,249 - DEBUG - run new case
+2017-01-09 17:51:53,280 - DEBUG - run new case
+2017-01-09 17:51:59,053 - DEBUG - run new case
+2017-01-09 17:52:05,171 - DEBUG - run new case
+2017-01-09 17:52:11,167 - DEBUG - run new case
+2017-01-09 17:52:17,183 - DEBUG - run new case
+2017-01-09 17:52:23,190 - DEBUG - run new case
+2017-01-09 17:52:29,187 - DEBUG - run new case
+2017-01-09 17:52:35,213 - DEBUG - run new case
+2017-01-09 17:52:41,267 - DEBUG - run new case
+2017-01-09 17:52:47,220 - DEBUG - run new case
+2017-01-09 17:52:53,217 - DEBUG - run new case
+2017-01-09 17:52:59,378 - DEBUG - run new case
+2017-01-09 17:53:05,223 - DEBUG - run new case
+2017-01-09 17:53:11,253 - DEBUG - run new case
+2017-01-09 17:53:17,233 - DEBUG - run new case
+2017-01-09 17:53:23,213 - DEBUG - run new case
+2017-01-09 17:53:29,197 - DEBUG - run new case
+2017-01-09 17:53:35,165 - DEBUG - run new case
+2017-01-09 17:53:44,176 - DEBUG - run new case
+2017-01-09 17:53:50,250 - DEBUG - run new case
+2017-01-09 17:53:56,246 - DEBUG - run new case
+2017-01-09 17:54:02,269 - DEBUG - run new case
+2017-01-09 17:54:08,263 - DEBUG - run new case
+2017-01-09 17:54:14,176 - DEBUG - run new case
+2017-01-09 17:54:20,161 - DEBUG - run new case
+2017-01-09 17:54:26,269 - DEBUG - run new case
+2017-01-09 17:54:32,167 - DEBUG - run new case
+2017-01-09 17:54:38,273 - DEBUG - run new case
+2017-01-09 17:54:44,163 - DEBUG - run new case
+2017-01-09 17:54:50,165 - DEBUG - run new case
+2017-01-09 17:54:56,263 - DEBUG - run new case
+2017-01-09 17:55:02,181 - DEBUG - run new case
+2017-01-09 17:55:08,211 - DEBUG - run new case
+2017-01-09 17:55:14,318 - DEBUG - run new case
+2017-01-09 17:55:20,200 - DEBUG - run new case
+2017-01-09 17:55:26,224 - DEBUG - run new case
+2017-01-09 17:55:30,446 - DEBUG - WebSocket connection closed: None
+2017-01-09 17:55:31,816 - DEBUG - Client connecting: tcp4:127.0.0.1:49853
+2017-01-09 17:55:31,819 - DEBUG - Factory register: tcp4:127.0.0.1:49853
+2017-01-09 17:55:31,819 - DEBUG - WebSocket connection open.
+2017-01-09 17:55:32,335 - DEBUG - run new case
+2017-01-09 17:55:38,219 - DEBUG - run new case
+2017-01-09 17:55:44,240 - DEBUG - run new case
+2017-01-09 17:55:50,177 - DEBUG - run new case
+2017-01-09 17:55:56,107 - DEBUG - run new case
+2017-01-09 17:56:02,286 - DEBUG - run new case
+2017-01-09 17:56:11,164 - DEBUG - run new case
+2017-01-09 17:56:17,154 - DEBUG - run new case
+2017-01-09 17:56:23,196 - DEBUG - run new case
+2017-01-09 17:56:29,213 - DEBUG - run new case
+2017-01-09 17:56:35,216 - DEBUG - run new case
+2017-01-09 17:56:41,237 - DEBUG - run new case
+2017-01-09 17:56:47,247 - DEBUG - run new case
+2017-01-09 17:56:53,194 - DEBUG - run new case
+2017-01-09 17:56:59,150 - DEBUG - run new case
+2017-01-09 17:57:05,155 - DEBUG - run new case
+2017-01-09 17:57:14,194 - DEBUG - run new case
+2017-01-09 17:57:20,221 - DEBUG - run new case
+2017-01-09 17:57:26,365 - DEBUG - run new case
+2017-01-09 17:57:32,214 - DEBUG - run new case
+2017-01-09 17:57:38,157 - DEBUG - run new case
+2017-01-09 17:57:44,174 - DEBUG - run new case
+2017-01-09 17:57:50,209 - DEBUG - run new case
+2017-01-09 17:57:56,187 - DEBUG - run new case
+2017-01-09 17:58:02,150 - DEBUG - run new case
+2017-01-09 17:58:06,085 - DEBUG - WebSocket connection closed: None
+2017-01-09 17:58:07,588 - DEBUG - Client connecting: tcp4:127.0.0.1:49894
+2017-01-09 17:58:07,589 - DEBUG - Factory register: tcp4:127.0.0.1:49894
+2017-01-09 17:58:07,591 - DEBUG - WebSocket connection open.
+2017-01-09 17:58:08,260 - DEBUG - run new case
+2017-01-09 17:58:14,174 - DEBUG - run new case
+2017-01-09 17:58:20,167 - DEBUG - run new case
+2017-01-09 17:58:26,061 - DEBUG - run new case
+2017-01-09 17:58:32,436 - DEBUG - run new case
+2017-01-09 17:58:38,210 - DEBUG - run new case
+2017-01-09 17:58:44,282 - DEBUG - run new case
+2017-01-09 17:58:50,183 - DEBUG - run new case
+2017-01-09 17:58:56,187 - DEBUG - run new case
+2017-01-09 17:59:02,298 - DEBUG - run new case
+2017-01-09 17:59:08,188 - DEBUG - run new case
+2017-01-09 17:59:13,299 - DEBUG - WebSocket connection closed: None
+2017-01-09 17:59:14,220 - DEBUG - run new case
+2017-01-09 17:59:14,631 - DEBUG - Client connecting: tcp4:127.0.0.1:49919
+2017-01-09 17:59:14,634 - DEBUG - Factory register: tcp4:127.0.0.1:49919
+2017-01-09 17:59:14,634 - DEBUG - WebSocket connection open.
+2017-01-09 17:59:20,315 - DEBUG - run new case
+2017-01-09 17:59:25,234 - DEBUG - WebSocket connection closed: None
+2017-01-09 17:59:26,165 - DEBUG - run new case
+2017-01-09 17:59:26,380 - DEBUG - Client connecting: tcp4:127.0.0.1:49931
+2017-01-09 17:59:26,381 - DEBUG - Factory register: tcp4:127.0.0.1:49931
+2017-01-09 17:59:26,382 - DEBUG - WebSocket connection open.
+2017-01-09 17:59:32,147 - DEBUG - run new case
+2017-01-09 17:59:38,141 - DEBUG - run new case
+2017-01-09 17:59:43,977 - DEBUG - run new case
+2017-01-09 17:59:49,140 - DEBUG - run new case
+2017-01-09 17:59:55,165 - DEBUG - run new case
+2017-01-09 18:00:01,263 - DEBUG - run new case
+2017-01-09 18:00:07,142 - DEBUG - run new case
+2017-01-09 18:00:13,140 - DEBUG - run new case
+2017-01-09 18:00:19,280 - DEBUG - run new case
+2017-01-09 18:00:25,177 - DEBUG - run new case
+2017-01-09 18:00:31,217 - DEBUG - run new case
+2017-01-09 18:00:35,283 - DEBUG - WebSocket connection closed: None
+2017-01-09 18:00:36,740 - DEBUG - Client connecting: tcp4:127.0.0.1:49955
+2017-01-09 18:00:36,742 - DEBUG - Factory register: tcp4:127.0.0.1:49955
+2017-01-09 18:00:36,743 - DEBUG - WebSocket connection open.
+2017-01-09 18:00:37,325 - DEBUG - run new case
+2017-01-09 18:00:43,174 - DEBUG - run new case
+2017-01-09 18:00:49,224 - DEBUG - run new case
+2017-01-09 18:00:55,303 - DEBUG - run new case
+2017-01-09 18:01:01,134 - DEBUG - run new case
+2017-01-09 18:01:07,240 - DEBUG - run new case
+2017-01-09 18:01:13,223 - DEBUG - run new case
+2017-01-09 18:01:19,227 - DEBUG - run new case
+2017-01-09 18:01:25,144 - DEBUG - run new case
+2017-01-09 18:01:31,145 - DEBUG - run new case
+2017-01-09 18:01:37,137 - DEBUG - run new case
+2017-01-09 18:01:43,144 - DEBUG - run new case
+2017-01-09 18:01:49,165 - DEBUG - run new case
+2017-01-09 18:01:51,773 - DEBUG - WebSocket connection closed: None
+2017-01-09 18:01:53,612 - DEBUG - Client connecting: tcp4:127.0.0.1:50020
+2017-01-09 18:01:53,615 - DEBUG - Factory register: tcp4:127.0.0.1:50020
+2017-01-09 18:01:53,615 - DEBUG - WebSocket connection open.
+2017-01-09 18:01:55,174 - DEBUG - run new case
+2017-01-09 18:02:01,132 - DEBUG - run new case
+2017-01-09 18:02:07,184 - DEBUG - run new case
+2017-01-09 18:02:13,138 - DEBUG - run new case
+2017-01-09 18:02:22,154 - DEBUG - run new case
+2017-01-09 18:02:28,135 - DEBUG - run new case
+2017-01-09 18:02:34,154 - DEBUG - run new case
+2017-01-09 18:02:40,151 - DEBUG - run new case
+2017-01-09 18:02:41,325 - DEBUG - WebSocket connection closed: None
+2017-01-09 18:02:42,663 - DEBUG - Client connecting: tcp4:127.0.0.1:50042
+2017-01-09 18:02:42,671 - DEBUG - Factory register: tcp4:127.0.0.1:50042
+2017-01-09 18:02:42,673 - DEBUG - WebSocket connection open.
+2017-01-09 18:02:46,164 - DEBUG - run new case
+2017-01-09 18:02:52,260 - DEBUG - run new case
+2017-01-09 18:02:58,194 - DEBUG - run new case
+2017-01-09 18:03:04,184 - DEBUG - run new case
+2017-01-09 18:03:10,279 - DEBUG - run new case
+2017-01-09 18:03:16,173 - DEBUG - run new case
+2017-01-09 18:03:22,138 - DEBUG - run new case
+2017-01-09 18:03:28,157 - DEBUG - run new case
+2017-01-09 18:03:34,230 - DEBUG - run new case
+2017-01-09 18:03:40,217 - DEBUG - run new case
+2017-01-09 18:03:49,125 - DEBUG - run new case
+2017-01-09 18:03:55,157 - DEBUG - run new case
+2017-01-09 18:04:01,183 - DEBUG - run new case
+2017-01-09 18:04:07,187 - DEBUG - run new case
+2017-01-09 18:04:13,164 - DEBUG - run new case
+2017-01-09 18:04:19,174 - DEBUG - run new case
+2017-01-09 18:04:25,125 - DEBUG - run new case
+2017-01-09 18:04:31,191 - DEBUG - run new case
+2017-01-09 18:04:37,194 - DEBUG - run new case
+2017-01-09 18:04:43,134 - DEBUG - run new case
+2017-01-09 18:04:49,134 - DEBUG - run new case
+2017-01-09 18:04:55,121 - DEBUG - run new case
+2017-01-09 18:05:01,130 - DEBUG - run new case
+2017-01-09 18:05:07,132 - DEBUG - run new case
+2017-01-09 18:05:13,122 - DEBUG - run new case
+2017-01-09 18:05:19,121 - DEBUG - run new case
+2017-01-09 18:05:25,141 - DEBUG - run new case
+2017-01-09 18:05:31,137 - DEBUG - run new case
+2017-01-09 18:05:37,130 - DEBUG - run new case
+2017-01-09 18:05:43,259 - DEBUG - run new case
+2017-01-09 18:05:49,118 - DEBUG - run new case
+2017-01-09 18:05:55,173 - DEBUG - run new case
+2017-01-09 18:06:01,282 - DEBUG - run new case
+2017-01-09 18:06:07,174 - DEBUG - run new case
+2017-01-09 18:06:13,132 - DEBUG - run new case
+2017-01-09 18:06:19,296 - DEBUG - run new case
+2017-01-09 18:06:25,131 - DEBUG - run new case
+2017-01-09 18:06:31,119 - DEBUG - run new case
+2017-01-09 18:06:37,115 - DEBUG - run new case
+2017-01-09 18:06:43,124 - DEBUG - run new case
+2017-01-09 18:06:49,112 - DEBUG - run new case
+2017-01-09 18:06:55,132 - DEBUG - run new case
+2017-01-09 18:07:01,141 - DEBUG - run new case
+2017-01-09 18:07:07,111 - DEBUG - run new case
+2017-01-09 18:07:13,137 - DEBUG - run new case
+2017-01-09 18:07:19,111 - DEBUG - run new case
+2017-01-09 18:07:25,134 - DEBUG - run new case
+2017-01-09 18:07:31,171 - DEBUG - run new case
+2017-01-09 18:07:37,142 - DEBUG - run new case
+2017-01-09 18:07:43,114 - DEBUG - run new case
+2017-01-09 18:07:49,125 - DEBUG - run new case
+2017-01-09 18:07:55,164 - DEBUG - run new case
+2017-01-09 18:08:01,125 - DEBUG - run new case
+2017-01-09 18:08:07,109 - DEBUG - run new case
+2017-01-09 18:08:13,108 - DEBUG - run new case
+2017-01-09 18:08:19,174 - DEBUG - run new case
+2017-01-09 18:08:25,135 - DEBUG - run new case
+2017-01-09 18:08:31,131 - DEBUG - run new case
+2017-01-09 18:08:37,144 - DEBUG - run new case
+2017-01-09 18:08:43,131 - DEBUG - run new case
+2017-01-09 18:08:49,167 - DEBUG - run new case
+2017-01-09 18:08:54,983 - DEBUG - run new case
+2017-01-09 18:09:04,184 - DEBUG - run new case
+2017-01-09 18:09:10,107 - DEBUG - run new case
+2017-01-09 18:09:16,114 - DEBUG - run new case
+2017-01-09 18:09:22,144 - DEBUG - run new case
+2017-01-09 18:09:28,115 - DEBUG - run new case
+2017-01-09 18:09:34,151 - DEBUG - run new case
+2017-01-09 18:09:40,121 - DEBUG - run new case
+2017-01-09 18:09:46,142 - DEBUG - run new case
+2017-01-09 18:09:52,111 - DEBUG - run new case
+2017-01-09 18:10:04,135 - DEBUG - run new case
+2017-01-09 18:10:10,119 - DEBUG - run new case
+2017-01-09 18:10:16,138 - DEBUG - run new case
+2017-01-09 18:10:22,114 - DEBUG - run new case
+2017-01-09 18:10:28,101 - DEBUG - run new case
+2017-01-09 18:10:34,114 - DEBUG - run new case
+2017-01-09 18:10:40,174 - DEBUG - run new case
+2017-01-09 18:10:46,125 - DEBUG - run new case
+2017-01-09 18:10:52,118 - DEBUG - run new case
+2017-01-09 18:10:58,115 - DEBUG - run new case
+2017-01-09 18:11:07,114 - DEBUG - run new case
+2017-01-09 18:11:13,144 - DEBUG - run new case
+2017-01-09 18:11:19,121 - DEBUG - run new case
+2017-01-09 18:11:25,142 - DEBUG - run new case
+2017-01-09 18:11:31,118 - DEBUG - run new case
+2017-01-09 18:11:37,101 - DEBUG - run new case
+2017-01-09 18:11:43,151 - DEBUG - run new case
+2017-01-09 18:11:49,105 - DEBUG - run new case
+2017-01-09 18:11:55,131 - DEBUG - run new case
+2017-01-09 18:12:01,096 - DEBUG - run new case
+2017-01-09 18:12:07,109 - DEBUG - run new case
+2017-01-09 18:12:13,000 - DEBUG - run new case
+2017-01-09 18:12:19,094 - DEBUG - run new case
+2017-01-09 18:12:25,115 - DEBUG - run new case
+2017-01-09 18:12:31,115 - DEBUG - run new case
+2017-01-09 18:12:37,144 - DEBUG - run new case
+2017-01-09 18:12:43,108 - DEBUG - run new case
+2017-01-09 18:12:49,138 - DEBUG - run new case
+2017-01-09 18:12:55,121 - DEBUG - run new case
+2017-01-09 18:13:01,144 - DEBUG - run new case
+2017-01-09 18:13:07,131 - DEBUG - run new case
+2017-01-09 18:13:13,108 - DEBUG - run new case
+2017-01-09 18:13:19,128 - DEBUG - run new case
+2017-01-09 18:13:25,177 - DEBUG - run new case
+2017-01-09 18:13:31,128 - DEBUG - run new case
+2017-01-09 18:13:37,099 - DEBUG - run new case
+2017-01-09 18:13:43,108 - DEBUG - run new case
+2017-01-09 18:13:49,132 - DEBUG - run new case
+2017-01-09 18:13:55,115 - DEBUG - run new case
+2017-01-09 18:14:01,124 - DEBUG - run new case
+2017-01-09 18:14:07,107 - DEBUG - run new case
+2017-01-09 18:14:16,134 - DEBUG - run new case
+2017-01-09 18:14:22,111 - DEBUG - run new case
+2017-01-09 18:14:31,140 - DEBUG - run new case
+2017-01-09 18:14:37,141 - DEBUG - run new case
+2017-01-09 18:14:43,131 - DEBUG - run new case
+2017-01-09 18:14:49,142 - DEBUG - run new case
+2017-01-09 18:14:55,108 - DEBUG - run new case
+2017-01-09 18:15:01,132 - DEBUG - run new case
+2017-01-09 18:15:07,114 - DEBUG - run new case
+2017-01-09 18:15:13,223 - DEBUG - run new case
+2017-01-09 18:15:19,112 - DEBUG - run new case
+2017-01-09 18:15:25,128 - DEBUG - run new case
+2017-01-09 18:15:31,109 - DEBUG - run new case
+2017-01-09 18:15:37,177 - DEBUG - run new case
+2017-01-09 18:15:43,131 - DEBUG - run new case
+2017-01-09 18:15:49,137 - DEBUG - run new case
+2017-01-09 18:15:55,176 - DEBUG - run new case
+2017-01-09 18:16:01,121 - DEBUG - run new case
+2017-01-09 18:16:07,141 - DEBUG - run new case
+2017-01-09 18:16:13,137 - DEBUG - run new case
+2017-01-09 18:16:19,141 - DEBUG - run new case
+2017-01-09 18:16:25,107 - DEBUG - run new case
+2017-01-09 18:16:31,144 - DEBUG - run new case
+2017-01-09 18:16:37,117 - DEBUG - run new case
+2017-01-09 18:16:43,134 - DEBUG - run new case
+2017-01-09 18:16:49,154 - DEBUG - run new case
+2017-01-09 18:16:55,176 - DEBUG - run new case
+2017-01-09 18:17:01,141 - DEBUG - run new case
+2017-01-09 18:17:07,148 - DEBUG - run new case
+2017-01-09 18:17:13,157 - DEBUG - run new case
+2017-01-09 18:17:19,119 - DEBUG - run new case
+2017-01-09 18:17:25,118 - DEBUG - run new case
+2017-01-09 18:17:31,115 - DEBUG - run new case
+2017-01-09 18:17:37,112 - DEBUG - run new case
+2017-01-09 18:17:43,117 - DEBUG - run new case
+2017-01-09 18:17:49,174 - DEBUG - run new case
+2017-01-09 18:17:55,114 - DEBUG - run new case
+2017-01-09 18:18:01,155 - DEBUG - run new case
+2017-01-09 18:18:07,138 - DEBUG - run new case
+2017-01-09 18:18:13,118 - DEBUG - run new case
+2017-01-09 18:18:19,170 - DEBUG - run new case
+2017-01-09 18:18:25,118 - DEBUG - run new case
+2017-01-09 18:18:34,121 - DEBUG - run new case
+2017-01-09 18:18:40,107 - DEBUG - run new case
+2017-01-09 18:18:46,138 - DEBUG - run new case
+2017-01-09 18:18:52,148 - DEBUG - run new case
+2017-01-09 18:18:58,111 - DEBUG - run new case
+2017-01-09 18:19:04,150 - DEBUG - run new case
+2017-01-09 18:19:10,128 - DEBUG - run new case
+2017-01-09 18:19:16,115 - DEBUG - run new case
+2017-01-09 18:19:22,131 - DEBUG - run new case
+2017-01-09 18:19:28,176 - DEBUG - run new case
+2017-01-09 18:19:34,125 - DEBUG - run new case
+2017-01-09 18:19:40,140 - DEBUG - run new case
+2017-01-09 18:19:46,135 - DEBUG - run new case
+2017-01-09 18:19:52,128 - DEBUG - run new case
+2017-01-09 18:19:58,115 - DEBUG - run new case
+2017-01-09 18:20:07,131 - DEBUG - run new case
+2017-01-09 18:20:13,170 - DEBUG - run new case
+2017-01-09 18:20:19,119 - DEBUG - run new case
+2017-01-09 18:20:25,138 - DEBUG - run new case
+2017-01-09 18:20:31,125 - DEBUG - run new case
+2017-01-09 18:20:37,157 - DEBUG - run new case
+2017-01-09 18:20:43,135 - DEBUG - run new case
+2017-01-09 18:20:48,115 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-09 18:31:43,624 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-09 18:31:46,493 - DEBUG - Client connecting: tcp4:127.0.0.1:50851
+2017-01-09 18:31:46,494 - DEBUG - Factory register: tcp4:127.0.0.1:50851
+2017-01-09 18:31:46,496 - DEBUG - WebSocket connection open.
+2017-01-09 18:32:30,808 - DEBUG - WebSocket connection closed: None
+2017-01-09 18:32:31,990 - DEBUG - Client connecting: tcp4:127.0.0.1:50876
+2017-01-09 18:32:31,992 - DEBUG - Factory register: tcp4:127.0.0.1:50876
+2017-01-09 18:32:31,993 - DEBUG - WebSocket connection open.
+2017-01-09 18:50:01,104 - DEBUG - WebSocket connection closed: None
+2017-01-09 18:50:02,315 - DEBUG - Client connecting: tcp4:127.0.0.1:51586
+2017-01-09 18:50:02,316 - DEBUG - Factory register: tcp4:127.0.0.1:51586
+2017-01-09 18:50:02,318 - DEBUG - WebSocket connection open.
+2017-01-09 19:06:37,374 - DEBUG - WebSocket connection closed: None
+2017-01-10 13:25:19,273 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-10 13:25:53,631 - DEBUG - Client connecting: tcp4:127.0.0.1:49367
+2017-01-10 13:25:53,631 - DEBUG - Factory register: tcp4:127.0.0.1:49367
+2017-01-10 13:25:53,632 - DEBUG - WebSocket connection open.
+2017-01-10 13:27:42,694 - DEBUG - WebSocket connection closed: None
+2017-01-10 13:27:43,492 - DEBUG - Client connecting: tcp4:127.0.0.1:49529
+2017-01-10 13:27:43,497 - DEBUG - Factory register: tcp4:127.0.0.1:49529
+2017-01-10 13:27:43,500 - DEBUG - WebSocket connection open.
+2017-01-10 13:27:50,950 - DEBUG - WebSocket connection closed: None
+2017-01-10 13:28:11,042 - DEBUG - Client connecting: tcp4:127.0.0.1:49628
+2017-01-10 13:28:11,045 - DEBUG - Factory register: tcp4:127.0.0.1:49628
+2017-01-10 13:28:11,046 - DEBUG - WebSocket connection open.
+2017-01-10 13:28:48,255 - DEBUG - WebSocket connection closed: None
+2017-01-10 13:28:49,082 - DEBUG - Client connecting: tcp4:127.0.0.1:49667
+2017-01-10 13:28:49,086 - DEBUG - Factory register: tcp4:127.0.0.1:49667
+2017-01-10 13:28:49,088 - DEBUG - WebSocket connection open.
+2017-01-10 13:42:40,361 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-10 15:37:56,911 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-10 15:38:19,980 - DEBUG - Client connecting: tcp4:127.0.0.1:53705
+2017-01-10 15:38:19,983 - DEBUG - Factory register: tcp4:127.0.0.1:53705
+2017-01-10 15:38:19,986 - DEBUG - WebSocket connection open.
+2017-01-10 15:39:51,585 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-10 15:40:26,654 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-10 15:40:31,594 - DEBUG - Client connecting: tcp4:127.0.0.1:53795
+2017-01-10 15:40:31,609 - DEBUG - Factory register: tcp4:127.0.0.1:53795
+2017-01-10 15:40:31,619 - DEBUG - WebSocket connection open.
+2017-01-10 16:16:22,351 - DEBUG - WebSocket connection closed: None
+2017-01-10 16:16:23,622 - DEBUG - Client connecting: tcp4:127.0.0.1:55984
+2017-01-10 16:16:23,625 - DEBUG - Factory register: tcp4:127.0.0.1:55984
+2017-01-10 16:16:23,625 - DEBUG - WebSocket connection open.
+2017-01-10 16:19:26,641 - DEBUG - WebSocket connection closed: None
+2017-01-10 16:19:27,788 - DEBUG - Client connecting: tcp4:127.0.0.1:56188
+2017-01-10 16:19:27,875 - DEBUG - Factory register: tcp4:127.0.0.1:56188
+2017-01-10 16:19:27,877 - DEBUG - WebSocket connection open.
+2017-01-10 16:42:53,628 - DEBUG - WebSocket connection closed: None
+2017-01-10 16:42:54,980 - DEBUG - Client connecting: tcp4:127.0.0.1:58193
+2017-01-10 16:42:54,982 - DEBUG - Factory register: tcp4:127.0.0.1:58193
+2017-01-10 16:42:54,983 - DEBUG - WebSocket connection open.
+2017-01-10 17:15:16,612 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-10 17:15:17,098 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:0
+2017-01-10 17:15:17,098 - DEBUG - response: {"content": {"status": "OK", "sessionId": "276", "token": "327751", "tries": 1}, "command": "get_token"}
+2017-01-10 17:15:17,101 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:0.00400018692017
+2017-01-10 17:15:17,104 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:0.007000207901
+2017-01-10 17:15:17,111 - DEBUG - [POLLING][as_327751_276][index:0] Query AirSupport
+2017-01-10 17:15:23,105 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:15:23,108 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:15:23,108 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:1
+2017-01-10 17:15:23,108 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:6.01200008392
+2017-01-10 17:15:23,109 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:5.98799991608
+2017-01-10 17:15:23,111 - DEBUG - [POLLING][as_327751_276][index:1] Query AirSupport
+2017-01-10 17:15:29,053 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:15:29,055 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:15:29,056 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:2
+2017-01-10 17:15:29,058 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:11.9610002041
+2017-01-10 17:15:29,059 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:5.94600009918
+2017-01-10 17:15:29,059 - DEBUG - [POLLING][as_327751_276][index:2] Query AirSupport
+2017-01-10 17:15:30,841 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":0,"content":{"msgId":"50397190","content":{"wording":"aaa\n","confirmation":""}},"status":false}}
+2017-01-10 17:15:32,085 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:15:32,088 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:15:32,088 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:3
+2017-01-10 17:15:32,089 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:14.9930000305
+2017-01-10 17:15:32,091 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:3.03100013733
+2017-01-10 17:15:32,092 - DEBUG - [POLLING][as_327751_276][index:3] Query AirSupport
+2017-01-10 17:15:32,121 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091605Z&X-Amz-Expires=86400&X-Amz-Signature=26916eeb74de4a8cb70f0e89b058cc7bd06fa682d499890798ea07bfa67517ab&X-Amz-SignedHeaders=host'}
+2017-01-10 17:15:32,125 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091605Z&X-Amz-Expires=86400&X-Amz-Signature=26916eeb74de4a8cb70f0e89b058cc7bd06fa682d499890798ea07bfa67517ab&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:15:34,003 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":1,"content":{"msgId":"50397190","content":{"wording":"ddd\n","confirmation":""}},"status":false}}
+2017-01-10 17:15:35,007 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091608Z&X-Amz-Expires=86400&X-Amz-Signature=d7529d0f9520020f6459ce31e6b6f1612d8f168549526fa82c7c57eae5a046b0&X-Amz-SignedHeaders=host'}
+2017-01-10 17:15:35,012 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091608Z&X-Amz-Expires=86400&X-Amz-Signature=d7529d0f9520020f6459ce31e6b6f1612d8f168549526fa82c7c57eae5a046b0&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:15:35,096 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:15:35,096 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:15:35,098 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:4
+2017-01-10 17:15:35,098 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:18.0010001659
+2017-01-10 17:15:35,098 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:3.00500011444
+2017-01-10 17:15:35,098 - DEBUG - [POLLING][as_327751_276][index:4] Query AirSupport
+2017-01-10 17:15:38,844 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":2,"content":{"msgId":"50397190","content":{"wording":"ccc\n","confirmation":""}},"status":false}}
+2017-01-10 17:15:40,025 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091613Z&X-Amz-Expires=86400&X-Amz-Signature=754ede52eb2c15bd7bccd658cf32b1fb415568956a67d09f8fc1d8301ba153be&X-Amz-SignedHeaders=host'}
+2017-01-10 17:15:40,028 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091613Z&X-Amz-Expires=86400&X-Amz-Signature=754ede52eb2c15bd7bccd658cf32b1fb415568956a67d09f8fc1d8301ba153be&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:15:41,098 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:15:41,099 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:15:41,101 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:5
+2017-01-10 17:15:41,102 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:24.006000042
+2017-01-10 17:15:41,104 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:6.00500011444
+2017-01-10 17:15:41,105 - DEBUG - [POLLING][as_327751_276][index:5] Query AirSupport
+2017-01-10 17:15:50,523 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":3,"content":{"msgId":"50397190","content":{"wording":"aaaa\n","confirmation":""}},"status":false}}
+2017-01-10 17:15:51,013 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091624Z&X-Amz-Expires=86400&X-Amz-Signature=e44e4d9aac6767be8e84e5f7a4e178e49d3a6be2cd63eb41f17ffc66ed55dfd1&X-Amz-SignedHeaders=host'}
+2017-01-10 17:15:51,016 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091624Z&X-Amz-Expires=86400&X-Amz-Signature=e44e4d9aac6767be8e84e5f7a4e178e49d3a6be2cd63eb41f17ffc66ed55dfd1&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:15:52,022 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:15:52,023 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:15:52,026 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:6
+2017-01-10 17:15:52,026 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:34.9300000668
+2017-01-10 17:15:52,029 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:10.9219999313
+2017-01-10 17:15:52,030 - DEBUG - [POLLING][as_327751_276][index:6] Query AirSupport
+2017-01-10 17:16:49,053 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":4,"content":{"msgId":"50397190","content":{"wording":"sdfsd\n","confirmation":""}},"status":false}}
+2017-01-10 17:16:50,005 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091723Z&X-Amz-Expires=86400&X-Amz-Signature=3cd3754e40ae0a6350c9989811ef406c0282f24e5aae23fb61034a227e12134d&X-Amz-SignedHeaders=host'}
+2017-01-10 17:16:50,007 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091723Z&X-Amz-Expires=86400&X-Amz-Signature=3cd3754e40ae0a6350c9989811ef406c0282f24e5aae23fb61034a227e12134d&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:16:50,638 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:16:50,640 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:16:50,641 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:7
+2017-01-10 17:16:50,642 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:93.5460000038
+2017-01-10 17:16:50,644 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:58.6129999161
+2017-01-10 17:16:50,645 - DEBUG - [POLLING][as_327751_276][index:7] Query AirSupport
+2017-01-10 17:17:01,148 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:17:01,151 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:17:01,151 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:8
+2017-01-10 17:17:01,151 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:104.055000067
+2017-01-10 17:17:01,153 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:10.5050001144
+2017-01-10 17:17:01,154 - DEBUG - [POLLING][as_327751_276][index:8] Query AirSupport
+2017-01-10 17:17:04,039 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:17:04,039 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:17:04,040 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:9
+2017-01-10 17:17:04,042 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:106.946000099
+2017-01-10 17:17:04,045 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:2.8900001049
+2017-01-10 17:17:04,046 - DEBUG - [POLLING][as_327751_276][index:9] Query AirSupport
+2017-01-10 17:17:18,607 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":5,"content":{"msgId":"50397190","content":{"wording":"sazxczx\n","confirmation":""}},"status":false}}
+2017-01-10 17:17:19,030 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091752Z&X-Amz-Expires=86400&X-Amz-Signature=0120ab7164d2e6ede6965b7b80a5f957c8160bc80d72150112dfc38a01d6cfba&X-Amz-SignedHeaders=host'}
+2017-01-10 17:17:19,033 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091752Z&X-Amz-Expires=86400&X-Amz-Signature=0120ab7164d2e6ede6965b7b80a5f957c8160bc80d72150112dfc38a01d6cfba&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:17:20,007 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:17:20,009 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:17:20,010 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:10
+2017-01-10 17:17:20,012 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:122.9150002
+2017-01-10 17:17:20,013 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:15.9649999142
+2017-01-10 17:17:20,013 - DEBUG - [POLLING][as_327751_276][index:10] Query AirSupport
+2017-01-10 17:17:22,053 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":6,"content":{"msgId":"50397190","content":{"wording":"zczczx\n","confirmation":""}},"status":false}}
+2017-01-10 17:17:23,007 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091756Z&X-Amz-Expires=86400&X-Amz-Signature=60bf495c57913eab10198dd8ae937f8ba31210af2580a78ec85b97a46ad9d793&X-Amz-SignedHeaders=host'}
+2017-01-10 17:17:23,009 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091756Z&X-Amz-Expires=86400&X-Amz-Signature=60bf495c57913eab10198dd8ae937f8ba31210af2580a78ec85b97a46ad9d793&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:17:23,664 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:17:23,665 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:17:23,667 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:11
+2017-01-10 17:17:23,667 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:126.571000099
+2017-01-10 17:17:23,668 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:3.65499997139
+2017-01-10 17:17:23,670 - DEBUG - [POLLING][as_327751_276][index:11] Query AirSupport
+2017-01-10 17:17:43,517 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":7,"content":{"msgId":"50397190","content":{"wording":"asdsad\n","confirmation":""}},"status":false}}
+2017-01-10 17:17:44,023 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091817Z&X-Amz-Expires=86400&X-Amz-Signature=92c660c349a2d5072308a221fbac9e2018cf0ffd865c41520d019421d546d312&X-Amz-SignedHeaders=host'}
+2017-01-10 17:17:44,029 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091817Z&X-Amz-Expires=86400&X-Amz-Signature=92c660c349a2d5072308a221fbac9e2018cf0ffd865c41520d019421d546d312&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:17:45,036 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:17:45,036 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:17:45,039 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:12
+2017-01-10 17:17:45,040 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:147.944000006
+2017-01-10 17:17:45,042 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:21.371999979
+2017-01-10 17:17:45,043 - DEBUG - [POLLING][as_327751_276][index:12] Query AirSupport
+2017-01-10 17:17:58,510 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":8,"content":{"msgId":"50397190","content":{"wording":"asdasd\n","confirmation":""}},"status":false}}
+2017-01-10 17:17:59,026 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091832Z&X-Amz-Expires=86400&X-Amz-Signature=6d3ad67926e88c2dab6b7315504883c60bd907f08a84fc133b779d35b6f2dcb8&X-Amz-SignedHeaders=host'}
+2017-01-10 17:17:59,029 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091832Z&X-Amz-Expires=86400&X-Amz-Signature=6d3ad67926e88c2dab6b7315504883c60bd907f08a84fc133b779d35b6f2dcb8&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:18:00,020 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:18:00,023 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:18:00,025 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:13
+2017-01-10 17:18:00,026 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:162.930000067
+2017-01-10 17:18:00,029 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:14.9820001125
+2017-01-10 17:18:00,032 - DEBUG - [POLLING][as_327751_276][index:13] Query AirSupport
+2017-01-10 17:18:10,871 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":9,"content":{"msgId":"50397190","content":{"wording":"asdasd\n","confirmation":""}},"status":false}}
+2017-01-10 17:18:12,029 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091845Z&X-Amz-Expires=86400&X-Amz-Signature=986dbe1fa050b50b6d6b8765cb27394c299699f003c0c6027b6eb02972ec3ce9&X-Amz-SignedHeaders=host'}
+2017-01-10 17:18:12,032 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:18:12,039 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091845Z&X-Amz-Expires=86400&X-Amz-Signature=986dbe1fa050b50b6d6b8765cb27394c299699f003c0c6027b6eb02972ec3ce9&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:18:12,039 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:18:12,042 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:14
+2017-01-10 17:18:12,045 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:174.948000193
+2017-01-10 17:18:12,059 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:12.0260000229
+2017-01-10 17:18:12,061 - DEBUG - [POLLING][as_327751_276][index:14] Query AirSupport
+2017-01-10 17:18:25,993 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":10,"content":{"msgId":"50397190","content":{"wording":"asdasd\n","confirmation":""}},"status":false}}
+2017-01-10 17:18:27,015 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-10?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091900Z&X-Amz-Expires=86400&X-Amz-Signature=7f69a29c4f81433e7144e345ebd3120f4382c5084f22d27a584970ca8c134239&X-Amz-SignedHeaders=host'}
+2017-01-10 17:18:27,016 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-10?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091900Z&X-Amz-Expires=86400&X-Amz-Signature=7f69a29c4f81433e7144e345ebd3120f4382c5084f22d27a584970ca8c134239&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:18:27,020 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:18:27,023 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:18:27,033 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:15
+2017-01-10 17:18:27,035 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:189.938000202
+2017-01-10 17:18:27,036 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:14.9739999771
+2017-01-10 17:18:27,036 - DEBUG - [POLLING][as_327751_276][index:15] Query AirSupport
+2017-01-10 17:18:37,855 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:18:37,858 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:18:37,858 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:16
+2017-01-10 17:18:37,861 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:200.764000177
+2017-01-10 17:18:37,861 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:10.8190000057
+2017-01-10 17:18:37,862 - DEBUG - [POLLING][as_327751_276][index:16] Query AirSupport
+2017-01-10 17:18:46,013 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:18:46,020 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:18:46,022 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:17
+2017-01-10 17:18:46,022 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:208.925000191
+2017-01-10 17:18:46,023 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:8.15899991989
+2017-01-10 17:18:46,023 - DEBUG - [POLLING][as_327751_276][index:17] Query AirSupport
+2017-01-10 17:18:53,736 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:18:53,737 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:18:53,737 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:18
+2017-01-10 17:18:53,742 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:216.645000219
+2017-01-10 17:18:53,744 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:7.71999979019
+2017-01-10 17:18:53,746 - DEBUG - [POLLING][as_327751_276][index:18] Query AirSupport
+2017-01-10 17:18:56,786 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":11,"content":{"msgId":"50397190","content":{"wording":"asdasd\n","confirmation":""}},"status":false}}
+2017-01-10 17:18:58,062 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-11?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091931Z&X-Amz-Expires=86400&X-Amz-Signature=e0953c93f4c13b4912ec04c45a9132fe67f4cf8bd7227e6f61aa563e6e036725&X-Amz-SignedHeaders=host'}
+2017-01-10 17:18:58,065 - DEBUG - [POLLING][as_327751_276] Query AirSupport done
+2017-01-10 17:18:58,066 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-11?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T091931Z&X-Amz-Expires=86400&X-Amz-Signature=e0953c93f4c13b4912ec04c45a9132fe67f4cf8bd7227e6f61aa563e6e036725&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 17:18:58,069 - DEBUG - [POLLING][as_327751_276] update tsew time:0.0
+2017-01-10 17:18:58,088 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), index:19
+2017-01-10 17:18:58,088 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan from start:220.992000103
+2017-01-10 17:18:58,092 - DEBUG - [POLLING][as_327751_276] Query AirSupport for Terminate (session/status), timespan:4.34400010109
+2017-01-10 17:18:58,092 - DEBUG - [POLLING][as_327751_276][index:19] Query AirSupport
+2017-01-10 18:04:15,364 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":12,"content":{"msgId":"50397190","content":{"wording":"sdad\n","confirmation":""}},"status":false}}
+2017-01-10 18:04:16,039 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-12?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T100449Z&X-Amz-Expires=86400&X-Amz-Signature=d89625f4bea2ded651addba5372221884a5b610cb8b9ee676fcda2a9e9417f89&X-Amz-SignedHeaders=host'}
+2017-01-10 18:04:16,042 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-12?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T100449Z&X-Amz-Expires=86400&X-Amz-Signature=d89625f4bea2ded651addba5372221884a5b610cb8b9ee676fcda2a9e9417f89&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 18:04:16,890 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"327751","sessionId":"276","seq":13,"content":{"msgId":"50397190","content":{"wording":"\nsd\n","confirmation":""}},"status":false}}
+2017-01-10 18:04:18,055 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-13?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T100451Z&X-Amz-Expires=86400&X-Amz-Signature=27742851cc3921230e0f3defe42183bc4892a3ba567777082a6413252bc18ad3&X-Amz-SignedHeaders=host'}
+2017-01-10 18:04:18,055 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-13?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T100451Z&X-Amz-Expires=86400&X-Amz-Signature=27742851cc3921230e0f3defe42183bc4892a3ba567777082a6413252bc18ad3&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-10 18:11:49,193 - DEBUG - WebSocket connection closed: None
