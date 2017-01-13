@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import requests
+import zipfile
 import json
 import time
+import os
 import logging
 import logging.handlers
 import threading
@@ -210,6 +212,8 @@ def get_new_case(ws):
         from_as = json.loads(http_request(url, None))
         print 'grab case polling'
         if from_as['tuka'] is not None and len(from_as['tuka']) > 0:
+            print from_as
+            from_as['tuka'][0]['imgurl'] = download_s3_file(from_as['tuka'][0]["token"], from_as['tuka'][0]["sessionId"], from_as['tuka'][0]["issue"][0]["seq"], from_as['tuka'][0]["issue"][0]["content"]["url"])
             payload = {}
             payload['command'] = 'newCase'
             payload['content'] = from_as
@@ -218,5 +222,22 @@ def get_new_case(ws):
         time.sleep(1)
 
 
+def download_s3_file(token, sessionId, seq, url):
+    r = requests.get(url, stream=True)
+    if r.status_code == 200:
+        with open('../src/assets/s3ZipFile/{0}_{1}.zip'.format(token, sessionId), 'wb') as output:
+            output.write(r.content)
+
+        with zipfile.ZipFile('../src/assets/s3ZipFile/{0}_{1}.zip'.format(token, sessionId), 'r') as zf:
+            zf.extractall(pwd='virus', path='../src/assets/s3File/{0}_{1}/{2}'.format(token, sessionId, seq))
+        
+        for file in os.listdir('../src/assets/s3File/{0}_{1}/{2}'.format(token, sessionId, seq)):
+            if file.endswith(".jpg"): 
+                return '../src/assets/s3File/{0}_{1}/{2}/{3}'.format(token, sessionId, seq, file)
+                break
+    else:
+        return None     
+
 def getKey(token, sessionId):
     return "as_{0}_{1}".format(token, sessionId)
+

@@ -6756,3 +6756,108 @@
 2017-01-10 18:04:18,055 - DEBUG - [as_327751_276] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-13?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T100451Z&X-Amz-Expires=86400&X-Amz-Signature=27742851cc3921230e0f3defe42183bc4892a3ba567777082a6413252bc18ad3&X-Amz-SignedHeaders=host'}
 2017-01-10 18:04:18,055 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/276-13?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170110%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170110T100451Z&X-Amz-Expires=86400&X-Amz-Signature=27742851cc3921230e0f3defe42183bc4892a3ba567777082a6413252bc18ad3&X-Amz-SignedHeaders=host\"}", "command": "command"}
 2017-01-10 18:11:49,193 - DEBUG - WebSocket connection closed: None
+2017-01-13 10:18:59,687 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 10:19:36,647 - DEBUG - Client connecting: tcp4:127.0.0.1:50374
+2017-01-13 10:19:36,661 - DEBUG - Factory register: tcp4:127.0.0.1:50374
+2017-01-13 10:19:36,661 - DEBUG - WebSocket connection open.
+2017-01-13 10:20:18,875 - DEBUG - payload.decode('utf8'): {"command":"get_token","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","initArg":{"removeDownloadFolder":1,"removeUploadFolder":1},"AirSupportTibcoUrl":"@AirSupportTibcoUrl@","countryCode":"JP"}}
+2017-01-13 10:20:20,108 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), index:0
+2017-01-13 10:20:20,108 - DEBUG - response: {"content": {"status": "OK", "sessionId": "298", "token": "316999", "tries": 1}, "command": "get_token"}
+2017-01-13 10:20:20,111 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan from start:0.00300002098083
+2017-01-13 10:20:20,115 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan:0.00799989700317
+2017-01-13 10:20:20,118 - DEBUG - [POLLING][as_316999_298][index:0] Query AirSupport
+2017-01-13 10:20:26,114 - DEBUG - [POLLING][as_316999_298] Query AirSupport done
+2017-01-13 10:20:26,115 - DEBUG - [POLLING][as_316999_298] update tsew time:0.0
+2017-01-13 10:20:26,117 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), index:1
+2017-01-13 10:20:26,117 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan from start:6.00900006294
+2017-01-13 10:20:26,118 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan:5.99900007248
+2017-01-13 10:20:26,119 - DEBUG - [POLLING][as_316999_298][index:1] Query AirSupport
+2017-01-13 10:20:58,592 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"316999","sessionId":"298","seq":0,"content":{"msgId":"50397190","content":{"wording":"2\n","confirmation":""}},"status":false}}
+2017-01-13 10:20:59,029 - DEBUG - [POLLING][as_316999_298] Query AirSupport done
+2017-01-13 10:20:59,032 - DEBUG - [POLLING][as_316999_298] update tsew time:0.0
+2017-01-13 10:20:59,035 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), index:2
+2017-01-13 10:20:59,038 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan from start:38.9300000668
+2017-01-13 10:20:59,040 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan:32.9210000038
+2017-01-13 10:20:59,042 - DEBUG - [POLLING][as_316999_298][index:2] Query AirSupport
+2017-01-13 10:20:59,130 - DEBUG - [as_316999_298] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/298-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170113%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170113T022138Z&X-Amz-Expires=86400&X-Amz-Signature=7e01a13dfc87026027a05959b2ac11866069370683ba893a1cd384a98d83f5c5&X-Amz-SignedHeaders=host'}
+2017-01-13 10:20:59,134 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/298-0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170113%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170113T022138Z&X-Amz-Expires=86400&X-Amz-Signature=7e01a13dfc87026027a05959b2ac11866069370683ba893a1cd384a98d83f5c5&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-13 10:21:02,119 - DEBUG - [POLLING][as_316999_298] Query AirSupport done
+2017-01-13 10:21:02,122 - DEBUG - [POLLING][as_316999_298] update tsew time:0.0
+2017-01-13 10:21:02,125 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), index:3
+2017-01-13 10:21:02,127 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan from start:42.0190000534
+2017-01-13 10:21:02,128 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan:3.08500003815
+2017-01-13 10:21:02,131 - DEBUG - [POLLING][as_316999_298][index:3] Query AirSupport
+2017-01-13 10:21:03,637 - DEBUG - payload.decode('utf8'): {"command":"command","content":{"clientId":"user@trend.account.email","supportId":"michael_mao@trendmicro.com","token":"316999","sessionId":"298","seq":1,"content":{"msgId":"50397190","content":{"wording":"3\n","confirmation":""}},"status":false}}
+2017-01-13 10:21:04,086 - DEBUG - [as_316999_298] command data:{u'status': u'OK', u'resultUrl': u'https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/298-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170113%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170113T022143Z&X-Amz-Expires=86400&X-Amz-Signature=20ad25b3cd247ee52fa1d11d6c521b9b8b162ca219498a141ad55274bb10da3b&X-Amz-SignedHeaders=host'}
+2017-01-13 10:21:04,091 - DEBUG - response: {"content": "{\"status\":\"OK\",\"resultUrl\":\"https://airsupportplusdev-jp.s3-ap-northeast-1.amazonaws.com/298-1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJE3UT3C7KVNMOJUQ%2F20170113%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20170113T022143Z&X-Amz-Expires=86400&X-Amz-Signature=20ad25b3cd247ee52fa1d11d6c521b9b8b162ca219498a141ad55274bb10da3b&X-Amz-SignedHeaders=host\"}", "command": "command"}
+2017-01-13 10:21:07,134 - DEBUG - [POLLING][as_316999_298] Query AirSupport done
+2017-01-13 10:21:07,138 - DEBUG - [POLLING][as_316999_298] update tsew time:0.0
+2017-01-13 10:21:07,140 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), index:4
+2017-01-13 10:21:07,141 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan from start:47.0339999199
+2017-01-13 10:21:07,144 - DEBUG - [POLLING][as_316999_298] Query AirSupport for Terminate (session/status), timespan:5.0110001564
+2017-01-13 10:21:07,145 - DEBUG - [POLLING][as_316999_298][index:4] Query AirSupport
+2017-01-13 11:31:28,125 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 16:45:32,109 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 16:49:40,969 - DEBUG - Client connecting: tcp4:127.0.0.1:64921
+2017-01-13 16:49:40,973 - DEBUG - Factory register: tcp4:127.0.0.1:64921
+2017-01-13 16:49:40,976 - DEBUG - WebSocket connection open.
+2017-01-13 17:07:08,134 - DEBUG - WebSocket connection closed: None
+2017-01-13 17:26:44,153 - DEBUG - Client connecting: tcp4:127.0.0.1:50705
+2017-01-13 17:26:44,154 - DEBUG - Factory register: tcp4:127.0.0.1:50705
+2017-01-13 17:26:44,154 - DEBUG - WebSocket connection open.
+2017-01-13 17:34:20,355 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 17:35:18,911 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:37:38,924 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:39:04,388 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:40:05,960 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:41:15,211 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:42:37,858 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:43:14,782 - DEBUG - Client connecting: tcp4:127.0.0.1:51133
+2017-01-13 17:43:14,782 - DEBUG - Factory register: tcp4:127.0.0.1:51133
+2017-01-13 17:43:14,785 - DEBUG - WebSocket connection open.
+2017-01-13 17:46:58,604 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 17:47:02,295 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:47:14,150 - DEBUG - Client connecting: tcp4:127.0.0.1:51370
+2017-01-13 17:47:14,153 - DEBUG - Factory register: tcp4:127.0.0.1:51370
+2017-01-13 17:47:14,154 - DEBUG - WebSocket connection open.
+2017-01-13 17:49:20,052 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 17:49:23,256 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:49:31,582 - DEBUG - Client connecting: tcp4:127.0.0.1:51454
+2017-01-13 17:49:31,584 - DEBUG - Factory register: tcp4:127.0.0.1:51454
+2017-01-13 17:49:31,585 - DEBUG - WebSocket connection open.
+2017-01-13 17:50:27,017 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 17:50:30,322 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:50:33,099 - DEBUG - Client connecting: tcp4:127.0.0.1:51495
+2017-01-13 17:50:33,101 - DEBUG - Factory register: tcp4:127.0.0.1:51495
+2017-01-13 17:50:33,102 - DEBUG - WebSocket connection open.
+2017-01-13 17:51:18,897 - DEBUG - Client connecting: tcp4:127.0.0.1:51542
+2017-01-13 17:51:18,903 - DEBUG - Factory register: tcp4:127.0.0.1:51542
+2017-01-13 17:51:18,907 - DEBUG - WebSocket connection open.
+2017-01-13 17:51:22,727 - DEBUG - WebSocket connection closed: None
+2017-01-13 17:57:24,052 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 17:57:34,546 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 17:57:49,631 - DEBUG - Client connecting: tcp4:127.0.0.1:51918
+2017-01-13 17:57:49,632 - DEBUG - Factory register: tcp4:127.0.0.1:51918
+2017-01-13 17:57:49,634 - DEBUG - WebSocket connection open.
+2017-01-13 18:12:29,688 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 18:12:37,703 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 18:12:56,444 - DEBUG - Client connecting: tcp4:127.0.0.1:52800
+2017-01-13 18:12:56,446 - DEBUG - Factory register: tcp4:127.0.0.1:52800
+2017-01-13 18:12:56,447 - DEBUG - WebSocket connection open.
+2017-01-13 18:20:13,686 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 18:20:21,206 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 18:20:21,924 - DEBUG - Client connecting: tcp4:127.0.0.1:53013
+2017-01-13 18:20:21,927 - DEBUG - Factory register: tcp4:127.0.0.1:53013
+2017-01-13 18:20:21,928 - DEBUG - WebSocket connection open.
+2017-01-13 18:30:43,628 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 18:30:54,542 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 18:31:00,278 - DEBUG - Client connecting: tcp4:127.0.0.1:53753
+2017-01-13 18:31:00,299 - DEBUG - Factory register: tcp4:127.0.0.1:53753
+2017-01-13 18:31:00,301 - DEBUG - WebSocket connection open.
+2017-01-13 18:31:35,538 - DEBUG - WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-01-13 18:31:42,632 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 18:32:47,226 - DEBUG - factory.protocol = MyServerProtocol
+2017-01-13 18:32:53,463 - DEBUG - Client connecting: tcp4:127.0.0.1:53809
+2017-01-13 18:32:53,467 - DEBUG - Factory register: tcp4:127.0.0.1:53809
+2017-01-13 18:32:53,476 - DEBUG - WebSocket connection open.
+2017-01-13 18:35:46,934 - DEBUG - WebSocket connection closed: None

@@ -17,7 +17,7 @@
                                         <h3>
                                            {{ qcase.issue[0].content.desc }}
                                          </h3>
-                                        <img class="qpic" src="./../assets/case.jpg" />
+                                        <img class="qpic" :src="qcase.imgurl" />
                                         <ul class="qu">
                                             <li>
                                                 <span>
@@ -75,6 +75,10 @@ export default {
             }
         },
         methods: {
+            g: function(url){
+                
+                return  "../../../../" + url
+            },
             casePassedTime: function(time) {
                 var caseTime = new Date(time * 1000)
                 var timediff = new Date(this.now - caseTime) / 1000
