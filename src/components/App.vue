@@ -1,8 +1,18 @@
 <template>
     <div id="app">
-        <NavBar />
+<!--         <NavBar />
         <LeftNavBar />
-        <MainContainer />
+        <MainContainer /> -->
+        <TabPnael>
+            <Tabs>
+                <Tab>
+                    <h1>tab1 header</h1>
+                </Tab>
+                <Tab>
+                    <h1>tab2 header</h1>
+                </Tab>
+            </Tabs>
+        </TabPnael>
     </div>
 </template>
 <script>
@@ -12,6 +22,9 @@ import ChatPanel from './ChatPanel.vue'
 import Foot from './Foot.vue'
 import LeftNavBar from './LeftNavBar.vue'
 import MainContainer from './MainContainer.vue'
+import TabPnael from './TabPanel.vue'
+import Tabs from './Tabs.vue'
+import Tab from './Tab.vue'
 
 export default {
     components: {
@@ -19,7 +32,10 @@ export default {
         LeftNavBar,
         MainContainer,
         ChatPanel,
-        Foot
+        Foot,
+        TabPnael,
+        Tabs,
+        Tab
     }
 }
 </script>
