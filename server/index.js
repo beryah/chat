@@ -2,6 +2,10 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
+var redis = require('redis');
+var sub = redis.createClient(3158, '50.30.35.9', { auth_pass: '95bb24a07fe7a97d7958bba081faf508' });
+var pub = redis.createClient(3158, '50.30.35.9', { auth_pass: '95bb24a07fe7a97d7958bba081faf508' });
+sub.subscribe('chat');
 
 app.get('/', function(req, res) {
     res.sendfile('index.html');
@@ -32,25 +36,30 @@ io.on('connection', function(socket) {
     });
 
     socket.on('join user room', function(agent) {
-        console.log('agent ' + agent.name + ' join user room id ' + agent.joinedId)
+        console.log(agent.name + ' joined ' + agent.joinedId)
         socket.join(agent.joinedId)
-        io.to(agent.joinedId).emit('agent joined', agent.name + ' joined your room, you can talk now');
+        io.to(agent.joinedId).emit('chat', { msg: agent.name + ' joined', from: 'system' });
     });
 
     socket.on('chat', function(chat) {
-    	console.log(chat)
-    	if(chat.roomId === undefined){
-    		io.to(socket.id).emit('chat', chat);
-    	}else{
-    		io.to(chat.roomId).emit('chat', chat);
-    	}        
+        console.log(chat)
+        pub.publish('chat', JSON.stringify(chat));
+    });
+
+    sub.on('message', function(channel, chat) {
+        chat = JSON.parse(chat)
+        if (chat.roomId === undefined) {
+            io.to(socket.id).emit('chat', chat);
+        } else {
+            io.to(chat.roomId).emit('chat', chat);
+        }
     });
 
     // var joined = false;
 
     // socket.on('join', function(roomName) {
     //     if (joined) {
-    //     	joined = true;
+    //      joined = true;
     //         return;
     //     }
     //     console.log(roomName)

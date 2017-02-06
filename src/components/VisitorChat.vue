@@ -1,31 +1,37 @@
 <template>
     <div :class="showHide()">
         <div class="panel-body chat-body">
-            <p class="msg-system">aaaa join</p>
+            <div v-for="(chat,index) in this.$store.state.messages" :class="messageStyle(chat)">
+                <span>{{chat.msg}}</span>
+            </div>
+            <!-- <div class="msg-system">
+    <span class="msg-system">aaaa join</span>
+</div>
+ -->
+            <!--   <div class="msg-me">
+                <span>hello, I am Michael and I need your help</span>
+            </div>
+            <div class="msg-agent">
+                <span>msg from agent</span>
+            </div>
             <div class="msg-me">
                 <span>hello, I am Michael and I need your help</span>
             </div>
             <div class="msg-agent">
                 <span>msg from agent</span>
             </div>
-             <div class="msg-me">
+            <div class="msg-me">
                 <span>hello, I am Michael and I need your help</span>
             </div>
             <div class="msg-agent">
                 <span>msg from agent</span>
             </div>
-             <div class="msg-me">
+            <div class="msg-me">
                 <span>hello, I am Michael and I need your help</span>
             </div>
             <div class="msg-agent">
                 <span>msg from agent</span>
-            </div>
-             <div class="msg-me">
-                <span>hello, I am Michael and I need your help</span>
-            </div>
-            <div class="msg-agent">
-                <span>msg from agent</span>
-            </div>
+            </div> -->
         </div>
         <div class="panel-footer icon-bar">
             <i class="fa fa-volume-up fa-lg  icon-gray pointer" style="padding-right:15px" aria-hidden="true"></i>
@@ -46,6 +52,15 @@
 export default {
     components: {},
     methods: {
+        messageStyle(chat) {
+            if(chat.from == 'me')
+                return 'msg-me'
+            if(chat.from == 'system')
+                return 'msg-system'
+            if(chat.from == 'agent')
+                return 'msg-agent'
+
+        },
         keydown(e) {
             var keycode = e.keyCode || e.which;
             if (keycode === 13 && !e.shiftKey) {

@@ -15,6 +15,7 @@ export default function createSocketioPlugin(socket) {
         // }
 
         socket.on('chat', function(chat) {
+            console.log(chat)
             store.commit('addMsg', chat);
         });
 
