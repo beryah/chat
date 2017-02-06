@@ -1,0 +1,68 @@
+.hide {
+    display: none;
+}
+
+.white {
+    color: #fff;
+}
+
+.bluma {
+    background-color: #00d1b2;
+}
+
+.panel-bluma {
+    border-color: #ddd
+}
+
+.panel-button {
+    cursor: pointer;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.icon-gray {
+    color: #7A8496;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-right {
+    float: right;
+}
+
+.msg-system {
+    color: #82878F;
+    background-color: #F3F3F4;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.msg-me {
+    margin-left: 30%;
+    color: #314F22;
+    background-color: #E4E8EB;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.msg-agent {
+	width: 70%;
+    background-color: #BEF18C;
+    text-align: left;
+    color: #314F22;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.arrow {
+    right: 0px;
+    width: 14px;
+    height: 9px;
+    border-top: 1px solid #ccc;
+    border-radius: 0 100% 0 0;
+    background-color: #fafafa;
+}

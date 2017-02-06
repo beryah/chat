@@ -1,11 +1,24 @@
 <template>
-	<footer> 
-		<div>This is footer</div>
-	</footer>
+   
 </template>
-<style>
-footer{
-	height:20px;
-	background-color:#ffff00;
+<script>
+import tmp from './tmp.vue'
+
+export default {
+    data() {
+            return {
+
+            }
+        },
+        components: {
+            SessionManager,
+            SessionStatus,
+            ChatPanelBody
+        },
+        methods: {
+            temp() {
+
+            },
+        }
 }
-</style>
+</script>

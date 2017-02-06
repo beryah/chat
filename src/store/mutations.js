@@ -16,9 +16,18 @@ function Session() {
     this.currentCommandSeq = 0;
 }
 
+function Message() {
+    this.fromMe = true
+    this.word = ''
+}
+
 export const state = {
     sessions: [],
-    qcases: []
+    qcases: [],
+    showStarter: true,
+    visitorName: '',
+    showVisitorInfo: true,
+    messages:[]
 }
 
 var firstSession = new Session();
@@ -36,13 +45,25 @@ export const mutations = {
     setTerminate(state, payload) {
         if (payload.status == "OK") {
             state.sessions[0].connectedStatus = 'Disconnected'
-        }else{
+        } else {
             alert('terminate fail')
             console.log(payload)
         }
     },
-    terminate(state, payload){
-    },    
+    terminate(state, payload) {},
+    switchStarter(state, payload) {
+        state.showStarter = payload
+    },
+    switchVisitorInfo(state, payload) {
+        state.showVisitorInfo = payload
+    },
+    visitorJoin(state, payload){
+        state.visitorName = payload
+    },
+    chat(state, payload){},
+    addMsg(state, payload){
+        state.messages.push(payload)
+    },
     sendMsg(state, payload) {
         var message = new Message()
         var now = new Date()
@@ -52,16 +73,16 @@ export const mutations = {
         message.arrived = false
         message.seq = payload.seq
         state.sessions[0].messages.push(message)
-        state.sessions[0].commands[payload.seq] = payload        
+        state.sessions[0].commands[payload.seq] = payload
         state.sessions[0].commands[payload.seq].status = false
         state.sessions[0].currentCommandSeq++
 
-        //test code, can get client message without server
-        // var m = new Message()
-        // m.timestamp = ''
-        // m.content = 'Hello, I am Michael and I need help. Could you help me cdoing'
-        // m.fromClient = true
-        // state.sessions[0].messages.push(m)
+            //test code, can get client message without server
+            // var m = new Message()
+            // m.timestamp = ''
+            // m.content = 'Hello, I am Michael and I need help. Could you help me cdoing'
+            // m.fromClient = true
+            // state.sessions[0].messages.push(m)
     },
     getStatus(state, payload) {
         //client grab token 
@@ -96,20 +117,11 @@ export const mutations = {
                 }
             }
         }
-    },   
-    setNewCase(state, payload){
+    },
+    setNewCase(state, payload) {
         state.qcases.push(payload.tuka[0])
     },
     update_connect_status(state, status) {
         state.status = status
     },
-}
-
-function Message() {
-    this.timestamp = ''
-    this.content = ''
-    this.fromClient = false
-    this.formatedTime = ''
-    this.arrived = true
-    this.seq = -1
 }
