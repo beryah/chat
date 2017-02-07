@@ -3,13 +3,15 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var redis = require('redis');
-var sub = redis.createClient(3158, '50.30.35.9', { auth_pass: '95bb24a07fe7a97d7958bba081faf508' });
-var pub = redis.createClient(3158, '50.30.35.9', { auth_pass: '95bb24a07fe7a97d7958bba081faf508' });
-sub.subscribe('chat');
 
-app.get('/', function(req, res) {
-    res.sendfile('index.html');
-});
+// var sub = redis.createClient(3158, '50.30.35.9', { auth_pass: '95bb24a07fe7a97d7958bba081faf508' });
+// var pub = redis.createClient(3158, '50.30.35.9', { auth_pass: '95bb24a07fe7a97d7958bba081faf508' });
+
+var sub = redis.createClient(6379, '10.1.180.22');
+var pub = redis.createClient(6379, '10.1.180.22');
+
+
+sub.subscribe('chat');
 
 app.get('/admin', function(req, res) {
     res.sendfile('admin.html');
