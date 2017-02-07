@@ -128,7 +128,8 @@
         console.log('send')
         socket.emit('chat', {
             msg: $('#msg').val(),
-            roomId: currentServeUserId
+            roomId: currentServeUserId,
+            from: 'agent'
         })
     });
     </script>

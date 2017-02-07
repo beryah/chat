@@ -43,20 +43,31 @@
 }
 
 .msg-me {
-    margin-left: 30%;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.msg-me span {
+    width: 70%;
     color: #314F22;
+    padding: 10px;
     background-color: #E4E8EB;
-    padding: 5px;
-    margin-bottom: 15px;
+    border-radius: 15px 0px 15px 15px;
+    padding-left: 10px;
 }
 
 .msg-agent {
-	width: 70%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.msg-agent span {
     background-color: #BEF18C;
     text-align: left;
     color: #314F22;
-    padding: 5px;
+    padding: 13px;
     margin-bottom: 15px;
+    border-radius: 0px 15px 15px 15px;
 }
 
 .arrow {
@@ -66,4 +77,8 @@
     border-top: 1px solid #ccc;
     border-radius: 0 100% 0 0;
     background-color: #fafafa;
+}
+
+.icon-bar {
+    background-color: #F6F6F6;
 }
