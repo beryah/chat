@@ -27,8 +27,11 @@ export const state = {
     showStarter: true,
     visitorName: '',
     showVisitorInfo: true,
-    messages:[]
+    messages:[],
+    visitors:[]
 }
+
+state.visitors.push({name:'michael', id:'1231232', email:'knicksmojs@gmail.com'})
 
 var firstSession = new Session();
 state.sessions.push(firstSession);

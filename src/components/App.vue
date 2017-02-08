@@ -1,25 +1,10 @@
 <template>
     <div id="app">
-        <HeaderNavBar />
-        <MainContainer />
-        <VisitorChatWidget />
-        <FooterNavBar />
-        
+        <template>
+            <router-view></router-view>
+        </template>
     </div>
 </template>
 <script>
-/* eslint-disable */
-import HeaderNavBar from './HeaderNavBar.vue'
-import MainContainer from './MainContainer.vue'
-import VisitorChatWidget from './VisitorChatWidget.vue'
-import FooterNavBar from './FooterNavBar.vue'
-
-export default {
-    components: {
-        HeaderNavBar,
-        MainContainer,
-        VisitorChatWidget,
-        FooterNavBar
-    }
-}
+export default {}
 </script>
