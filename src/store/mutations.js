@@ -28,7 +28,9 @@ export const state = {
     visitorName: '',
     showVisitorInfo: true,
     messages:[],
-    visitors:[]
+    visitors:[],
+    agentName:'',
+    showAgentChatRoom: false
 }
 
 state.visitors.push({name:'michael', id:'1231232', email:'knicksmojs@gmail.com'})
@@ -53,6 +55,11 @@ export const mutations = {
             console.log(payload)
         }
     },
+    agentJoin(state, payload){
+        state.agentName = payload
+    },
+    joinUserRoom(state, payload){
+    },
     terminate(state, payload) {},
     switchStarter(state, payload) {
         state.showStarter = payload
@@ -62,6 +69,12 @@ export const mutations = {
     },
     visitorJoin(state, payload){
         state.visitorName = payload
+    },
+    setVisitorList(state, payload){
+        state.visitors = payload
+    },
+     addVisitor(state, payload){
+        state.visitors.push(payload)
     },
     chat(state, payload){},
     addMsg(state, payload){

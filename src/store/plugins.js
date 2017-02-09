@@ -19,14 +19,31 @@ export default function createSocketioPlugin(socket) {
             store.commit('addMsg', chat);
         });
 
+        socket.on('visitor list', function(list) {
+            console.log(list)
+            store.commit('setVisitorList', list)
+        });
+
+        socket.on('visitor join', function(visitor) {
+            store.commit('addVisitor', visitor)
+        });
+
         store.subscribe(mutation => {
             switch (mutation.type) {
                 case 'visitorJoin':
                     socket.emit('visitor join', mutation.payload)
                     break;
+                case 'agentJoin':
+                    socket.emit('agent join', mutation.payload);
+                    break;
                 case 'chat':
                     socket.emit('chat', mutation.payload)
                     break;
+                case 'joinUserRoom':
+                    socket.emit('join user room', mutation.payload)
+                    break;
+
+
 
                     // case 'sendMsg':
                     //     var ws_payload = {

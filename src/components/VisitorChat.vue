@@ -29,7 +29,7 @@ export default {
             if (keycode === 13 && !e.shiftKey) {
                 this.$store.commit('chat', {
                     msg: this.msg,
-                    from: 'me'
+                    from: 'visitor'
                 })
                 this.msg = ''
                 e.preventDefault();

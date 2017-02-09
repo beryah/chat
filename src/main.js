@@ -4,6 +4,7 @@ import 'babel-polyfill'
 import Vue from 'vue'
 import store from './store'
 import App from './components/App.vue'
+import Login from './components/Dashboard/Login.vue'
 import Dashboard from './components/Dashboard/Dashboard.vue'
 import Home from './components/Home.vue'
 import 'jquery'
@@ -17,17 +18,18 @@ import moment from 'moment'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
-  mode: 'history',
-  base: __dirname,
-  routes: [
-    { path: '/', component: Home },
-    { path: '/Dashboard', component: Dashboard },
-  ]
+    mode: 'history',
+    base: __dirname,
+    routes: [
+        { path: '/', component: Home },
+        { path: '/Login', component: Login },
+        { path: '/Dashboard', component: Dashboard },
+    ]
 })
 
 new Vue({
-  el: '#app',
-  store,
-  router,
-  render: h => h(App)
+    el: '#app',
+    store,
+    router,
+    render: h => h(App)
 })

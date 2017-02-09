@@ -42,12 +42,12 @@
     margin-bottom: 15px;
 }
 
-.msg-me {
+.msg-visitor {
     text-align: right;
     margin-bottom: 30px;
 }
 
-.msg-me span {
+.msg-visitor span {
     width: 70%;
     color: #314F22;
     padding: 10px;
@@ -81,4 +81,8 @@
 
 .icon-bar {
     background-color: #F6F6F6;
+}
+
+.chat-body{
+    height: 300px;
 }

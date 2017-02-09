@@ -19,23 +19,7 @@
                 </li> -->
             </ul>
         </nav>
-        <!-- <div class="maincontent">
-            <p>admin</p>
-            name
-            <input id='r' type="text" name="">
-            <input id='join' type="button" value='join'>
-            <br>
-            <br> msg
-            <input id='msg' type="text" name="">
-            <input id='send' type="button" value='send'>
-            <br>
-            <p>users</p>
-            <br>
-            <ul id='users'></ul>
-            <br>
-            <p>msgs</p>
-            <ul id='msgs'></ul>
-        </div> -->
+
     </div>
 </template>
 <script>
@@ -72,10 +56,6 @@ export default {
 
 .sidenav li:hover {
     background-color: #00d1b2;
-}
-
-.maincontent {
-    margin-left: 200px
 }
 
 .visitor-ul{

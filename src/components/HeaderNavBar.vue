@@ -15,7 +15,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <router-link to="/dashboard">Login</router-link>
+                        <router-link to="/Login">Login</router-link>
                     </li>
                 </ul>
             </div>

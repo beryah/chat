@@ -17,7 +17,7 @@ app.get('/admin', function(req, res) {
 
 app.use(express.static('public'));
 
-var users = {}
+var visitors = []
 var agents = {}
 
 io.on('connection', function(socket) {
@@ -25,20 +25,20 @@ io.on('connection', function(socket) {
 
     socket.on('visitor join', function(name) {
         console.log('visitor join ' + name)
-        users[name] = { name: name, id: socket.id };
+        visitors.push({ name: name, id: socket.id });
         io.emit('visitor join', { name: name, id: socket.id })
     });
 
     socket.on('agent join', function(name) {
         console.log('agent join ' + name)
         agents[name] = { name: name, id: socket.id };
-        socket.emit('user list', users)
+        socket.emit('visitor list', visitors)
     });
 
     socket.on('join user room', function(agent) {
-        console.log(agent.name + ' joined ' + agent.joinedId)
-        socket.join(agent.joinedId)
-        io.to(agent.joinedId).emit('chat', { msg: agent.name + ' joined', from: 'system' });
+        console.log(agent.name + ' joined ' + agent.joinedRoomId)
+        socket.join(agent.joinedRoomId)
+        io.to(agent.joinedRoomId).emit('chat', { msg: agent.name + ' joined', from: 'system' });
     });
 
     socket.on('chat', function(chat) {

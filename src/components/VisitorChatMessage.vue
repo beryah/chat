@@ -12,14 +12,23 @@ export default {
     },
     methods: {
         messageStyle(chat) {
-            if (chat.from == 'me')
-                return 'msg-me'
+            console.log(chat.from)
+            if (chat.from == 'visitor')
+                return 'msg-visitor'
             if (chat.from == 'system')
                 return 'msg-system'
             if (chat.from == 'agent')
                 return 'msg-agent'
-
         },
     }
 }
 </script>
+<style>
+.chat-body {
+    height: 200px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+}
+</style>
