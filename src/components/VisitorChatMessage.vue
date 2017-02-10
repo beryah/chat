@@ -12,7 +12,6 @@ export default {
     },
     methods: {
         messageStyle(chat) {
-            console.log(chat.from)
             if (chat.from == 'visitor')
                 return 'msg-visitor'
             if (chat.from == 'system')

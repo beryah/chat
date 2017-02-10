@@ -20,7 +20,8 @@ export default {
             this.$store.commit('joinUserRoom', {
                 name: this.$store.state.agentName,
                 joinedRoomId: id
-            })
+            });
+            this.$store.state.joinedRoomId = id
             this.$store.state.showAgentChatRoom = true
         },
     },
@@ -33,10 +34,11 @@ export default {
 </script>
 <style>
 .visitor-ul {
-    background-color:white;
+    background-color:transparent;
     position: fixed;
     left: 220px;
-    bottom: 0px;
+    bottom: 15px;
+    z-index: 9999;
 }
 
 .visitor-ul a{

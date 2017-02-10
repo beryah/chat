@@ -8,7 +8,6 @@
         <VisitorInfo />
         <VisitorChat />
     </div>
-    </div>
 </template>
 <script>
 import VisitorInfo from './VisitorInfo.vue'

@@ -15,6 +15,7 @@ import VueRouter from 'vue-router';
 import './css/chatmo.css';
 import moment from 'moment'
 
+
 Vue.use(VueRouter)
 
 const router = new VueRouter({

@@ -5,7 +5,7 @@
                 <li>
                     <i class="fa fa-weixin white" aria-hidden="true"></i> Visitor
                 </li>
-                <VisitorList />
+               
                
                 <!--   <li>
                     <a href='#' class="white">
@@ -23,10 +23,10 @@
     </div>
 </template>
 <script>
-import VisitorList from './VisitorList.vue'
+
 export default {
     components:{
-        VisitorList
+       
     }
 }
 </script>

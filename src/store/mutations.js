@@ -27,13 +27,14 @@ export const state = {
     showStarter: true,
     visitorName: '',
     showVisitorInfo: true,
-    messages:[],
-    visitors:[],
-    agentName:'',
-    showAgentChatRoom: false
+    messages: [],
+    visitors: [],
+    visitorsMessage: {},
+    agentName: '',
+    showAgentChatRoom: false,
+    joinedRoomId: '',
+    visitorSocketId: ''
 }
-
-state.visitors.push({name:'michael', id:'1231232', email:'knicksmojs@gmail.com'})
 
 var firstSession = new Session();
 state.sessions.push(firstSession);
@@ -55,11 +56,10 @@ export const mutations = {
             console.log(payload)
         }
     },
-    agentJoin(state, payload){
+    agentJoin(state, payload) {
         state.agentName = payload
     },
-    joinUserRoom(state, payload){
-    },
+    joinUserRoom(state, payload) {},
     terminate(state, payload) {},
     switchStarter(state, payload) {
         state.showStarter = payload
@@ -67,17 +67,23 @@ export const mutations = {
     switchVisitorInfo(state, payload) {
         state.showVisitorInfo = payload
     },
-    visitorJoin(state, payload){
+    visitorJoin(state, payload) {
         state.visitorName = payload
     },
-    setVisitorList(state, payload){
+    setVisitorList(state, payload) {
         state.visitors = payload
     },
-     addVisitor(state, payload){
+    initMsg(state, payload){
+        state.messages = payload.messages;
+    },
+    addVisitor(state, payload) {
         state.visitors.push(payload)
     },
-    chat(state, payload){},
-    addMsg(state, payload){
+    setId(state, payload) {
+        state.visitorSocketId = payload.id
+    },
+    chat(state, payload) {},
+    addMsg(state, payload) {
         state.messages.push(payload)
     },
     sendMsg(state, payload) {

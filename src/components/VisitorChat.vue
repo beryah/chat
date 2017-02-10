@@ -29,11 +29,14 @@ export default {
             if (keycode === 13 && !e.shiftKey) {
                 this.$store.commit('chat', {
                     msg: this.msg,
-                    from: 'visitor'
+                    from: 'visitor',
+                    roomId: this.$store.state.visitorSocketId
                 })
                 this.msg = ''
                 e.preventDefault();
             }
+            var snd = new Audio("file.wav"); 
+            snd.play();
         },
         onSubmit() {
             console.log(2)
@@ -52,4 +55,6 @@ export default {
         }
     },
 }
+// var audio = new Audio('a.mp3');
+// audio.play();
 </script>

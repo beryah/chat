@@ -11,7 +11,7 @@
                     <div class="form-group">
                         <input type="password" class="form-control" placeholder="Password">
                     </div>
-                    <button type="submit" class="btn btn-success">Sign In</button>
+                    <button type="submit" class="btn btn-success l-b">Sign In</button>
                 </form>
             </div>
         </div>
@@ -35,5 +35,9 @@ export default {
 <style>
 .login-tmp {
     margin-top: 200px;
+}
+
+.l-b{
+    width: 100%
 }
 </style>

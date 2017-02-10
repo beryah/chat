@@ -20,8 +20,16 @@ export default function createSocketioPlugin(socket) {
         });
 
         socket.on('visitor list', function(list) {
-            console.log(list)
             store.commit('setVisitorList', list)
+        });
+
+        socket.on('initMsg', function(messages) {
+            console.log(messages)
+            store.commit('initMsg', messages)
+        });
+
+         socket.on('get id', function(list) {
+            store.commit('setId', list)
         });
 
         socket.on('visitor join', function(visitor) {
@@ -37,6 +45,7 @@ export default function createSocketioPlugin(socket) {
                     socket.emit('agent join', mutation.payload);
                     break;
                 case 'chat':
+                console.log(mutation.payload)
                     socket.emit('chat', mutation.payload)
                     break;
                 case 'joinUserRoom':
