@@ -1,5 +1,5 @@
 
-<p><img width="200" src="https://github.com/goalbased/chat/blob/master/gitResource/homedemo.png"></p>
+![Demo](https://github.com/goalbased/chat/blob/master/gitResource/homedemo.png)
 
 ## Enviroment Prepare
 
