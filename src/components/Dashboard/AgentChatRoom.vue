@@ -61,8 +61,6 @@ export default {
     },
 }
 
-var audio = new Audio('horse.ogg');
-audio.play();
 </script>
 <style>
 .overlay {

@@ -1,6 +1,13 @@
 <template>
     <div class="container">
-        <div class="row login-tmp">
+        <div class="row">
+            <div class="login-t login-tmp">
+                <i class="fa fa-weixin m-co" aria-hidden="true"></i>
+            </div>
+            <br>
+            <br><br>
+        </div>
+        <div class="row">
             <div class="col-md-4">
             </div>
             <div class="col-md-4">
@@ -37,7 +44,11 @@ export default {
     margin-top: 200px;
 }
 
-.l-b{
+.login-t {
+    text-align: center;
+}
+
+.l-b {
     width: 100%
 }
 </style>

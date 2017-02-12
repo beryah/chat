@@ -33,7 +33,8 @@ export const state = {
     agentName: '',
     showAgentChatRoom: false,
     joinedRoomId: '',
-    visitorSocketId: ''
+    visitorSocketId: '',
+    openSound: true
 }
 
 var firstSession = new Session();
@@ -73,7 +74,7 @@ export const mutations = {
     setVisitorList(state, payload) {
         state.visitors = payload
     },
-    initMsg(state, payload){
+    initMsg(state, payload) {
         state.messages = payload.messages;
     },
     addVisitor(state, payload) {
@@ -85,6 +86,9 @@ export const mutations = {
     chat(state, payload) {},
     addMsg(state, payload) {
         state.messages.push(payload)
+        if (state.openSound) {
+            new Audio("/static/briefcase-lock.mp3").play();;
+        }
     },
     sendMsg(state, payload) {
         var message = new Message()

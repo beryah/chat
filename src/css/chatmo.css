@@ -10,6 +10,10 @@
     background-color: #00d1b2;
 }
 
+.bluma:hover {
+    color:#fff;
+}
+
 .panel-bluma {
     border-color: #ddd
 }

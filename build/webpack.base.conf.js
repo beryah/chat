@@ -74,7 +74,11 @@ module.exports = {
             },
         }, {
             test: /\.mp3$/,
-            loader: 'file-loader',
+            loader: 'file',
+             query: {
+                limit: 10000,
+                name: utils.assetsPath('[name].[ext]')
+            },
         }]
     },
     // eslint: {

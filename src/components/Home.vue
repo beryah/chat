@@ -3,9 +3,10 @@
         <HeaderNavBar />
         <MainContainer />
         <VisitorChatWidget />
-        <audio controls autoplay loop>
-            <source src="../assets/a.mp3" type="audio/mpeg"> Your browser does not support the audio element.
-        </audio>
+<!--           <audio id='myAudio' controls autoplay loop>
+            <source src="../static/briefcase-lock.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+        </audio>  -->
+        <!-- <img src="../assets/a.mp3"> -->
         <!-- <FooterNavBar /> -->
     </div>
 </template>
@@ -24,4 +25,5 @@ export default {
         FooterNavBar
     }
 }
+
 </script>

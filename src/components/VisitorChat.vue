@@ -35,8 +35,6 @@ export default {
                 this.msg = ''
                 e.preventDefault();
             }
-            var snd = new Audio("file.wav"); 
-            snd.play();
         },
         onSubmit() {
             console.log(2)

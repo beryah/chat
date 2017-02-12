@@ -1,4 +1,3 @@
-vue-vuex-webpack-websocket POC
 
 ## Enviroment Prepare
 
@@ -10,7 +9,7 @@ yum install npm
 npm install webpack -g
 ```
 
-## Build Setup
+## Front-End Build Setup
 
 ``` bash
 # install dependencies
@@ -32,7 +31,15 @@ npm run e2e
 npm test
 ```
 
-## Free Redis server for Dvelopment
-http://redis4you.com/instanses_view.php?id=3158
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Back-End Build Setup
+``` bash
+>> server
+
+# install dependencies
+npm install
+
+#Start node server
+node index.js
+
+```

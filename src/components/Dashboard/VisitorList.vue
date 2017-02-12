@@ -16,7 +16,6 @@ export default {
     components: {},
     methods: {
         joinUserRoom(id) {
-            console.log(id)
             this.$store.commit('joinUserRoom', {
                 name: this.$store.state.agentName,
                 joinedRoomId: id
@@ -37,15 +36,19 @@ export default {
     background-color:transparent;
     position: fixed;
     left: 220px;
-    bottom: 15px;
+    bottom: 0px;
     z-index: 9999;
 }
 
 .visitor-ul a{
+    text-align: center;
+    width: 130px;
     color:white;
-    padding: 10px 30px 10px 30px;
-    border-radius: 10px 10px 0px 0px; 
+    padding: 5px 30px 5px 30px;
+    border-radius: 15px 15px 0px 0px; 
+
     background-color: orange;
     margin-left: 10px;
+    display: inline-block;
 }
 </style>
