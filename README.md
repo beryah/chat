@@ -1,5 +1,5 @@
 
-![alt tag](/gitRsource/homedemo.png)
+<p><img width="200" src="https://github.com/goalbased/chat/blob/master/gitResource/homedemo.png"></p>
 
 ## Enviroment Prepare
 
