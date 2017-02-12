@@ -3,6 +3,8 @@
 
 ## Enviroment Prepare
 
+[Redis server](https://github.com/goalbased/pyRedisLinux) 
+
 ``` bash
 # install npm
 yum install npm 
