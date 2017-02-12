@@ -1,5 +1,5 @@
 
-![alt tag](/git-resource/demo.png)
+![alt tag](/gitRsource/homedemo.png)
 
 ## Enviroment Prepare
 
