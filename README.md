@@ -1,4 +1,6 @@
 
+![alt tag](/git-resource/demo.png)
+
 ## Enviroment Prepare
 
 ``` bash

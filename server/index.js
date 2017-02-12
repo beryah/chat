@@ -2,10 +2,11 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
+var config = require('config');
 var redis = require('redis');
-
-var redisClient = redis.createClient(6379, '127.0.0.1');
-var pub = redis.createClient(6379, '127.0.0.1');
+var redisConfig = config.get('Redis');
+var redisClient = redis.createClient(redisConfig.port, redisConfig.host);
+var pub = redis.createClient(redisConfig.port, redisConfig.host);
 
 //test redis pub.on('connect', () => console.log('Connected to Redis') )
 
@@ -15,7 +16,7 @@ var visitors = []
 var agents = {}
 
 io.on('connection', function(socket) {
-    var sub = redis.createClient(6379, '127.0.0.1');
+    var sub = redis.createClient(redisConfig.port, redisConfig.host);
     sub.subscribe(socket.id)
 
     socket.on('visitor join', function(name) {
