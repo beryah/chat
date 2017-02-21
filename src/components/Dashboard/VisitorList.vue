@@ -20,8 +20,6 @@ export default {
                 name: this.$store.state.agentName,
                 joinedRoomId: id
             });
-            this.$store.state.joinedRoomId = id
-            this.$store.state.showAgentChatRoom = true
         },
     },
     data() {

@@ -5,7 +5,11 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                     <h4 class="modal-title" id="exampleModalLabel">temp</h4> </div>
-                <ChatMessage />
+                <div class="panel-body chat-body">
+                    <div v-for="(chat,index) in this.$store.state.visitorsMessage[this.$store.state.joinedRoomId]" :class="messageStyle(chat)">
+                        <span>{{chat.msg}}</span>
+                    </div>
+                </div>
                 <!--  <div class="modal-body">
                     <div v-for="(chat,index) in this.$store.state.messages" :class="messageStyle(chat)">
                         <span>{{chat.msg}}</span>
@@ -60,7 +64,6 @@ export default {
         }
     },
 }
-
 </script>
 <style>
 .overlay {

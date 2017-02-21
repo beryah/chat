@@ -60,7 +60,12 @@ export const mutations = {
     agentJoin(state, payload) {
         state.agentName = payload
     },
-    joinUserRoom(state, payload) {},
+    joinUserRoom(state, payload) {
+        console.log(payload)
+        state.joinedRoomId = payload.joinedRoomId
+        state.showAgentChatRoom = true
+        state.visitorSocketId = payload.joinedRoomId
+    },
     terminate(state, payload) {},
     switchStarter(state, payload) {
         state.showStarter = payload
@@ -76,6 +81,8 @@ export const mutations = {
     },
     initMsg(state, payload) {
         state.messages = payload.messages;
+        console.log('----' + payload.id)
+        state.visitorsMessage[payload.id] = payload.messages;
     },
     addVisitor(state, payload) {
         state.visitors.push(payload)
@@ -85,10 +92,16 @@ export const mutations = {
     },
     chat(state, payload) {},
     addMsg(state, payload) {
+        console.log(payload)
         state.messages.push(payload)
-        if (state.openSound) {
-            new Audio("/static/briefcase-lock.mp3").play();;
-        }
+        console.log(state.visitorsMessage)
+        console.log(state.joinedRoomId)
+        console.log(state.visitorsMessage[state.joinedRoomId])
+        state.visitorsMessage[state.joinedRoomId].push(payload) 
+
+        // if (state.openSound) {
+        //     new Audio("/static/briefcase-lock.mp3").play();;
+        // }
     },
     sendMsg(state, payload) {
         var message = new Message()

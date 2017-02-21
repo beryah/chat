@@ -33,13 +33,22 @@ io.on('connection', function(socket) {
     socket.on('join user room', function(agent) {
         sub.subscribe(agent.joinedRoomId)
         var id = agent.joinedRoomId
+        socket.join(id)
         msg = { msg: agent.name + ' joined', from: 'system' }
-        redisClient.rpush([id, JSON.stringify(msg)])
+        
         redisClient.lrange(id, 0, -1, function(err, reply) {
             socket.emit('initMsg', { id: id, messages: JSON.parse('[' + reply + ']') })
         });
-        io.to(agent.joinedRoomId).emit('chat', msg);
 
+        redisClient.lrange(id + "-joined", 0, -1, function(err, joinedAgentList) {
+            if (joinedAgentList.indexOf(socket.id) == -1) {
+                redisClient.rpush([id, JSON.stringify(msg)])
+                redisClient.rpush([id + "-joined", socket.id])
+                io.to(agent.joinedRoomId).emit('chat', msg);
+            }
+
+
+        });
     });
 
     socket.on('chat', function(chat) {
@@ -50,6 +59,7 @@ io.on('connection', function(socket) {
     sub.on('message', function(channel, chat) {
         chat = JSON.parse(chat)
         if (chat.roomId == channel) {
+            console.log(chat)
             socket.emit('chat', chat);
         }
     });
